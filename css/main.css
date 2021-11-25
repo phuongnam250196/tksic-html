@@ -986,6 +986,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /*position: relative;*/
 }
 #header .container .header-box .main-nav ul {
   list-style: none;
@@ -993,8 +994,104 @@ p {
   display: -ms-flexbox;
   display: flex;
 }
+#header .container .header-box .main-nav ul li .submenu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  max-width: 1100px;
+  display: none;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../imgs/bg-submenu.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  border: 3px solid #36add9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child {
+  width: 50%;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:first-child p {
+  font-weight: bold;
+  font-size: 20pt;
+  color: #055ba9;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:first-child p.submenu-box-child__p1 {
+  margin-bottom: 0;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:first-child p.submenu-box-child__p2 {
+  margin-bottom: 20px;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:first-child a {
+  border-radius: 30px;
+  padding: 10px 20px;
+  background: #36add9;
+  display: inline-block;
+  color: #fff;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:first-child a:hover {
+  background: #055ba9;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__img {
+  margin-right: 16px;
+  width: 40px;
+  height: auto;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list {
+  padding-top: 8px;
+  width: 100%;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list h4 {
+  font-weight: bold;
+  color: #055ba9;
+  font-size: 16pt;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list .submenu-box-child__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list .submenu-box-child__list-item li {
+  display: inline-block;
+  width: 50%;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list .submenu-box-child__list-item li a {
+  padding: 10px 0;
+  font-size: 16px;
+}
+#header .container .header-box .main-nav ul li .submenu .submenu-box .submenu-box-child:last-child .submenu-box-child__list .submenu-box-child__list-item.one-col li {
+  width: 100%;
+}
+#header .container .header-box .main-nav ul li:hover .submenu {
+  display: block;
+}
 #header .container .header-box .main-nav ul li a {
-  padding: 12px 20px;
+  padding: 40px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1187,6 +1284,10 @@ p {
   background-size: auto;
 }
 
+.mobile-nav {
+  display: block !important;
+}
+
 #vntop {
   background: url(../imgs/bg-vntop.png) no-repeat;
   background-size: auto;
@@ -1312,50 +1413,57 @@ p {
   color: #36add9;
   font-weight: 500;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border {
+#vntop .vntop-box .vntop-box-child:last-child .vntop-box-child__border ul {
+  list-style: none;
+  padding-left: 52px;
+}
+#vntop .vntop-box .vntop-box-child:last-child .vntop-box-child__border ul li:not(:first-child) {
+  padding: 0;
+}
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border {
   -webkit-box-shadow: 0px 1px 8px #36add9;
           box-shadow: 0px 1px 8px #36add9;
   background: #36add9;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border h4 {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border h4 {
   background: #fff;
   color: #36add9;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border ul li {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border ul li {
   color: #fff;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border ul li::before {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border ul li::before {
   color: #fff;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded {
   padding: 48px 0 12px;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child {
   background: #fff;
   outline: 3px solid #36add9;
   outline-offset: -16px;
   width: 200px;
   height: 200px;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p {
   margin-bottom: 0;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(1) {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(1) {
   color: #213444;
   margin-bottom: 8px;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(2) {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(2) {
   font-weight: bold;
   font-size: 40pt;
   color: #055ba9;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(3) {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__border-rounded .vntop-box-child__border-rounded-child p:nth-child(3) {
   font-weight: bold;
   color: #055ba9;
   font-size: 20pt;
   line-height: 0.5;
 }
-#vntop .vntop-box .vntop-box-child.active .vntop-box-child__link a {
+#vntop .vntop-box .vntop-box-child:hover .vntop-box-child__link a {
   background: #36add9;
   color: #fff;
   -webkit-box-shadow: 0px 1px 8px #36add9;
@@ -1761,11 +1869,11 @@ input::-moz-focus-outer {
   color: #fff;
   font-weight: bold;
   border: none;
-  -webkit-box-shadow: 0px 1px 8px #36add9;
-          box-shadow: 0px 1px 8px #36add9;
 }
 #support .support-box .support-box-child .support-form .support-form-sbm button:hover {
   background: #055ba9;
+  -webkit-box-shadow: 0px 1px 8px #36add9;
+          box-shadow: 0px 1px 8px #36add9;
 }
 #support .support-img {
   position: absolute;
@@ -1969,15 +2077,12 @@ input::-moz-focus-outer {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #36add9;
   color: #fff;
-  width: 40px;
-  height: 40px;
   text-align: center;
   line-height: 2.5;
   font-size: 16px;
-  right: 30px;
-  bottom: 30px;
+  right: 40px;
+  bottom: 300px;
   z-index: 99;
   -webkit-transition: background 0.1s;
   transition: background 0.1s;
@@ -1985,4 +2090,8 @@ input::-moz-focus-outer {
 .back-to-top::hover {
   color: #fff;
   background: #555;
+}
+.back-to-top img {
+  width: 60px;
+  height: 62px;
 }
