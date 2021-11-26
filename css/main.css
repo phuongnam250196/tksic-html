@@ -1585,6 +1585,35 @@ p {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+#compare .compare-table .table-mobile {
+  width: 100%;
+  display: none;
+}
+#compare .compare-table .table-mobile .tr .th {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 24px 12px;
+}
+#compare .compare-table .table-mobile .tr div {
+  padding: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: #213444;
+}
+#compare .compare-table .table-mobile .tr:nth-child(2n) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#compare .compare-table .table-mobile .tr:nth-child(2n) div {
+  width: 50%;
+}
+#compare .compare-table .table-mobile .tr:nth-child(2n) div:first-child {
+  background: #e4f1ff;
+}
+#compare .compare-table .table-mobile .tr:nth-child(2n) div:last-child {
+  background: #d6eaff;
+}
 
 #easy-investment .easy-investment-box {
   display: -webkit-box;
@@ -1686,10 +1715,10 @@ p {
   padding: 12px 20px;
   display: inline-block;
   background: #36add9;
-  -webkit-box-shadow: 0px 1px 8px #36add9;
-          box-shadow: 0px 1px 8px #36add9;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_link a:hover {
+  -webkit-box-shadow: 0px 1px 8px #36add9;
+          box-shadow: 0px 1px 8px #36add9;
   background: #055ba9;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_img {
@@ -1700,6 +1729,7 @@ p {
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_img img {
   width: 100%;
+  height: auto;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_input_range {
   margin-bottom: 40px;
@@ -1992,6 +2022,15 @@ input::-moz-focus-outer {
   bottom: 60px;
   right: 200px;
   z-index: 99;
+}
+#mobile-app .mobile-app-img__mobile {
+  display: none;
+  margin-bottom: 32px;
+}
+#mobile-app .mobile-app-img__mobile img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 #footer {

@@ -181,11 +181,6 @@
         float: left;
         margin-right: calc(100% - 99%);
     }
-
-    .back-to-top {
-        right: 20px !important;
-        bottom: 10px !important;
-    }
 }
 
 @media (max-width: 1200px) {

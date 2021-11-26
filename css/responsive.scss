@@ -63,7 +63,8 @@ $gray: #e7edf8;
 
     #compare {
         padding: 150px 0;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
 
         .compare-table {
 
@@ -380,7 +381,7 @@ $gray: #e7edf8;
                     }
 
                     .easy-investment-box-child__table {
-                        padding: 0 0 260px;
+                        padding: 0 0 220px;
                     }
 
                     .easy-investment-box-child-border_link {
@@ -393,7 +394,7 @@ $gray: #e7edf8;
                     }
 
                     .easy-investment-box-child-border_img {
-                        top: 50px;
+                        top: 70px;
                     }
 
                     .easy-investment-box-child-border_input_range {
@@ -610,7 +611,8 @@ $gray: #e7edf8;
 
             .reason-child {
                 margin-bottom: 42px;
-
+                text-align: center;
+                padding-right: 0;
                 img {
                     margin-bottom: 16px;
                 }
@@ -624,7 +626,9 @@ $gray: #e7edf8;
         .newspaper {
             margin-top: 40px;
 
-            .newspaper-title {}
+            .newspaper-title {
+                text-align: center;
+            }
 
             p {
                 font-size: 12pt;
@@ -649,16 +653,15 @@ $gray: #e7edf8;
         padding: 52px 0 92px;
 
         .interest-rate__img {
-            width: 20%;
-            text-align: center;
+            width: 40%;
+            display: block;
             margin: 0 auto;
-            position: absolute;
-            top: -80px;
-            right: 0;
-            transform: rotateY(180deg);
+            margin-bottom: 40px;
         }
 
         .interest-rate-box {
+            text-align: center;
+
             .interest-rate-box__title {
                 font-size: 24pt;
             }
@@ -679,16 +682,15 @@ $gray: #e7edf8;
         position: relative;
 
         .investment-img {
-            width: 120px;
-            text-align: center;
+            width: 40%;
+            display: block;
             margin: 0 auto;
-            position: absolute;
-            top: -40px;
-            right: 0;
-            transform: rotateY(180deg);
+            margin-bottom: 40px;
         }
 
         .investment-box {
+            text-align: center;
+
             .investment-box__title {
                 font-size: 24pt;
             }
@@ -718,11 +720,6 @@ $gray: #e7edf8;
         }
 
         .compare-table {
-            overflow-x: auto;
-
-            table {
-                width: 960px;
-            }
         }
     }
 
@@ -746,12 +743,25 @@ $gray: #e7edf8;
                 .easy-investment-content {
                     margin-bottom: 24px;
                 }
+                .easy-investment-box-child-border {
+                  
+                    .easy-investment-box-child__table {
+                        padding: 0 0 300px;
+                    }
+
+                    .easy-investment-box-child-border_img {
+                        top: 20px;
+                    }
+                }
             }
         }
     }
 
     #support {
 
+        .support-title {
+            text-align: center;
+        }
 
         .support-img {
 
@@ -760,6 +770,22 @@ $gray: #e7edf8;
             }
         }
     }
+
+    #capital-mangement {
+        .capital-mangement-box {
+            width: 100%;
+
+            .capital-mangement-title {
+                text-align: center;
+
+            }
+
+            .capital-mangement-text {
+                text-align: center;
+            }
+        }
+    }
+
 
     #mobile-app {
         padding: 72px 0;
@@ -888,6 +914,22 @@ $gray: #e7edf8;
 
                 }
             }
+        }
+    }
+
+    #compare {
+    	padding: 40px 0;
+        background-color: $blue-color;
+        margin: 46px 0;
+        .compare-table {
+
+            .table {
+                display: none;
+            }
+            .table-mobile {
+            	display: block;
+            }
+
         }
     }
 
@@ -1095,17 +1137,6 @@ $gray: #e7edf8;
 
     #interest-rate {
         padding: 0px 0 52px;
-
-        .interest-rate__img {
-            width: 60px;
-            text-align: center;
-            margin: 0 auto;
-            position: absolute;
-            top: -30px;
-            right: 12px;
-            transform: rotateY(180deg);
-        }
-
         .interest-rate-box {
             .interest-rate-box__title {
                 font-size: 20pt;
@@ -1173,14 +1204,6 @@ $gray: #e7edf8;
     }
 
     #investment {
-        /*padding-top: 40px;*/
-
-        .investment-img {
-            width: 80px;
-            top: -30px;
-            right: 12px;
-        }
-
         .investment-box {
             .investment-box__title {
                 font-size: 20pt;
@@ -1260,7 +1283,7 @@ $gray: #e7edf8;
                     }
 
                     .easy-investment-box-child__table {
-                        padding: 0 0 240px;
+                        padding: 0 0 180px;
                     }
 
                     .easy-investment-box-child-border_link {
@@ -1273,7 +1296,7 @@ $gray: #e7edf8;
                     }
 
                     .easy-investment-box-child-border_img {
-                        top: 20px;
+                        top: 120px;
                     }
 
                     .easy-investment-box-child-border_input_range {
@@ -1306,31 +1329,42 @@ $gray: #e7edf8;
     }
 
     #support {
-    	    padding: 52px 0 24px;
-    	.support-title {
-    		p {
-    			font-size: 14pt;
-    		}
-    		h3 {
-    			font-size: 20pt;
-    		}
-    	}
-    	.support-box {
-    		flex-wrap: wrap;
-    		.support-box-child {
-    			&:first-child {
-    				width: 100%;
-    			}
-    			&:last-child {
-    				width: 100%;
-    			}
-    		}
-    	}
+        padding: 52px 0 24px;
+
+        .support-title {
+            p {
+                font-size: 14pt;
+            }
+
+            h3 {
+                font-size: 20pt;
+            }
+        }
+
+        .support-box {
+            flex-wrap: wrap;
+
+            .support-box-child {
+                &:first-child {
+                    width: 100%;
+                }
+
+                &:last-child {
+                    width: 100%;
+                    .support-form {
+                    	.support-form-sbm {
+                    		text-align: center;
+                    	}
+                    }
+                }
+            }
+        }
 
         .support-img {
             display: none;
         }
     }
+
     #capital-mangement {
 
         .capital-mangement-box {
@@ -1370,6 +1404,7 @@ $gray: #e7edf8;
 
         }
     }
+
     #mobile-app {
         padding: 28px 0 36px;
 
@@ -1390,19 +1425,56 @@ $gray: #e7edf8;
         }
 
         .mobile-app-img {
-            right: 0;
-            width: 20%;
-            bottom: 0;
+            display: none;
+        }
+        .mobile-app-img__mobile {
+        	display: block;
         }
     }
 
     #footer {
-    	font-size: 10px;
+        font-size: 10px;
+
         .footer-box {
 
 
             .footer-box__address {
-         
+
+                .footer-box__address-child {
+
+                    img {
+                        width: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+    .back-to-top {
+    	right: 16px;
+    	bottom: 60px;
+    	img {
+    		width: 40px;
+    		height: 42px;
+    	}
+    }
+}
+
+@media(max-width:384.99px) {
+	#footer {
+        font-size: 10px;
+
+        .footer-box {
+        	.footer-box-img {
+        		a {
+        			.logo {
+        				height: 40px;
+        			}
+        		}
+        	}
+
+            .footer-box__address {
+
                 .footer-box__address-child {
 
                     img {

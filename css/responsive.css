@@ -31,7 +31,8 @@
 
   #compare {
     padding: 150px 0;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
   }
   #compare .compare-table .table tr th {
     font-size: 12pt;
@@ -223,7 +224,7 @@ body {
     font-size: 24pt;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child__table {
-    padding: 0 0 260px;
+    padding: 0 0 220px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_link {
     top: 270px;
@@ -233,7 +234,7 @@ body {
     padding: 12px 20px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_img {
-    top: 50px;
+    top: 70px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_input_range {
     margin-bottom: 32px;
@@ -395,6 +396,8 @@ body {
   }
   #reason .reason-box .reason-child {
     margin-bottom: 42px;
+    text-align: center;
+    padding-right: 0;
   }
   #reason .reason-box .reason-child img {
     margin-bottom: 16px;
@@ -404,6 +407,9 @@ body {
   }
   #reason .newspaper {
     margin-top: 40px;
+  }
+  #reason .newspaper .newspaper-title {
+    text-align: center;
   }
   #reason .newspaper p {
     font-size: 12pt;
@@ -421,14 +427,13 @@ body {
     padding: 52px 0 92px;
   }
   #interest-rate .interest-rate__img {
-    width: 20%;
-    text-align: center;
+    width: 40%;
+    display: block;
     margin: 0 auto;
-    position: absolute;
-    top: -80px;
-    right: 0;
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+    margin-bottom: 40px;
+  }
+  #interest-rate .interest-rate-box {
+    text-align: center;
   }
   #interest-rate .interest-rate-box .interest-rate-box__title {
     font-size: 24pt;
@@ -442,14 +447,13 @@ body {
     position: relative;
   }
   #investment .investment-img {
-    width: 120px;
-    text-align: center;
+    width: 40%;
+    display: block;
     margin: 0 auto;
-    position: absolute;
-    top: -40px;
-    right: 0;
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+    margin-bottom: 40px;
+  }
+  #investment .investment-box {
+    text-align: center;
   }
   #investment .investment-box .investment-box__title {
     font-size: 24pt;
@@ -467,13 +471,6 @@ body {
     font-size: 32px;
     margin-bottom: 40px;
   }
-  #compare .compare-table {
-    overflow-x: auto;
-  }
-  #compare .compare-table table {
-    width: 960px;
-  }
-
   #easy-investment .easy-investment-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -492,9 +489,28 @@ body {
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-content {
     margin-bottom: 24px;
   }
+  #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child__table {
+    padding: 0 0 300px;
+  }
+  #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_img {
+    top: 20px;
+  }
 
+  #support .support-title {
+    text-align: center;
+  }
   #support .support-img img {
     height: 200px;
+  }
+
+  #capital-mangement .capital-mangement-box {
+    width: 100%;
+  }
+  #capital-mangement .capital-mangement-box .capital-mangement-title {
+    text-align: center;
+  }
+  #capital-mangement .capital-mangement-box .capital-mangement-text {
+    text-align: center;
   }
 
   #mobile-app {
@@ -609,6 +625,18 @@ body {
   }
   #vntop .vntop-box .vntop-box-child .vntop-box-child__border ul li {
     padding: 4px 0;
+  }
+
+  #compare {
+    padding: 40px 0;
+    background-color: #36add9;
+    margin: 46px 0;
+  }
+  #compare .compare-table .table {
+    display: none;
+  }
+  #compare .compare-table .table-mobile {
+    display: block;
   }
 
   #support .support-img {
@@ -781,16 +809,6 @@ body {
   #interest-rate {
     padding: 0px 0 52px;
   }
-  #interest-rate .interest-rate__img {
-    width: 60px;
-    text-align: center;
-    margin: 0 auto;
-    position: absolute;
-    top: -30px;
-    right: 12px;
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
   #interest-rate .interest-rate-box .interest-rate-box__title {
     font-size: 20pt;
   }
@@ -830,14 +848,6 @@ body {
     padding: 4px 0;
   }
 
-  #investment {
-    /*padding-top: 40px;*/
-  }
-  #investment .investment-img {
-    width: 80px;
-    top: -30px;
-    right: 12px;
-  }
   #investment .investment-box .investment-box__title {
     font-size: 20pt;
   }
@@ -889,7 +899,7 @@ body {
     margin-bottom: 20px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child__table {
-    padding: 0 0 240px;
+    padding: 0 0 180px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_link {
     top: 240px;
@@ -899,7 +909,7 @@ body {
     padding: 8px 16px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_img {
-    top: 20px;
+    top: 120px;
   }
   #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child-border_input_range {
     margin-bottom: 24px;
@@ -935,6 +945,9 @@ body {
   }
   #support .support-box .support-box-child:last-child {
     width: 100%;
+  }
+  #support .support-box .support-box-child:last-child .support-form .support-form-sbm {
+    text-align: center;
   }
   #support .support-img {
     display: none;
@@ -974,13 +987,34 @@ body {
     font-size: 11pt;
   }
   #mobile-app .mobile-app-img {
-    right: 0;
-    width: 20%;
-    bottom: 0;
+    display: none;
+  }
+  #mobile-app .mobile-app-img__mobile {
+    display: block;
   }
 
   #footer {
     font-size: 10px;
+  }
+  #footer .footer-box .footer-box__address .footer-box__address-child img {
+    width: 16px;
+  }
+
+  .back-to-top {
+    right: 16px;
+    bottom: 60px;
+  }
+  .back-to-top img {
+    width: 40px;
+    height: 42px;
+  }
+}
+@media (max-width: 384.99px) {
+  #footer {
+    font-size: 10px;
+  }
+  #footer .footer-box .footer-box-img a .logo {
+    height: 40px;
   }
   #footer .footer-box .footer-box__address .footer-box__address-child img {
     width: 16px;
