@@ -1066,6 +1066,15 @@ $gray: #e7edf8;
         }
     }
 
+    .hero-sc {
+	    .banner-pc {
+	    	display: none;
+	    }
+	    .banner-mobile {
+	    	display: block;
+	    }
+	}
+
     #reason {
         padding-top: 20px;
 
@@ -1409,6 +1418,7 @@ $gray: #e7edf8;
         padding: 28px 0 36px;
 
         .mobile-app-box {
+                text-align: center;
             .mobile-app-box__p1 {
                 font-size: 20pt;
                 margin-bottom: 4px;
@@ -1429,6 +1439,9 @@ $gray: #e7edf8;
         }
         .mobile-app-img__mobile {
         	display: block;
+        }
+        .mobile-app-box__click {
+        	justify-content: center;
         }
     }
 

@@ -1078,6 +1078,9 @@ p {
     img {
         width: 100%;
     }
+    .banner-mobile {
+    	display: none;
+    }
 }
 
 #reason {
@@ -1604,35 +1607,42 @@ p {
                 }
             }
         }
-        .table-mobile {
-        	width: 100%;
-        	display: none;
-        	.tr {
-        		.th {
-        			font-weight: bold;
-        			text-transform: uppercase;
-        			padding: 24px 12px;
-        		}
-        		div {
-    				padding: 12px;
-    				text-align: center;
-    				font-weight: 500;
-    				color: $blue-opacity;
 
-        		}
-        		&:nth-child(2n) {
-        			display: flex;
-        			div {
-        				width: 50%;
-	        			&:first-child {
-	        				background: rgb(228, 241, 255);
-	        			}
-        				&:last-child {
-        					background: rgb(214, 234, 255);
-        				}
-        			}
-        		}
-        	}
+        .table-mobile {
+            width: 100%;
+            display: none;
+
+            .tr {
+                .th {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 24px 12px;
+                }
+
+                div {
+                    padding: 12px;
+                    text-align: center;
+                    font-weight: 500;
+                    color: $blue-opacity;
+
+                }
+
+                &:nth-child(2n) {
+                    display: flex;
+
+                    div {
+                        width: 50%;
+
+                        &:first-child {
+                            background: rgb(228, 241, 255);
+                        }
+
+                        &:last-child {
+                            background: rgb(214, 234, 255);
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -2121,13 +2131,14 @@ input::-moz-focus-outer {
     }
 
     .mobile-app-img__mobile {
-    	display: none;
-    	margin-bottom: 32px;
-    	img {
-    		display: block;
-    		margin: 0 auto;
-    		width: 50%;
-    	}
+        display: none;
+        margin-bottom: 32px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
     }
 }
 
@@ -2234,4 +2245,210 @@ input::-moz-focus-outer {
         width: 60px;
         height: 62px;
     }
+}
+
+.page-no-home {
+	padding-top: 60px;
+
+}
+.page-no-home__expert {
+	padding-bottom: 30px;
+    .page-no-home__expert-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        .page-no-home__expert-box-child {
+            width: 48%;
+            &.text-left {
+            	padding-left: 222px;
+            }
+            &.text-right {
+            	padding-right: 222px;
+            }
+            .page-no-home__expert-title {
+                margin-bottom: 24px;
+
+                h3 {
+                    font-size: 30pt;
+                    font-weight: bold;
+                    color: $blue-color;
+                    margin-bottom: 20px;
+                }
+
+                h4 {
+                    font-size: 30pt;
+                    font-weight: bold;
+                    color: $blue-opacity;
+                    margin-bottom: 20px;
+                    padding-top: 32px;
+                }
+            }
+            .page-no-home__expert-content {
+            	p {
+            		margin-bottom: 32px;
+            		&:last-child {
+            			margin-bottom: 0;
+            		}
+            	}
+            }
+            .page-no-home__expert-img {
+            	width: 100%;
+            }
+        }
+        .page-no-home__expert-box__alone-content {
+        	padding: 0 222px;
+        	/*margin: 40px 0;*/
+        }
+    }
+}
+
+.investment-principles {
+	.investment-principles__title {
+		margin-bottom: 24px;
+		text-align: center;
+        h3 {
+            font-size: 30pt;
+            font-weight: bold;
+            color: $blue-color;
+            margin-bottom: 20px;
+        }
+        p {
+        	padding-top: 32px;
+        }
+	}
+	.investment-principles__box1 {
+		background: url(../imgs/nguyen-tac/bg-box1.png) no-repeat;
+		background-position: right;
+		background-size: cover;
+		position: relative;
+		.investment-principles__box1-icon {
+			position: absolute;
+			top: -60px;
+			left: 200px;
+		}
+		.investment-principles__box1-img {
+			position: absolute;
+			top: 50%;
+			right: 100px;
+			transform: translateY(-50%);
+			img {
+				width: 100%;
+			}
+		}
+		.investment-principles__box1-text {
+			.investment-principles__box1-content {
+				width: 70%;
+				padding: 40px 0;
+				p {
+					margin-bottom: 20px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	.investment-principles__box2 {
+		padding: 60px 0;
+		.investment-principles__box2-parent {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.investment-principles__box2-child {
+				&:first-child {
+					width: 40%;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+				&:last-child {
+					width: 56%;
+					text-align: justify;
+					h3 {
+						font-size: 32pt;
+						font-weight: bold;
+						color: $blue-dark-color;
+						margin-bottom: 32px;
+					}
+					p {
+						margin-bottom: 32px;
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+		.investment-principles__box2-parent2 {
+			margin-top: 32px;
+			p {
+				text-align: justify;
+				margin-bottom: 32px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.investment-principles__box3 {
+		background: #e9f7fb;
+		padding: 32px 0;
+		.investment-principles__box3-parent {
+			.investment-principles__box3-child {
+				&:first-child {
+					position: absolute;
+					top: 50%;
+					right: -175px;
+					transform: translateY(-50%);
+					/*width: 500px;*/
+					img {
+						width: 90%;
+					}
+
+				}
+				&:last-child {
+					width: 60%;
+					padding: 40px 0;
+				}
+				h3 {
+					font-size: 32pt;
+					font-weight: bold;
+					color: $blue-dark-color;
+					margin-bottom: 32px;
+				}
+				.investment-principles__box3-child-content {
+					p {
+						margin-bottom: 32px;
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.investment-principles__box4 {
+		padding: 80px 0 60px;
+		.investment-principles__box4-title {
+			display: flex;
+			align-items: center;
+			img {
+				width: 200px;
+				height: auto;
+			}
+			h3 {
+				font-size: 32pt;
+				font-weight: bold;
+				color: $blue-dark-color;
+				text-transform: uppercase;
+				margin-left: 32px;
+			}
+		}
+		p {
+			text-align: center;
+			margin-top: 32px;
+		}
+	}
 }

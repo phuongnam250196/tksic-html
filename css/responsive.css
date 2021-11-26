@@ -758,6 +758,13 @@ body {
     font-size: 8pt;
   }
 
+  .hero-sc .banner-pc {
+    display: none;
+  }
+  .hero-sc .banner-mobile {
+    display: block;
+  }
+
   #reason {
     padding-top: 20px;
   }
@@ -975,6 +982,9 @@ body {
   #mobile-app {
     padding: 28px 0 36px;
   }
+  #mobile-app .mobile-app-box {
+    text-align: center;
+  }
   #mobile-app .mobile-app-box .mobile-app-box__p1 {
     font-size: 20pt;
     margin-bottom: 4px;
@@ -991,6 +1001,11 @@ body {
   }
   #mobile-app .mobile-app-img__mobile {
     display: block;
+  }
+  #mobile-app .mobile-app-box__click {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   #footer {
