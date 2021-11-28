@@ -2452,3 +2452,553 @@ input::-moz-focus-outer {
 		}
 	}
 }
+
+.about-us {
+	.general-introduction {
+		.general-introduction__title {
+			margin-bottom: 24px;
+
+            h3 {
+                font-size: 30pt;
+                font-weight: bold;
+                color: $blue-color;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 20px;
+                padding-top: 32px;
+                text-align: justify;
+            }
+		}
+		.general-introduction__img {
+			width: 100%;
+		}
+	}
+	.vision-and-mission  {
+		background: url(../imgs/about/bg-tam-nhin-su-menh.png) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		padding: 72px 0;
+		margin: 60px 0;
+		.vision-and-mission-box {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.vision-and-mission-box-child  {
+				width: 50%;
+				.vision-and-mission__title {
+					h3 {
+		                font-size: 30pt;
+		                font-weight: bold;
+		                color: $blue-color;
+		                margin-bottom: 20px;
+		            }
+
+		            p {
+		                padding-top: 32px;
+		                text-align: justify;
+		                color: #fff;
+		            }
+				}
+				.vision-and-mission__img {
+					position: absolute;
+					right: -100px;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 600px;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+	.strategic-commitment {
+		padding: 100px 0 200px;
+		.strategic-commitment-box {
+			display: flex;
+			align-items: center;
+			.strategic-commitment-box-child {
+				width: 50%;
+				.strategic-commitment__img {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					left: -80px;
+					width: 600px;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+				.strategic-commitment__title {
+					h3 {
+		                font-size: 30pt;
+		                font-weight: bold;
+		                color: $blue-color;
+		                margin-bottom: 20px;
+		            }
+
+		            p {
+		                margin-bottom: 20px;
+		                padding-top: 32px;
+		            }
+				}
+			}
+		}
+	}
+	.partner {
+		background: #e9f7fb;
+		padding: 40px 0 60px;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			top: -186px;
+			left: 0;
+			width: 100%;
+			height: 200px;
+			background: url(../imgs/about/bg-line-about-us.png) no-repeat;
+			background-position: top;
+		}
+		.partner-box {
+			.capital-mangement-title {
+				text-align: center;
+				h3 {
+	                font-size: 30pt;
+	                font-weight: bold;
+	                color: $blue-color;
+	                margin-bottom: 20px;
+	            }
+
+	            p {
+	                padding-top: 32px;
+	            }
+			}
+		}
+		.partner-slider {
+			padding-top: 72px;
+	        .owl-stage-outer {
+	            z-index: 99;
+	        }
+
+	        .owl-item {
+	            img {
+	                width: inherit;
+	            }
+	        }
+
+	        .owl-nav {
+	            position: absolute;
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            display: flex;
+	            justify-content: space-between;
+	            z-index: 9;
+
+	            button {
+	                &.owl-prev {
+	                    margin-left: -52px;
+	                }
+
+	                &.owl-next {
+	                    margin-right: -52px;
+	                }
+
+	                span {
+	                    font-size: 52px;
+	                    color: $blue-color;
+	                }
+	            }
+	        }
+
+	    }
+	}
+}
+
+.announcement {
+	.announcement-title {
+		margin-bottom: 40px;
+		h3 {
+            font-size: 30pt;
+            font-weight: bold;
+            color: $blue-color;
+            margin-bottom: 20px;
+        }
+	}
+	.announcement-list {
+		.announcement-item {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 40px;
+			.announcement-item__date {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				width: 110px;
+				height: 100px;
+				background: #d5eff8;
+				border-radius: 16px;
+				span {
+					display: block;
+					color: $blue-dark-color;
+					&:first-child {
+						font-weight: bold;
+						font-size: 40px;
+					}
+					&:last-child {
+						font-size: 18px;
+					}
+				}
+			}
+			.announcement-item__title {
+				width: 100%;
+				padding: 0 40px;
+				h4 {
+					font-size: 24px;
+					font-weight: bold;
+					color: $blue-dark-color;
+					a {
+						color: inherit;
+					}
+				}
+			}
+			.announcement-item__icon {
+				img {
+					width: 28px;
+					height: 30px;
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	padding: 32px 0;
+	ul {
+		list-style: none;
+		li {
+			float: left;
+			a {
+				font-weight: bold;
+				padding: 12px;
+				font-size: 20px;
+			}
+			&.active {
+				a {
+					color: $blue-dark-color;
+				}
+			}
+		}
+	}
+}
+
+.page-banner {
+	background: $blue-dark-color;
+	padding: 60px 0;
+	.page-banner-img {
+		width: 90%;
+		height: auto;
+	}
+	.page-banner-box {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		.page-banner-title {
+	        color: #fff;	
+			h3 {
+	            font-size: 30pt;
+	            font-weight: bold;
+	            margin-bottom: 20px;
+	        }
+
+	        p {
+	            padding-top: 32px;
+	            font-size: 18pt;
+	        }
+		}
+	}
+
+	&.vntop__interest-rate {
+		background: url(../imgs/vntop/bg-lai-suat.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 100px 0;
+	}
+}
+
+.page-newspaper  {
+	.page-newspaper-list {
+		.page-newspaper-item {
+			display: flex;
+			margin-bottom: 40px;
+			.page-newspaper-item__logo {
+				width: 192px;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+			.page-newspaper-item__content {
+				width: 100%;
+				padding-left: 40px;
+				h4 {
+					font-weight: bold;
+					color: $blue-dark-color;
+					margin-bottom: 16px;
+					font-size: 24px;
+					a {
+						color: inherit;
+					}
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.page-vntop {
+	.page-vntop__register {
+		padding: 60px 0 20px;
+		.page-vntop__register-box-text {
+			padding-right: 40px;
+			.page-vntop__register-title {
+				h3 {
+	                font-size: 30pt;
+	                font-weight: bold;
+	                color: $blue-dark-color;
+	                margin-bottom: 20px;
+	            }
+
+	            p {
+	                padding-top: 32px;
+					text-align: justify;
+	            }
+			}
+			.page-vntop__register-list {
+				display: flex;
+				padding-top: 20px;
+				.page-vntop__register-item {
+					text-align: center;
+					width: 160px;
+					img {
+						width: 100%;
+						height: auto;
+					}
+					p {
+						padding: 0 12px;
+						margin-bottom: 0;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+		.page-vntop__register-box {
+			box-shadow: 0px 1px 8px #ddd;
+			padding: 24px;
+			border-radius: 24px;
+			.page-vntop__register-box-title {
+				text-align: center;
+				h4 {
+					font-size: 24px;
+					font-weight: bold;
+					color: $blue-dark-color;
+					margin-bottom: 12px;
+					text-transform: uppercase;
+				}
+			}
+			.page-vntop__register-box-form  {
+				.form-gr {
+					.btn-sbm {
+						display: block;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+	.page-vntop__fixed-interest {
+		padding-top: 80px;
+		.page-vntop__fixed-interest__title {
+			margin-bottom: 60px;
+			text-align: center;
+	        p {
+	            font-size: 18pt;
+	            text-transform: uppercase;
+	            color: $blue-opacity;
+	            margin-bottom: 8px;
+	            font-weight: bold;
+	        }
+
+	        h3 {
+	            font-size: 30pt;
+	            text-transform: uppercase;
+	            font-weight: bold;
+	            color: $blue-color;
+	            margin-bottom: 20px;
+	        }
+
+	        img {}
+		}
+		.page-vntop__fixed-interest__list {
+			display: flex;
+			justify-content: space-between;
+			.page-vntop__fixed-interest__item {
+				padding: 60px 20px;
+				width: 30%;
+				border: 3px solid $blue-color;
+				border-radius: 24px;
+				.page-vntop__fixed-interest__item-rounded {
+					width: 168px;
+					height: 168px;
+					display: flex;
+				    border-radius: 50%;
+				    border: 3px solid #36add9;
+				    padding: 16px;
+				    justify-content: center;
+				    align-items: center;
+				    text-align: center;
+				    margin: 0 auto 40px;
+				    h4 {
+				    	font-size: 24px;
+				    	font-weight: bold;
+				    	color: $blue-dark-color;
+				    	margin-bottom: 0;
+				    }
+				}
+				p {
+					text-align: justify;
+				}
+			}
+		}
+	}
+	.page-vntop__note {
+		background: url(../imgs/vntop/bg-luu-y-quan-trong.png) no-repeat;
+		background-position: center;
+		padding: 140px 0;
+		.page-vntop__note-parent {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.page-vntop__note-child {
+				width: 44%;
+				.page-vntop__note-title {
+					text-align: center;
+			        h3 {
+			            font-size: 30pt;
+			            font-weight: bold;
+			            color: #fff;
+			            margin-bottom: 20px;
+			        }
+			        ul {
+			        	color: #fff;
+			        	margin-top: 32px;
+			        	padding-left: 20px;
+			        	li {
+			        		text-align: justify;
+			        		margin-bottom: 24px;
+			        		&:last-child {
+			        			margin-bottom: 0;
+			        		}
+			        	}
+			        }
+				}
+				.page-vntop__note-img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.form-gr {
+	margin-bottom: 16px;
+	label {
+		display: block;
+		margin-bottom: 8px;
+	}
+	.form-ctr {
+		width: 100%;
+		border-radius: 8px;
+		height: 40px;
+		line-height: 40px;
+		padding: 12px;
+		border: 1px solid $blue-dark-color;
+		&:focus {
+			outline: none;
+		}
+	}
+	textarea.form-ctr {
+		height: 100px;
+	}
+	.btn-sbm {
+		background: $blue-dark-color;
+		border: none;
+		padding: 12px 20px;
+		border-radius: 4px;
+		color: #fff;
+	}
+}
+
+.investment-portfolio {
+	background: url(../imgs/vntop/bg-danh-muc-dau-tu-3.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding: 0 0 60px;
+	.investment-portfolio-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.investment-portfolio-box-child {
+			width: 50%;
+			&:last-child {
+				background: url(../imgs/vntop/danh-muc-vuong.png) no-repeat;
+				background-position: left bottom;
+				background-size: auto;
+			}
+			.page-banner-title {
+				padding-right: 40px;
+				h3 {
+		            font-size: 24pt;
+		            text-transform: uppercase;
+		            font-weight: bold;
+		            color: $blue-color;
+		            margin-bottom: 20px;
+		        }
+		        ul {
+		        	padding-left: 20px;
+		        	margin-top: 32px;
+		        	li {
+		        		text-align: justify;
+		        		margin-bottom: 24px;
+		        		&:last-child {
+		        			margin-bottom: 0;
+		        		}
+		        	}
+		        }
+			}
+			.investment-portfolio-box-img {
+				width: 300px;
+				margin-left: auto;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+}

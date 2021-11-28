@@ -2345,3 +2345,567 @@ input::-moz-focus-outer {
   text-align: center;
   margin-top: 32px;
 }
+
+.about-us .general-introduction .general-introduction__title {
+  margin-bottom: 24px;
+}
+.about-us .general-introduction .general-introduction__title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.about-us .general-introduction .general-introduction__title p {
+  margin-bottom: 20px;
+  padding-top: 32px;
+  text-align: justify;
+}
+.about-us .general-introduction .general-introduction__img {
+  width: 100%;
+}
+.about-us .vision-and-mission {
+  background: url(../imgs/about/bg-tam-nhin-su-menh.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 72px 0;
+  margin: 60px 0;
+}
+.about-us .vision-and-mission .vision-and-mission-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-us .vision-and-mission .vision-and-mission-box .vision-and-mission-box-child {
+  width: 50%;
+}
+.about-us .vision-and-mission .vision-and-mission-box .vision-and-mission-box-child .vision-and-mission__title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.about-us .vision-and-mission .vision-and-mission-box .vision-and-mission-box-child .vision-and-mission__title p {
+  padding-top: 32px;
+  text-align: justify;
+  color: #fff;
+}
+.about-us .vision-and-mission .vision-and-mission-box .vision-and-mission-box-child .vision-and-mission__img {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 600px;
+}
+.about-us .vision-and-mission .vision-and-mission-box .vision-and-mission-box-child .vision-and-mission__img img {
+  width: 100%;
+  height: auto;
+}
+.about-us .strategic-commitment {
+  padding: 100px 0 200px;
+}
+.about-us .strategic-commitment .strategic-commitment-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-us .strategic-commitment .strategic-commitment-box .strategic-commitment-box-child {
+  width: 50%;
+}
+.about-us .strategic-commitment .strategic-commitment-box .strategic-commitment-box-child .strategic-commitment__img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -80px;
+  width: 600px;
+}
+.about-us .strategic-commitment .strategic-commitment-box .strategic-commitment-box-child .strategic-commitment__img img {
+  width: 100%;
+  height: auto;
+}
+.about-us .strategic-commitment .strategic-commitment-box .strategic-commitment-box-child .strategic-commitment__title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.about-us .strategic-commitment .strategic-commitment-box .strategic-commitment-box-child .strategic-commitment__title p {
+  margin-bottom: 20px;
+  padding-top: 32px;
+}
+.about-us .partner {
+  background: #e9f7fb;
+  padding: 40px 0 60px;
+  position: relative;
+}
+.about-us .partner:before {
+  content: "";
+  position: absolute;
+  top: -186px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: url(../imgs/about/bg-line-about-us.png) no-repeat;
+  background-position: top;
+}
+.about-us .partner .partner-box .capital-mangement-title {
+  text-align: center;
+}
+.about-us .partner .partner-box .capital-mangement-title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.about-us .partner .partner-box .capital-mangement-title p {
+  padding-top: 32px;
+}
+.about-us .partner .partner-slider {
+  padding-top: 72px;
+}
+.about-us .partner .partner-slider .owl-stage-outer {
+  z-index: 99;
+}
+.about-us .partner .partner-slider .owl-item img {
+  width: inherit;
+}
+.about-us .partner .partner-slider .owl-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 9;
+}
+.about-us .partner .partner-slider .owl-nav button.owl-prev {
+  margin-left: -52px;
+}
+.about-us .partner .partner-slider .owl-nav button.owl-next {
+  margin-right: -52px;
+}
+.about-us .partner .partner-slider .owl-nav button span {
+  font-size: 52px;
+  color: #36add9;
+}
+
+.announcement .announcement-title {
+  margin-bottom: 40px;
+}
+.announcement .announcement-title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.announcement .announcement-list .announcement-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+.announcement .announcement-list .announcement-item .announcement-item__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 110px;
+  height: 100px;
+  background: #d5eff8;
+  border-radius: 16px;
+}
+.announcement .announcement-list .announcement-item .announcement-item__date span {
+  display: block;
+  color: #055ba9;
+}
+.announcement .announcement-list .announcement-item .announcement-item__date span:first-child {
+  font-weight: bold;
+  font-size: 40px;
+}
+.announcement .announcement-list .announcement-item .announcement-item__date span:last-child {
+  font-size: 18px;
+}
+.announcement .announcement-list .announcement-item .announcement-item__title {
+  width: 100%;
+  padding: 0 40px;
+}
+.announcement .announcement-list .announcement-item .announcement-item__title h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #055ba9;
+}
+.announcement .announcement-list .announcement-item .announcement-item__title h4 a {
+  color: inherit;
+}
+.announcement .announcement-list .announcement-item .announcement-item__icon img {
+  width: 28px;
+  height: 30px;
+}
+.announcement .announcement-list .announcement-item:last-child {
+  margin-bottom: 0;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding: 32px 0;
+}
+.pagination ul {
+  list-style: none;
+}
+.pagination ul li {
+  float: left;
+}
+.pagination ul li a {
+  font-weight: bold;
+  padding: 12px;
+  font-size: 20px;
+}
+.pagination ul li.active a {
+  color: #055ba9;
+}
+
+.page-banner {
+  background: #055ba9;
+  padding: 60px 0;
+}
+.page-banner .page-banner-img {
+  width: 90%;
+  height: auto;
+}
+.page-banner .page-banner-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-banner .page-banner-box .page-banner-title {
+  color: #fff;
+}
+.page-banner .page-banner-box .page-banner-title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.page-banner .page-banner-box .page-banner-title p {
+  padding-top: 32px;
+  font-size: 18pt;
+}
+.page-banner.vntop__interest-rate {
+  background: url(../imgs/vntop/bg-lai-suat.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.page-newspaper .page-newspaper-list .page-newspaper-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item .page-newspaper-item__logo {
+  width: 192px;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item .page-newspaper-item__logo img {
+  width: 100%;
+  height: auto;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item .page-newspaper-item__content {
+  width: 100%;
+  padding-left: 40px;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item .page-newspaper-item__content h4 {
+  font-weight: bold;
+  color: #055ba9;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item .page-newspaper-item__content h4 a {
+  color: inherit;
+}
+.page-newspaper .page-newspaper-list .page-newspaper-item:last-child {
+  margin-bottom: 0;
+}
+
+.page-vntop .page-vntop__register {
+  padding: 60px 0 20px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text {
+  padding-right: 40px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #055ba9;
+  margin-bottom: 20px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title p {
+  padding-top: 32px;
+  text-align: justify;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list .page-vntop__register-item {
+  text-align: center;
+  width: 160px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list .page-vntop__register-item img {
+  width: 100%;
+  height: auto;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list .page-vntop__register-item p {
+  padding: 0 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box {
+  -webkit-box-shadow: 0px 1px 8px #ddd;
+          box-shadow: 0px 1px 8px #ddd;
+  padding: 24px;
+  border-radius: 24px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title {
+  text-align: center;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #055ba9;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box .page-vntop__register-box-form .form-gr .btn-sbm {
+  display: block;
+  margin: 0 auto;
+}
+.page-vntop .page-vntop__fixed-interest {
+  padding-top: 80px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__title p {
+  font-size: 18pt;
+  text-transform: uppercase;
+  color: #213444;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__title h3 {
+  font-size: 30pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item {
+  padding: 60px 20px;
+  width: 30%;
+  border: 3px solid #36add9;
+  border-radius: 24px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded {
+  width: 168px;
+  height: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  border: 3px solid #36add9;
+  padding: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #055ba9;
+  margin-bottom: 0;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item p {
+  text-align: justify;
+}
+.page-vntop .page-vntop__note {
+  background: url(../imgs/vntop/bg-luu-y-quan-trong.png) no-repeat;
+  background-position: center;
+  padding: 140px 0;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child {
+  width: 44%;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-title {
+  text-align: center;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-title h3 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-title ul {
+  color: #fff;
+  margin-top: 32px;
+  padding-left: 20px;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-title ul li {
+  text-align: justify;
+  margin-bottom: 24px;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-title ul li:last-child {
+  margin-bottom: 0;
+}
+.page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-img {
+  width: 100%;
+}
+
+.form-gr {
+  margin-bottom: 16px;
+}
+.form-gr label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-gr .form-ctr {
+  width: 100%;
+  border-radius: 8px;
+  height: 40px;
+  line-height: 40px;
+  padding: 12px;
+  border: 1px solid #055ba9;
+}
+.form-gr .form-ctr:focus {
+  outline: none;
+}
+.form-gr textarea.form-ctr {
+  height: 100px;
+}
+.form-gr .btn-sbm {
+  background: #055ba9;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.investment-portfolio {
+  background: url(../imgs/vntop/bg-danh-muc-dau-tu-3.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0 0 60px;
+}
+.investment-portfolio .investment-portfolio-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child {
+  width: 50%;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child:last-child {
+  background: url(../imgs/vntop/danh-muc-vuong.png) no-repeat;
+  background-position: left bottom;
+  background-size: auto;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title {
+  padding-right: 40px;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title h3 {
+  font-size: 24pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul {
+  padding-left: 20px;
+  margin-top: 32px;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul li {
+  text-align: justify;
+  margin-bottom: 24px;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul li:last-child {
+  margin-bottom: 0;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img {
+  width: 300px;
+  margin-left: auto;
+}
+.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img img {
+  width: 100%;
+  height: auto;
+}
