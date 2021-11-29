@@ -4,6 +4,10 @@ $blue-opacity: #213444;
 $blue-gray: #daf1f9;
 $blue-opacity-80: #f3fafe;
 $gray: #e7edf8;
+$vntop-10: #f4b651;
+$vntop-20: #3022a6;
+$vntop-all: #ec7d57;
+$but-pha: #6666c4;
 
 html {
     box-sizing: border-box
@@ -2737,6 +2741,35 @@ input::-moz-focus-outer {
 		background-size: cover;
 		padding: 100px 0;
 	}
+	&.vntop__10 {
+		background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 100px 0;
+	}
+	&.vntop__20 {
+		background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 40px 0;
+		.page-banner-img {
+			display: block;
+			margin: 0 auto;
+			width: 60%;
+		}
+	}
+	&.vntop__all {
+		background: url(../imgs/vntop/vn-top-all-bg.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 100px 0;
+	}
+	&.vntop__but-pha {
+		background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 100px 0;
+	}
 }
 
 .page-newspaper  {
@@ -2788,13 +2821,18 @@ input::-moz-focus-outer {
 	                padding-top: 32px;
 					text-align: justify;
 	            }
+	            .dots_three {
+		        	span {
+		        		background: $blue-dark-color;
+		        	}
+		        }
 			}
 			.page-vntop__register-list {
 				display: flex;
 				padding-top: 20px;
 				.page-vntop__register-item {
 					text-align: center;
-					width: 160px;
+					width: 140px;
 					img {
 						width: 100%;
 						height: auto;
@@ -2805,6 +2843,9 @@ input::-moz-focus-outer {
 						font-size: 14px;
 					}
 				}
+			}
+			.page-vntop__register-p {
+				margin-top: 16px;
 			}
 		}
 		.page-vntop__register-box {
@@ -2833,6 +2874,7 @@ input::-moz-focus-outer {
 	}
 	.page-vntop__fixed-interest {
 		padding-top: 80px;
+		position: relative;
 		.page-vntop__fixed-interest__title {
 			margin-bottom: 60px;
 			text-align: center;
@@ -2852,7 +2894,7 @@ input::-moz-focus-outer {
 	            margin-bottom: 20px;
 	        }
 
-	        img {}
+	        
 		}
 		.page-vntop__fixed-interest__list {
 			display: flex;
@@ -2883,6 +2925,26 @@ input::-moz-focus-outer {
 				p {
 					text-align: justify;
 				}
+			}
+		}
+		.page-vntop__fixed-interest__icon {
+			position: absolute;
+			top: 0;
+			left: -120px;
+			width: 220px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+		.page-vntop__fixed-interest__icon2 {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 220px;
+			img {
+				width: 100%;
+				height: auto;
 			}
 		}
 	}
@@ -2921,6 +2983,251 @@ input::-moz-focus-outer {
 					width: 100%;
 				}
 			}
+		}
+	}
+
+	&.vntop-10 {
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__icon {
+				width: 420px;
+			}
+		}
+		.page-vntop__register {
+			.page-vntop__register-box-text {
+				.page-vntop__register-title {
+					h3 {
+		                color: $vntop-10;
+		            }
+		            .dots_three {
+			        	span {
+			        		background: $vntop-10;
+			        	}
+			        }
+				}
+			}
+			.page-vntop__register-box {
+				.page-vntop__register-box-title {
+					h4 {
+						color: $vntop-10;
+					}
+				}
+				.page-vntop__register-box-form  {
+					.form-gr {
+						.btn-sbm {
+							background: $vntop-10;
+						}
+					}
+				}
+			}
+		}
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__title {
+		        h3 {
+		            color: $vntop-10;
+		        }
+		        .dots_three {
+		        	span {
+		        		background: $vntop-10;
+		        	}
+		        }
+			}
+			.page-vntop__fixed-interest__list {
+				.page-vntop__fixed-interest__item {
+					.page-vntop__fixed-interest__item-rounded {
+					    h4 {
+					    	color: $vntop-10;
+					    }
+
+					}
+				}
+			}
+		}
+	}
+	&.vntop-20 {
+		.page-vntop__register {
+			.page-vntop__register-box-text {
+				.page-vntop__register-title {
+					h3 {
+		                color: $vntop-20;
+		            }
+		            .dots_three {
+			        	span {
+			        		background: $vntop-20;
+			        	}
+			        }
+				}
+			}
+			.page-vntop__register-box {
+				.page-vntop__register-box-title {
+					h4 {
+						color: $vntop-20;
+					}
+				}
+				.page-vntop__register-box-form  {
+					.form-gr {
+						.btn-sbm {
+							background: $vntop-20;
+						}
+					}
+				}
+			}
+		}
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__title {
+		        h3 {
+		            color: $vntop-20;
+		        }
+		        .dots_three {
+		        	span {
+		        		background: $vntop-20;
+		        	}
+		        }
+			}
+			.page-vntop__fixed-interest__list {
+				.page-vntop__fixed-interest__item {
+					.page-vntop__fixed-interest__item-rounded {
+					    h4 {
+					    	color: $vntop-20;
+					    }
+
+					}
+				}
+			}
+		}
+	}
+	&.vntop-all {
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__icon {
+				width: 100px;
+			}
+		}
+		.page-vntop__register {
+			.page-vntop__register-box-text {
+				.page-vntop__register-title {
+					h3 {
+		                color: $vntop-all;
+		            }
+		            .dots_three {
+			        	span {
+			        		background: $vntop-all;
+			        	}
+			        }
+				}
+			}
+			.page-vntop__register-box {
+				.page-vntop__register-box-title {
+					h4 {
+						color: $vntop-all;
+					}
+				}
+				.page-vntop__register-box-form  {
+					.form-gr {
+						.btn-sbm {
+							background: $vntop-all;
+						}
+					}
+				}
+			}
+		}
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__title {
+		        h3 {
+		            color: $vntop-all;
+		        }
+		        .dots_three {
+		        	span {
+		        		background: $vntop-all;
+		        	}
+		        }
+			}
+			.page-vntop__fixed-interest__list {
+				.page-vntop__fixed-interest__item {
+					.page-vntop__fixed-interest__item-rounded {
+					    h4 {
+					    	color: $vntop-all;
+					    }
+
+					}
+				}
+			}
+		}
+	}
+	&.vntop-but-pha {
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__icon {
+				width: 100px;
+			}
+		}
+		.page-vntop__register {
+			.page-vntop__register-box-text {
+				.page-vntop__register-title {
+					h3 {
+		                color: $but-pha;
+		            }
+		            .dots_three {
+			        	span {
+			        		background: $but-pha;
+			        	}
+			        }
+				}
+			}
+			.page-vntop__register-box {
+				.page-vntop__register-box-title {
+					h4 {
+						color: $but-pha;
+					}
+				}
+				.page-vntop__register-box-form  {
+					.form-gr {
+						.btn-sbm {
+							background: $but-pha;
+						}
+					}
+				}
+			}
+		}
+		.page-vntop__fixed-interest {
+			.page-vntop__fixed-interest__title {
+		        h3 {
+		            color: $but-pha;
+		        }
+		        .dots_three {
+		        	span {
+		        		background: $but-pha;
+		        	}
+		        }
+			}
+			.page-vntop__fixed-interest__list {
+				.page-vntop__fixed-interest__item {
+					.page-vntop__fixed-interest__item-rounded {
+					    h4 {
+					    	color: $but-pha;
+					    }
+
+					}
+				}
+			}
+		}
+	}
+}
+
+.dots_three {
+	line-height: 0;
+	span {
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		background: $blue-color;
+		display: inline-block;
+		&:first-child {
+			width: 36px;
+			border-radius: 4px;
+		}
+		&:nth-child(2) {
+			
+		}
+		&:last-child {
+			
 		}
 	}
 }

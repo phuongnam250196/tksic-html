@@ -2634,6 +2634,35 @@ input::-moz-focus-outer {
   background-size: cover;
   padding: 100px 0;
 }
+.page-banner.vntop__10 {
+  background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 100px 0;
+}
+.page-banner.vntop__20 {
+  background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 40px 0;
+}
+.page-banner.vntop__20 .page-banner-img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.page-banner.vntop__all {
+  background: url(../imgs/vntop/vn-top-all-bg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 100px 0;
+}
+.page-banner.vntop__but-pha {
+  background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 100px 0;
+}
 
 .page-newspaper .page-newspaper-list .page-newspaper-item {
   display: -webkit-box;
@@ -2681,6 +2710,9 @@ input::-moz-focus-outer {
   padding-top: 32px;
   text-align: justify;
 }
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
+  background: #055ba9;
+}
 .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2689,7 +2721,7 @@ input::-moz-focus-outer {
 }
 .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list .page-vntop__register-item {
   text-align: center;
-  width: 160px;
+  width: 140px;
 }
 .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list .page-vntop__register-item img {
   width: 100%;
@@ -2699,6 +2731,9 @@ input::-moz-focus-outer {
   padding: 0 12px;
   margin-bottom: 0;
   font-size: 14px;
+}
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-p {
+  margin-top: 16px;
 }
 .page-vntop .page-vntop__register .page-vntop__register-box {
   -webkit-box-shadow: 0px 1px 8px #ddd;
@@ -2722,6 +2757,7 @@ input::-moz-focus-outer {
 }
 .page-vntop .page-vntop__fixed-interest {
   padding-top: 80px;
+  position: relative;
 }
 .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__title {
   margin-bottom: 60px;
@@ -2782,6 +2818,26 @@ input::-moz-focus-outer {
 .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item p {
   text-align: justify;
 }
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 220px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon img {
+  width: 100%;
+  height: auto;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+}
+.page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon2 img {
+  width: 100%;
+  height: auto;
+}
 .page-vntop .page-vntop__note {
   background: url(../imgs/vntop/bg-luu-y-quan-trong.png) no-repeat;
   background-position: center;
@@ -2825,7 +2881,114 @@ input::-moz-focus-outer {
 .page-vntop .page-vntop__note .page-vntop__note-parent .page-vntop__note-child .page-vntop__note-img {
   width: 100%;
 }
+.page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+  width: 420px;
+}
+.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  color: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
+  background: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title h4 {
+  color: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box .page-vntop__register-box-form .form-gr .btn-sbm {
+  background: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__title h3 {
+  color: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__title .dots_three span {
+  background: #f4b651;
+}
+.page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
+  color: #f4b651;
+}
+.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  color: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
+  background: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title h4 {
+  color: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box .page-vntop__register-box-form .form-gr .btn-sbm {
+  background: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__fixed-interest .page-vntop__fixed-interest__title h3 {
+  color: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__fixed-interest .page-vntop__fixed-interest__title .dots_three span {
+  background: #3022a6;
+}
+.page-vntop.vntop-20 .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
+  color: #3022a6;
+}
+.page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+  width: 100px;
+}
+.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  color: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
+  background: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title h4 {
+  color: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box .page-vntop__register-box-form .form-gr .btn-sbm {
+  background: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__title h3 {
+  color: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__title .dots_three span {
+  background: #ec7d57;
+}
+.page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
+  color: #ec7d57;
+}
+.page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+  width: 100px;
+}
+.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  color: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
+  background: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box .page-vntop__register-box-title h4 {
+  color: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box .page-vntop__register-box-form .form-gr .btn-sbm {
+  background: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__title h3 {
+  color: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__title .dots_three span {
+  background: #6666c4;
+}
+.page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
+  color: #6666c4;
+}
 
+.dots_three {
+  line-height: 0;
+}
+.dots_three span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #36add9;
+  display: inline-block;
+}
+.dots_three span:first-child {
+  width: 36px;
+  border-radius: 4px;
+}
 .form-gr {
   margin-bottom: 16px;
 }

@@ -138,6 +138,10 @@
     width: 100%;
     height: auto;
   }
+
+  .page-vntop .page-vntop__note {
+    padding: 160px 0 50px;
+  }
 }
 @media (max-width: 1200.98px) {
   html,
@@ -989,6 +993,28 @@ body {
     width: 240px;
     margin: 0 auto 32px;
   }
+
+  .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 120px;
+  }
+  .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon2 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 120px;
+  }
+  .page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+    width: 220px;
+  }
+  .page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+    width: 60px;
+  }
+  .page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+    width: 60px;
+  }
 }
 @media (max-width: 768.99px) {
   #vntop {
@@ -1184,6 +1210,21 @@ body {
   }
   .page-banner .page-banner-box .page-banner-title p {
     font-size: 16px;
+  }
+
+  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-p {
+    text-align: center;
+  }
+  .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
+    display: none;
+  }
+  .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon2 {
+    display: none;
   }
 }
 @media (max-width: 500.99px) {
@@ -1722,6 +1763,19 @@ body {
   }
   .page-banner .page-banner-box {
     margin-top: 24px;
+  }
+  .page-banner.vntop__10 {
+    padding: 40px 0;
+  }
+  .page-banner.vntop__20 {
+    padding: 40px 0;
+  }
+  .page-banner.vntop__all {
+    padding: 40px 0;
+    background-position: right;
+  }
+  .page-banner.vntop__but-pha {
+    padding: 40px 0;
   }
 
   .page-newspaper .page-newspaper-list .page-newspaper-item {
