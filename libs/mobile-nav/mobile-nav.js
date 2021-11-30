@@ -47,9 +47,9 @@
             }
         });
 
-        $(".mobile-nav > ul > li").click(function(e) {
+        $(".mobile-nav > ul > li > i").click(function(e) {
           // $(this).find(".submenu").css({ "transition": "max-height 2s ease-in", "max-height": "500px" });
-          $(this).find(".submenu").toggle();
+          $(this).parent().find(".submenu").toggle();
         })
     } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
         $(".mobile-nav, .mobile-nav-toggle").hide();

@@ -61,6 +61,24 @@
     list-style: none;
 }
 
+.mobile-nav  li {
+    position: relative;
+}
+
+.mobile-nav  li i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    /*background: red;*/
+    padding: 12px;
+}
+.mobile-nav  li i:hover {
+    cursor: pointer;
+    color: #055ba9;
+}
+
 .mobile-nav a {
     display: block;
     position: relative;
@@ -79,7 +97,7 @@
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #e14925;
+    color: #055ba9;
     text-decoration: none;
 }
 

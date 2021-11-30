@@ -1265,6 +1265,9 @@ p {
   color: #213444;
   margin-top: 32px;
 }
+#interest-rate .interest-rate-box .interest-rate-box__link:hover {
+  opacity: 0.8;
+}
 #interest-rate::before {
   content: "";
   position: absolute;
@@ -1275,6 +1278,7 @@ p {
   background: url(../imgs/bg-lai-suat.png) no-repeat;
   background-position: top;
   background-size: auto;
+  z-index: -1;
 }
 #interest-rate::after {
   content: "";
@@ -1286,6 +1290,7 @@ p {
   background: url(../imgs/bg-lai-suat.png) no-repeat;
   background-position: bottom;
   background-size: auto;
+  z-index: -1;
 }
 
 .mobile-nav {
@@ -1526,6 +1531,9 @@ p {
   font-weight: bold;
   color: #213444;
   margin-top: 40px;
+}
+#investment .investment-box .investment-box__link:hover {
+  opacity: 0.8;
 }
 
 #compare {

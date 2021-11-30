@@ -1230,6 +1230,9 @@ p {
             font-weight: bold;
             color: $blue-opacity;
             margin-top: 32px;
+            &:hover {
+            	opacity: 0.8;
+            }
         }
     }
 
@@ -1243,6 +1246,7 @@ p {
         background: url(../imgs/bg-lai-suat.png) no-repeat;
         background-position: top;
         background-size: auto;
+        z-index: -1;
     }
 
     &::after {
@@ -1255,6 +1259,7 @@ p {
         background: url(../imgs/bg-lai-suat.png) no-repeat;
         background-position: bottom;
         background-size: auto;
+        z-index: -1;
     }
 }
 
@@ -1527,6 +1532,9 @@ p {
             font-weight: bold;
             color: $blue-opacity;
             margin-top: 40px;
+            &:hover {
+            	opacity: 0.8;
+            }
         }
     }
 }
