@@ -2839,8 +2839,9 @@ input::-moz-focus-outer {
   height: auto;
 }
 .page-vntop .page-vntop__note {
-  background: url(../imgs/vntop/bg-luu-y-quan-trong.png) no-repeat;
+  background: url(../imgs/vntop/bg-vn-top.png) no-repeat;
   background-position: center;
+  background-size: contain;
   padding: 140px 0;
 }
 .page-vntop .page-vntop__note .page-vntop__note-parent {

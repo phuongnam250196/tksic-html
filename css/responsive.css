@@ -466,6 +466,11 @@ body {
   #footer .footer-box .footer-box__text {
     margin-bottom: 24px;
   }
+
+  .page-vntop .page-vntop__note {
+    padding: 80px 0;
+    background-size: cover;
+  }
 }
 @media (max-width: 992.98px) {
   #header-top p {
