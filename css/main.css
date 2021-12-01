@@ -3181,6 +3181,9 @@ input::-moz-focus-outer {
   font-weight: bold;
   margin-bottom: 0;
 }
+.market-comment .market-comment__list .market-comment__child .market-comment__child-text .market-comment__child-text__title a {
+  color: inherit;
+}
 .market-comment .market-comment__icon {
   position: absolute;
   right: 0;

@@ -3396,7 +3396,9 @@ input::-moz-focus-outer {
 					color: $blue-dark-color;
 					font-weight: bold;
 					margin-bottom: 0;
-
+					a {
+						color: inherit;
+					}
 				}
 			}
 		}
