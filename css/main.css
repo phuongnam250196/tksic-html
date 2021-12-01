@@ -1134,21 +1134,39 @@ p {
   display: none;
 }
 
-#reason {
-  padding-bottom: 100px;
-}
-#reason .reason-title, #reason .newspaper .newspaper-title {
+.reason-title, .market-news .market-news__title, .market-comment .market-comment__title, #capital-mangement .capital-mangement-box .capital-mangement-title, #support .support-title, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #vntop .vntop-title, #reason .newspaper .newspaper-title {
   text-align: center;
   margin-bottom: 24px;
 }
-#reason .reason-title p, #reason .newspaper .newspaper-title p {
+.reason-title p, .market-news .market-news__title p, .market-comment .market-comment__title p, #capital-mangement .capital-mangement-box .capital-mangement-title p, #support .support-title p, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #vntop .vntop-title p, #reason .newspaper .newspaper-title p {
   font-size: 18pt;
   text-transform: uppercase;
   color: #213444;
   margin-bottom: 8px;
   font-weight: bold;
 }
-#reason .reason-title h3, #reason .newspaper .newspaper-title h3 {
+.reason-title h3, .market-news .market-news__title h3, .market-comment .market-comment__title h3, #capital-mangement .capital-mangement-box .capital-mangement-title h3, #support .support-title h3, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #vntop .vntop-title h3, #reason .newspaper .newspaper-title h3 {
+  font-size: 30pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+#reason {
+  padding-bottom: 100px;
+}
+#reason .reason-title, #reason .market-news .market-news__title, .market-news #reason .market-news__title, #reason .market-comment .market-comment__title, .market-comment #reason .market-comment__title, #reason #capital-mangement .capital-mangement-box .capital-mangement-title, #capital-mangement .capital-mangement-box #reason .capital-mangement-title, #reason #support .support-title, #support #reason .support-title, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title, #reason #vntop .vntop-title, #vntop #reason .vntop-title, #reason .newspaper .newspaper-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+#reason .reason-title p, #reason .market-news .market-news__title p, .market-news #reason .market-news__title p, #reason .market-comment .market-comment__title p, .market-comment #reason .market-comment__title p, #reason #capital-mangement .capital-mangement-box .capital-mangement-title p, #capital-mangement .capital-mangement-box #reason .capital-mangement-title p, #reason #support .support-title p, #support #reason .support-title p, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title p, #reason #vntop .vntop-title p, #vntop #reason .vntop-title p, #reason .newspaper .newspaper-title p {
+  font-size: 18pt;
+  text-transform: uppercase;
+  color: #213444;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+#reason .reason-title h3, #reason .market-news .market-news__title h3, .market-news #reason .market-news__title h3, #reason .market-comment .market-comment__title h3, .market-comment #reason .market-comment__title h3, #reason #capital-mangement .capital-mangement-box .capital-mangement-title h3, #capital-mangement .capital-mangement-box #reason .capital-mangement-title h3, #reason #support .support-title h3, #support #reason .support-title h3, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title h3, #reason #vntop .vntop-title h3, #vntop #reason .vntop-title h3, #reason .newspaper .newspaper-title h3 {
   font-size: 30pt;
   text-transform: uppercase;
   font-weight: bold;
@@ -1302,24 +1320,6 @@ p {
   background-size: auto;
   background-position: bottom;
   padding: 40px 0 160px;
-}
-#vntop .vntop-title {
-  text-align: center;
-  margin-bottom: 24px;
-}
-#vntop .vntop-title p {
-  font-size: 18pt;
-  text-transform: uppercase;
-  color: #213444;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-#vntop .vntop-title h3 {
-  font-size: 30pt;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #36add9;
-  margin-bottom: 20px;
 }
 #vntop .vntop-box {
   display: -webkit-box;
@@ -1645,20 +1645,7 @@ p {
   width: 58%;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title {
-  margin-bottom: 24px;
-}
-#easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p {
-  font-size: 18pt;
-  text-transform: uppercase;
-  color: #213444;
-  margin-bottom: 8px;
-}
-#easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3 {
-  font-size: 30pt;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #36add9;
-  margin-bottom: 20px;
+  text-align: left;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-content h4 {
   font-size: 25pt;
@@ -1856,21 +1843,7 @@ input::-moz-focus-outer {
   padding: 100px 0;
 }
 #support .support-title {
-  margin-bottom: 24px;
-}
-#support .support-title p {
-  font-size: 18pt;
-  text-transform: uppercase;
-  color: #213444;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-#support .support-title h3 {
-  font-size: 30pt;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #36add9;
-  margin-bottom: 20px;
+  text-align: left;
 }
 #support .support-box {
   display: -webkit-box;
@@ -1946,21 +1919,7 @@ input::-moz-focus-outer {
   margin-bottom: 80px;
 }
 #capital-mangement .capital-mangement-box .capital-mangement-title {
-  margin-bottom: 24px;
-}
-#capital-mangement .capital-mangement-box .capital-mangement-title p {
-  font-size: 18pt;
-  text-transform: uppercase;
-  color: #213444;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-#capital-mangement .capital-mangement-box .capital-mangement-title h3 {
-  font-size: 30pt;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #36add9;
-  margin-bottom: 20px;
+  text-align: left;
 }
 #capital-mangement .capital-mangement-box .capital-mangement-text {
   margin-top: 24px;
@@ -2484,12 +2443,35 @@ input::-moz-focus-outer {
 .about-us .partner .partner-slider .owl-stage-outer {
   z-index: 99;
 }
-.about-us .partner .partner-slider .owl-item img {
+.about-us .partner .partner-slider .owl-item .item {
+  height: 260px;
+  padding: 40px;
+  border-radius: 24px;
+  border: 3px solid #36add9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-us .partner .partner-slider .owl-item .item img {
   width: inherit;
+  min-height: 60px;
+  margin-bottom: 24px;
 }
 .about-us .partner .partner-slider .owl-nav {
   position: absolute;
-  top: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   left: 0;
   width: 100%;
   display: -webkit-box;
@@ -3138,4 +3120,173 @@ input::-moz-focus-outer {
 .service-page.stock-training .service-page-box .service-page-box-child .service-page-box-img {
   width: 780px;
   padding-left: 60px;
+}
+
+.market-comment {
+  background: url(../imgs/tin-tuc/bg-nhan-dinh-thi-truong.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.market-comment .market-comment__title {
+  text-align: left;
+}
+.market-comment .market-comment__list {
+  padding-top: 32px;
+}
+.market-comment .market-comment__list .market-comment__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+.market-comment .market-comment__list .market-comment__child:last-child {
+  margin-bottom: 0;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-img {
+  width: 19%;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-img img {
+  width: 100%;
+  height: auto;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 32px;
+  width: 81%;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-text .market-comment__child-text__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #055ba9;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-text .market-comment__child-text__date i {
+  color: #e0f3fa;
+  font-size: 52px;
+  margin-right: 12px;
+}
+.market-comment .market-comment__list .market-comment__child .market-comment__child-text .market-comment__child-text__title {
+  font-size: 24px;
+  color: #055ba9;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.market-news .market-news__title {
+  text-align: left;
+}
+.market-news .market-news__box {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 480px;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-radius: 20px;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text > div {
+  padding: 24px 40px;
+  color: #fff;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text > div .market-comment__child-text__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text > div .market-comment__child-text__date i {
+  color: #fff;
+  font-size: 32px;
+  margin-right: 12px;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text > div .market-comment__child-text__title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.market-news .market-news__box .market-news__box__child .market-comment__child-text > div .market-comment__child-text__title a {
+  color: inherit;
+}
+.market-news .market-news__box .market-news__box__child:first-child {
+  width: 58%;
+}
+.market-news .market-news__box .market-news__box__child:last-child {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.market-news .market-news__box .market-news__box__child:last-child > .market-comment__child-text {
+  height: 48%;
+}
+.market-news .market-news__box .market-news__box__child:last-child > .market-comment__child-text .market-comment__child-text__title {
+  font-size: 20px;
+}
+.market-news .market-news__list {
+  padding-top: 60px;
+}
+.market-news .market-news__list .row > div {
+  margin-bottom: 32px;
+}
+.market-news .market-news__list .market-news__item {
+  -webkit-box-shadow: 0 2px 8px #ddd;
+          box-shadow: 0 2px 8px #ddd;
+  height: 100%;
+  border-radius: 20px;
+}
+.market-news .market-news__list .market-news__item .market-news__item-img {
+  width: 100%;
+}
+.market-news .market-news__list .market-news__item .market-news__item-content {
+  padding: 24px;
+}
+.market-news .market-news__list .market-news__item .market-news__item-content .market-news__item-content__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #055ba9;
+}
+.market-news .market-news__list .market-news__item .market-news__item-content .market-news__item-content__date i {
+  color: #e0f3fa;
+  font-size: 32px;
+  margin-right: 12px;
+}
+.market-news .market-news__list .market-news__item .market-news__item-content .market-news__item-content__title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #444545;
+}
+.market-news .market-news__list .market-news__item .market-news__item-content .market-news__item-content__title a {
+  color: inherit;
 }

@@ -1086,7 +1086,28 @@ p {
     	display: none;
     }
 }
+.reason-title {
+    text-align: center;
+    margin-bottom: 24px;
 
+    p {
+        font-size: 18pt;
+        text-transform: uppercase;
+        color: $blue-opacity;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 30pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $blue-color;
+        margin-bottom: 20px;
+    }
+
+    img {}
+}
 #reason {
     padding-bottom: 100px;
 
@@ -1274,26 +1295,7 @@ p {
     padding: 40px 0 160px;
 
     .vntop-title {
-        text-align: center;
-        margin-bottom: 24px;
-
-        p {
-            font-size: 18pt;
-            text-transform: uppercase;
-            color: $blue-opacity;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-
-        h3 {
-            font-size: 30pt;
-            text-transform: uppercase;
-            font-weight: bold;
-            color: $blue-color;
-            margin-bottom: 20px;
-        }
-
-        img {}
+    	@extend .reason-title;
     }
 
     .vntop-box {
@@ -1675,24 +1677,8 @@ p {
             }
 
             .easy-investment-title {
-                margin-bottom: 24px;
-
-                p {
-                    font-size: 18pt;
-                    text-transform: uppercase;
-                    color: $blue-opacity;
-                    margin-bottom: 8px;
-                }
-
-                h3 {
-                    font-size: 30pt;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    color: $blue-color;
-                    margin-bottom: 20px;
-                }
-
-                img {}
+                @extend .reason-title;
+                text-align: left;
             }
 
             .easy-investment-content {
@@ -1928,25 +1914,8 @@ input::-moz-focus-outer {
     padding: 100px 0;
 
     .support-title {
-        margin-bottom: 24px;
-
-        p {
-            font-size: 18pt;
-            text-transform: uppercase;
-            color: $blue-opacity;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-
-        h3 {
-            font-size: 30pt;
-            text-transform: uppercase;
-            font-weight: bold;
-            color: $blue-color;
-            margin-bottom: 20px;
-        }
-
-        img {}
+        @extend .reason-title;
+        text-align: left;
     }
 
     .support-box {
@@ -2030,25 +1999,8 @@ input::-moz-focus-outer {
         margin-bottom: 80px;
 
         .capital-mangement-title {
-            margin-bottom: 24px;
-
-            p {
-                font-size: 18pt;
-                text-transform: uppercase;
-                color: $blue-opacity;
-                margin-bottom: 8px;
-                font-weight: bold;
-            }
-
-            h3 {
-                font-size: 30pt;
-                text-transform: uppercase;
-                font-weight: bold;
-                color: $blue-color;
-                margin-bottom: 20px;
-            }
-
-            img {}
+            @extend .reason-title;
+            text-align: left;
         }
 
         .capital-mangement-text {
@@ -2598,14 +2550,27 @@ input::-moz-focus-outer {
 	        }
 
 	        .owl-item {
-	            img {
-	                width: inherit;
+	            .item {
+	            	height: 260px;
+	            	padding: 40px;
+	            	border-radius: 24px;
+	            	border: 3px solid $blue-color;
+	            	display: flex;
+	            	flex-direction: column;
+	            	justify-content: center;
+	            	align-items: center;
+		            img {
+		                width: inherit;
+		                min-height: 60px;
+		                margin-bottom: 24px;
+		            }
 	            }
 	        }
 
 	        .owl-nav {
 	            position: absolute;
-	            top: 0;
+	            top: 50%;
+	            transform: translateY(-50%);
 	            left: 0;
 	            width: 100%;
 	            display: flex;
@@ -3380,6 +3345,150 @@ input::-moz-focus-outer {
 				.service-page-box-img {
 					width: 780px;
 					padding-left: 60px;
+				}
+			}
+		}
+	}
+}
+
+.market-comment {
+	background: url(../imgs/tin-tuc/bg-nhan-dinh-thi-truong.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 20px;
+	.market-comment__title {
+		@extend .reason-title;
+		text-align: left;
+	}
+	.market-comment__list {
+		padding-top: 32px;
+		.market-comment__child {
+			display: flex;
+			margin-bottom: 32px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.market-comment__child-img {
+				width: 19%;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+			.market-comment__child-text {
+				display: flex;
+				align-items: center;
+				margin-left: 32px;
+				width: 81%;
+				.market-comment__child-text__date {
+					display: flex;
+					align-items: center;
+					color: $blue-dark-color;
+					i {
+						color: #e0f3fa;
+						font-size: 52px;
+						margin-right: 12px;
+					}
+				}
+				.market-comment__child-text__title {
+					font-size: 24px;
+					color: $blue-dark-color;
+					font-weight: bold;
+					margin-bottom: 0;
+
+				}
+			}
+		}
+	}
+}
+
+.market-news {
+	.market-news__title {
+		@extend .reason-title;
+		text-align: left;
+	}
+	.market-news__box {
+		padding-top: 40px;
+		display: flex;
+		justify-content: space-between;
+		height: 480px;
+		.market-news__box__child {
+			.market-comment__child-text {
+				height: 100%;
+				display: flex;
+				align-items: flex-end;
+				border-radius: 20px;
+				&>div {
+					padding: 24px 40px;
+					color: #fff;
+					.market-comment__child-text__date {
+						display: flex;
+						align-items: center;
+						i {
+							color: #fff;
+							font-size: 32px;
+							margin-right: 12px;
+						}
+					}
+					.market-comment__child-text__title {
+						font-weight: bold;
+						font-size: 24px;
+						a {
+							color: inherit;
+						}
+					}
+				}
+			}
+			&:first-child {
+				width: 58%;
+			}
+			&:last-child {
+				width: 40%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				&>.market-comment__child-text {
+					height: 48%;
+					.market-comment__child-text__title {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	.market-news__list {
+		padding-top: 60px;
+		.row {
+			&>div {
+				margin-bottom: 32px;
+			}
+		}
+		.market-news__item {
+			box-shadow: 0 2px 8px #ddd;
+			height: 100%;
+			border-radius: 20px;
+			.market-news__item-img {
+				width: 100%;
+			}
+			.market-news__item-content {
+				padding: 24px;
+				.market-news__item-content__date {
+					display: flex;
+					align-items: center;
+					color: $blue-dark-color;
+					i {
+						color: #e0f3fa;
+						font-size: 32px;
+						margin-right: 12px;
+					}
+				}
+				.market-news__item-content__title {
+					font-weight: bold;
+					font-size: 20px;
+					color: #444545;
+					a {
+						color: inherit;
+					}
 				}
 			}
 		}

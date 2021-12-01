@@ -95,9 +95,9 @@ $(document).ready(function() {
         loop: true,
         margin: 10,
         nav: true,
-        autoplay:true,
-        autoplayTimeout:3000,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:3000,
+        // autoplayHoverPause:true,
         responsive: {
             0: {
                 items: 2
@@ -107,6 +107,27 @@ $(document).ready(function() {
             },
             1000: {
                 items: 5
+            }
+        }
+    });
+
+    $('.owl-carousel_partner').owlCarousel({
+        loop: true,
+        margin: 40,
+        nav: true,
+        dots: false,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
             }
         }
     });

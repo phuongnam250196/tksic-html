@@ -777,6 +777,7 @@ $gray: #e7edf8;
 		    bottom: -0;
 		}
 	}
+	
 }
 
 @media (max-width: 992.98px) {
@@ -1455,6 +1456,38 @@ $gray: #e7edf8;
 			.page-vntop__fixed-interest {
 				.page-vntop__fixed-interest__icon {
 					width: 60px;
+				}
+			}
+		}
+	}
+	.market-comment {
+		.market-comment__title {
+			text-align: center;
+			h3 {
+				font-size: 24pt;
+			}
+		}
+		.market-comment__list {
+			padding-top: 32px;
+			.market-comment__child {
+				margin-bottom: 24px;
+				.market-comment__child-img {
+					width: 22%;
+				}
+				.market-comment__child-text {
+					margin-left: 24px;
+					width: 78%;
+					.market-comment__child-text__date {
+						i {
+							color: #e0f3fa;
+							font-size: 32px;
+							margin-right: 12px;
+						}
+					}
+					.market-comment__child-text__title {
+						font-size: 20px;
+
+					}
 				}
 			}
 		}
@@ -2579,6 +2612,85 @@ $gray: #e7edf8;
 		}
 		.service-page-img {
 			display: none;
+		}
+	}
+	.market-comment {
+		.market-comment__title {
+			h3 {
+				font-size: 20pt;
+			}
+		}
+		.market-comment__list {
+			padding-top: 16px;
+			.market-comment__child {
+				margin-bottom: 16px;
+				.market-comment__child-img {
+					width: 22%;
+				}
+				.market-comment__child-text {
+					margin-left: 12px;
+					.market-comment__child-text__date {
+						i {
+							font-size: 24px;
+							margin-right: 12px;
+						}
+					}
+					.market-comment__child-text__title {
+						font-size: 16px;
+						overflow: hidden;
+					   text-overflow: ellipsis;
+					   display: -webkit-box;
+					   -webkit-box-orient: vertical;
+					   -webkit-line-clamp: 2;
+					}
+				}
+			}
+		}
+	}
+	.market-news {
+	.market-news__title {
+			text-align: center;
+			h3 {
+				font-size: 20pt;
+			}
+		}
+		.market-news__box {
+			padding-top: 20px;
+			flex-wrap: wrap;
+			height: unset;
+			.market-news__box__child {
+				.market-comment__child-text {
+					height: 220px;
+					margin-bottom: 24px;
+					&>div {
+						padding: 24px;
+						.market-comment__child-text__title {
+							font-size: 20px;
+						}
+					}
+				}
+				&:first-child {
+					width: 100%;
+				}
+				&:last-child {
+					width: 100%;
+					&>.market-comment__child-text {
+						height: 220px;
+					}
+				}
+			}
+		}
+		.market-news__list {
+			padding-top: 40px;
+			.row {
+				&>div {
+					margin-bottom: 24px;
+					-ms-flex: 0 0 100%;
+				    -webkit-box-flex: 0;
+				    flex: 0 0 100%;
+				    max-width: 100%;
+				}
+			}
 		}
 	}
 }
