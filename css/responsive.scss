@@ -283,6 +283,12 @@ $gray: #e7edf8;
 			}
 		}
 	}
+	.market-comment {
+		.market-comment__icon {
+			top: 40%;
+			width: 400px;
+		}
+	}
 }
 
 
@@ -775,6 +781,12 @@ $gray: #e7edf8;
 		.service-page-img {
 		    right: 250px;
 		    bottom: -0;
+		}
+	}
+	.market-comment {
+		.market-comment__icon {
+			top: 40%;
+			width: 300px;
 		}
 	}
 	
@@ -1490,6 +1502,12 @@ $gray: #e7edf8;
 					}
 				}
 			}
+		}
+	}
+	.market-news {
+		.market-news__icon {
+			bottom: -200px;
+			width: 300px;
 		}
 	}
 }
@@ -2645,6 +2663,10 @@ $gray: #e7edf8;
 					}
 				}
 			}
+		}
+		.market-comment__icon {
+			top: 50%;
+			width: 100px;
 		}
 	}
 	.market-news {

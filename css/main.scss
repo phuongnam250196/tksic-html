@@ -3356,6 +3356,7 @@ input::-moz-focus-outer {
 	background-size: contain;
 	background-position: center;
 	margin-bottom: 20px;
+	position: relative;
 	.market-comment__title {
 		@extend .reason-title;
 		text-align: left;
@@ -3400,9 +3401,32 @@ input::-moz-focus-outer {
 			}
 		}
 	}
+	.market-comment__icon {
+		position: absolute;
+		right: 0;
+		top: 40%;
+		width: 500px;
+		z-index: -1;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
 }
 
 .market-news {
+	position: relative;
+	.market-news__icon {
+		position: absolute;
+		right: 0;
+		bottom: -300px;
+		z-index: -1;
+		width: 500px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
 	.market-news__title {
 		@extend .reason-title;
 		text-align: left;
@@ -3464,6 +3488,7 @@ input::-moz-focus-outer {
 			}
 		}
 		.market-news__item {
+			background: #fff;
 			box-shadow: 0 2px 8px #ddd;
 			height: 100%;
 			border-radius: 20px;

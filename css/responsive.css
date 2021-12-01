@@ -176,6 +176,11 @@
     width: 100%;
     padding-left: 60px;
   }
+
+  .market-comment .market-comment__icon {
+    top: 40%;
+    width: 400px;
+  }
 }
 @media (max-width: 1200.98px) {
   html,
@@ -509,6 +514,11 @@ body {
   .service-page .service-page-img {
     right: 250px;
     bottom: 0;
+  }
+
+  .market-comment .market-comment__icon {
+    top: 40%;
+    width: 300px;
   }
 }
 @media (max-width: 992.98px) {
@@ -1109,6 +1119,11 @@ body {
   }
   .market-comment .market-comment__list .market-comment__child .market-comment__child-text .market-comment__child-text__title {
     font-size: 20px;
+  }
+
+  .market-news .market-news__icon {
+    bottom: -200px;
+    width: 300px;
   }
 }
 @media (max-width: 768.99px) {
@@ -2014,6 +2029,10 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+  }
+  .market-comment .market-comment__icon {
+    top: 50%;
+    width: 100px;
   }
 
   .market-news .market-news__title {
