@@ -143,6 +143,39 @@
     padding: 72px 0 54px;
     background-size: cover;
   }
+
+  .service-page .service-page-box .service-page-box-child .service-page-box-img {
+    margin: 0 auto;
+  }
+  .service-page .service-page-img {
+    right: 386px;
+    bottom: -40px;
+    width: 220px;
+  }
+  .service-page.risky .service-page-img {
+    right: inherit;
+    left: -80px;
+    width: 120px;
+  }
+  .service-page.risky .service-page-box .service-page-box-child .page-banner-title {
+    padding-right: 0;
+  }
+  .service-page.risky .service-page-box .service-page-box-child .service-page-box-img {
+    width: 100%;
+    padding-left: 60px;
+  }
+  .service-page.stock-training .service-page-img {
+    right: inherit;
+    left: -40px;
+    width: 120px;
+  }
+  .service-page.stock-training .service-page-box .service-page-box-child .page-banner-title {
+    padding-right: 0;
+  }
+  .service-page.stock-training .service-page-box .service-page-box-child .service-page-box-img {
+    width: 100%;
+    padding-left: 60px;
+  }
 }
 @media (max-width: 1200.98px) {
   html,
@@ -471,6 +504,11 @@ body {
   .page-vntop .page-vntop__note {
     padding: 80px 0;
     background-size: cover;
+  }
+
+  .service-page .service-page-img {
+    right: 250px;
+    bottom: 0;
   }
 }
 @media (max-width: 992.98px) {
@@ -974,30 +1012,53 @@ body {
     width: 70%;
   }
 
-  .investment-portfolio .investment-portfolio-box {
+  .service-page .service-page-box {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child {
+  .service-page .service-page-box .service-page-box-child {
     width: 100%;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child:last-child {
+  .service-page .service-page-box .service-page-box-child:last-child {
     background: none;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title {
+  .service-page .service-page-box .service-page-box-child .page-banner-title {
     padding-right: 0;
     text-align: center;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title h3 {
+  .service-page .service-page-box .service-page-box-child .page-banner-title h3 {
     font-size: 24pt;
     text-transform: uppercase;
     font-weight: bold;
     color: #36add9;
     margin-bottom: 20px;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img {
+  .service-page .service-page-box .service-page-box-child .service-page-box-img {
     width: 240px;
     margin: 0 auto 32px;
+  }
+  .service-page .service-page-img {
+    left: 0;
+    top: 0;
+    width: 120px;
+  }
+  .service-page.risky .service-page-img {
+    right: inherit;
+    left: 0;
+    width: 100px;
+  }
+  .service-page.risky .service-page-box .service-page-box-child .service-page-box-img {
+    width: 100%;
+    padding-left: 0;
+  }
+  .service-page.stock-training .service-page-img {
+    right: inherit;
+    left: 0;
+    width: 100px;
+  }
+  .service-page.stock-training .service-page-box .service-page-box-child .service-page-box-img {
+    width: 100%;
+    padding-left: 0;
   }
 
   .page-vntop .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
@@ -1870,30 +1931,33 @@ body {
     width: 100%;
   }
 
-  .investment-portfolio {
+  .service-page {
     padding: 0 0 40px;
   }
-  .investment-portfolio .investment-portfolio-box {
+  .service-page .service-page-box {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child {
+  .service-page .service-page-box .service-page-box-child {
     width: 100%;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child:last-child {
+  .service-page .service-page-box .service-page-box-child:last-child {
     background: none;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title {
+  .service-page .service-page-box .service-page-box-child .page-banner-title {
     padding-right: 0;
     text-align: center;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title h3 {
+  .service-page .service-page-box .service-page-box-child .page-banner-title h3 {
     font-size: 16pt;
     margin-bottom: 12px;
   }
-  .investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img {
+  .service-page .service-page-box .service-page-box-child .service-page-box-img {
     width: 240px;
     margin: 0 auto 24px;
+  }
+  .service-page .service-page-img {
+    display: none;
   }
 }
 @media (max-width: 384.99px) {

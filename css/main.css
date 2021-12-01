@@ -3027,13 +3027,13 @@ input::-moz-focus-outer {
   color: #fff;
 }
 
-.investment-portfolio {
+.service-page {
   background: url(../imgs/vntop/bg-danh-muc-dau-tu-3.png) no-repeat;
   background-position: center;
   background-size: contain;
   padding: 0 0 60px;
 }
-.investment-portfolio .investment-portfolio-box {
+.service-page .service-page-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3044,40 +3044,98 @@ input::-moz-focus-outer {
       -ms-flex-align: center;
           align-items: center;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child {
+.service-page .service-page-box .service-page-box-child {
   width: 50%;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child:last-child {
-  background: url(../imgs/vntop/danh-muc-vuong.png) no-repeat;
-  background-position: left bottom;
-  background-size: auto;
-}
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title {
+.service-page .service-page-box .service-page-box-child .page-banner-title {
   padding-right: 40px;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title h3 {
+.service-page .service-page-box .service-page-box-child .page-banner-title h3 {
   font-size: 24pt;
   text-transform: uppercase;
   font-weight: bold;
   color: #36add9;
   margin-bottom: 20px;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul {
-  padding-left: 20px;
+.service-page .service-page-box .service-page-box-child .page-banner-title .page-banner-title__text {
   margin-top: 32px;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul li {
+.service-page .service-page-box .service-page-box-child .page-banner-title .page-banner-title__text p {
   text-align: justify;
   margin-bottom: 24px;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .page-banner-title ul li:last-child {
+.service-page .service-page-box .service-page-box-child .page-banner-title .page-banner-title__text p:last-child {
   margin-bottom: 0;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img {
+.service-page .service-page-box .service-page-box-child .page-banner-title ul {
+  padding-left: 32px;
+  margin-top: 32px;
+  list-style: none;
+}
+.service-page .service-page-box .service-page-box-child .page-banner-title ul li {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.service-page .service-page-box .service-page-box-child .page-banner-title ul li:last-child {
+  margin-bottom: 0;
+}
+.service-page .service-page-box .service-page-box-child .page-banner-title ul li::before {
+  content: "•";
+  color: #36add9;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 30px;
+}
+.service-page .service-page-box .service-page-box-child .service-page-box-img {
   width: 300px;
   margin-left: auto;
 }
-.investment-portfolio .investment-portfolio-box .investment-portfolio-box-child .investment-portfolio-box-img img {
+.service-page .service-page-box .service-page-box-child .service-page-box-img img {
   width: 100%;
   height: auto;
+}
+.service-page .service-page-img {
+  position: absolute;
+  right: 260px;
+  bottom: -60px;
+  z-index: -1;
+  width: 280px;
+}
+.service-page .service-page-img img {
+  width: 100%;
+  height: auto;
+}
+.service-page.risky {
+  background: none;
+}
+.service-page.risky .service-page-img {
+  right: inherit;
+  left: -240px;
+  bottom: -60px;
+  width: 180px;
+}
+.service-page.risky .service-page-box .service-page-box-child .page-banner-title {
+  padding-right: 0;
+}
+.service-page.risky .service-page-box .service-page-box-child .service-page-box-img {
+  width: 800px;
+  padding-left: 60px;
+}
+.service-page.stock-training {
+  background: none;
+}
+.service-page.stock-training .service-page-img {
+  right: inherit;
+  left: -240px;
+  bottom: -60px;
+  width: 180px;
+}
+.service-page.stock-training .service-page-box .service-page-box-child .page-banner-title {
+  padding-right: 0;
+}
+.service-page.stock-training .service-page-box .service-page-box-child .service-page-box-img {
+  width: 780px;
+  padding-left: 60px;
 }

@@ -233,6 +233,56 @@ $gray: #e7edf8;
 			background-size: cover;
 		}
 	}
+	.service-page {
+		.service-page-box {
+			.service-page-box-child {
+				.service-page-box-img {
+					margin: 0 auto;
+				}
+			}
+		}
+		.service-page-img {
+		    right: 386px;
+		    bottom: -40px;
+		    width: 220px;
+		}
+		&.risky {
+			.service-page-img  {
+				right: inherit;
+				left: -80px;
+				width: 120px;
+			}
+			.service-page-box {
+				.service-page-box-child {
+					.page-banner-title {
+						padding-right: 0;
+					}
+					.service-page-box-img {
+						width: 100%;
+						padding-left: 60px;
+					}
+				}
+			}
+		}
+		&.stock-training {
+			.service-page-img  {
+				right: inherit;
+				left: -40px;
+				width: 120px;
+			}
+			.service-page-box {
+				.service-page-box-child {
+					.page-banner-title {
+						padding-right: 0;
+					}
+					.service-page-box-img {
+						width: 100%;
+						padding-left: 60px;
+					}
+				}
+			}
+		}
+	}
 }
 
 
@@ -719,6 +769,12 @@ $gray: #e7edf8;
 		.page-vntop__note {
 			padding: 80px 0;
 			background-size: cover;
+		}
+	}
+	.service-page {
+		.service-page-img {
+		    right: 250px;
+		    bottom: -0;
 		}
 	}
 }
@@ -1304,10 +1360,10 @@ $gray: #e7edf8;
 			}
 		}
 	}
-	.investment-portfolio {
-		.investment-portfolio-box {
+	.service-page {
+		.service-page-box {
 			flex-wrap: wrap-reverse;
-			.investment-portfolio-box-child {
+			.service-page-box-child {
 				width: 100%;
 				&:last-child {
 					background: none;
@@ -1323,9 +1379,45 @@ $gray: #e7edf8;
 			            margin-bottom: 20px;
 			        }
 				}
-				.investment-portfolio-box-img {
+				.service-page-box-img {
 					width: 240px;
 					margin: 0 auto 32px;
+				}
+			}
+		}
+
+		.service-page-img {
+		    left: 0;
+		    top: 0;
+		    width: 120px;
+		}
+		&.risky {
+			.service-page-img  {
+				right: inherit;
+				left: 0;
+				width: 100px;
+			}
+			.service-page-box {
+				.service-page-box-child {
+					.service-page-box-img {
+						width: 100%;
+						padding-left: 0;
+					}
+				}
+			}
+		}
+		&.stock-training {
+			.service-page-img  {
+				right: inherit;
+				left: 0;
+				width: 100px;
+			}
+			.service-page-box {
+				.service-page-box-child {
+					.service-page-box-img {
+						width: 100%;
+						padding-left: 0;
+					}
 				}
 			}
 		}
@@ -2462,11 +2554,11 @@ $gray: #e7edf8;
 			}
 		}
 	}
-	.investment-portfolio {
+	.service-page {
 		padding: 0 0 40px;
-		.investment-portfolio-box {
+		.service-page-box {
 			flex-wrap: wrap-reverse;
-			.investment-portfolio-box-child {
+			.service-page-box-child {
 				width: 100%;
 				&:last-child {
 					background: none;
@@ -2479,11 +2571,14 @@ $gray: #e7edf8;
 			            margin-bottom: 12px;
 			        }
 				}
-				.investment-portfolio-box-img {
+				.service-page-box-img {
 					width: 240px;
 					margin: 0 auto 24px;
 				}
 			}
+		}
+		.service-page-img {
+			display: none;
 		}
 	}
 }

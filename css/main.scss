@@ -3269,23 +3269,19 @@ input::-moz-focus-outer {
 	}
 }
 
-.investment-portfolio {
+.service-page {
 	background: url(../imgs/vntop/bg-danh-muc-dau-tu-3.png) no-repeat;
 	background-position: center;
 	background-size: contain;
 	padding: 0 0 60px;
-	.investment-portfolio-box {
+
+	.service-page-box {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 
-		.investment-portfolio-box-child {
+		.service-page-box-child {
 			width: 50%;
-			&:last-child {
-				background: url(../imgs/vntop/danh-muc-vuong.png) no-repeat;
-				background-position: left bottom;
-				background-size: auto;
-			}
 			.page-banner-title {
 				padding-right: 40px;
 				h3 {
@@ -3295,10 +3291,9 @@ input::-moz-focus-outer {
 		            color: $blue-color;
 		            margin-bottom: 20px;
 		        }
-		        ul {
-		        	padding-left: 20px;
+		        .page-banner-title__text {
 		        	margin-top: 32px;
-		        	li {
+		        	p  {
 		        		text-align: justify;
 		        		margin-bottom: 24px;
 		        		&:last-child {
@@ -3306,13 +3301,85 @@ input::-moz-focus-outer {
 		        		}
 		        	}
 		        }
+		        ul {
+		        	padding-left: 32px;
+		        	margin-top: 32px;
+		        	list-style: none;
+		        	li {
+		        		text-align: justify;
+		        		margin-bottom: 16px;
+		        		&:last-child {
+		        			margin-bottom: 0;
+		        		}
+		        		&::before {
+						  content: "\2022";
+						  color: $blue-color;
+						  font-weight: bold;
+						  display: inline-block;
+						  width: 1em;
+						  margin-left: -1em;
+						  font-size: 30px;
+						}
+		        	}
+		        }
 			}
-			.investment-portfolio-box-img {
+			.service-page-box-img {
 				width: 300px;
 				margin-left: auto;
 				img {
 					width: 100%;
 					height: auto;
+				}
+			}
+		}
+	}
+	.service-page-img  {
+		position: absolute;
+		right: 260px;
+		bottom: -60px;
+		z-index: -1;
+		width: 280px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&.risky {
+		background: none;
+		.service-page-img  {
+			right: inherit;
+			left: -240px;
+			bottom: -60px;
+			width: 180px;
+		}
+		.service-page-box {
+			.service-page-box-child {
+				.page-banner-title {
+					padding-right: 0;
+				}
+				.service-page-box-img {
+					width: 800px;
+					padding-left: 60px;
+				}
+			}
+		}
+	}
+	&.stock-training {
+		background: none;
+		.service-page-img  {
+			right: inherit;
+			left: -240px;
+			bottom: -60px;
+			width: 180px;
+		}
+		.service-page-box {
+			.service-page-box-child {
+				.page-banner-title {
+					padding-right: 0;
+				}
+				.service-page-box-img {
+					width: 780px;
+					padding-left: 60px;
 				}
 			}
 		}
