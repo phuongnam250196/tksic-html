@@ -1,0 +1,156 @@
+
+
+.banner-home {
+  position: relative;
+
+  .img {
+    width: 100%;
+    min-height: 250px;
+  }
+
+  .ct {
+    @include absolute(0);
+    display: flex;
+    align-items: center;
+
+    .sub-1 {
+      color: $c2;
+      font-size: rem(30);
+      font-weight: bold;
+      margin-bottom: rem(25);
+    }
+
+    .sub-2 {
+      color: $c3;
+      font-size: rem(36);
+      font-weight: bold;
+      display: flex;
+      margin-bottom: rem(76);
+      text-transform: uppercase;
+
+      img {
+        flex: 0 0 rem(107);
+        object-fit: contain;
+        margin-right: rem(22);
+      }
+    }
+
+    .btn-open {
+      color: #fff;
+      display: flex;
+      width: rem(170);
+      padding: 6px;
+      align-items: center;
+      justify-content: center;
+      background-color: $c2;
+      border-radius: 24px;
+      transition: .3s;
+      font-size: rem(16);
+      box-shadow: 11px 0 22px rgba($c2, .35);
+
+      i {
+        margin-left: 10px;
+        font-size: rem(34);
+      }
+
+      &:hover {
+        background-color: $c3;
+      }
+    }
+  }
+}
+
+.box-title {
+  .title-1 {
+    color: $c1;
+    font-size: rem(30);
+    font-weight: 600;
+    margin-bottom: rem(5);
+  }
+
+  .title-2 {
+    font-size: rem(50);
+    color: $c2;
+    font-weight: 700;
+    margin-bottom: rem(42);
+  }
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.choose-tksic {
+  padding-top: rem(80);
+  margin-bottom: rem(150);
+
+  .list {
+    margin-top: rem(80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .item {
+      margin-bottom: rem(40);
+      max-width: rem(320);
+      padding: 0 15px;
+
+      .icon {
+        height: rem(110);
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(43);
+      }
+
+      .info {
+        .name {
+          margin-bottom: rem(10);
+          color: $c1;
+          font-size: rem(25);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  margin-bottom: rem(45);
+
+  .desc {
+    margin-top: rem(27);
+    margin-bottom: 20px;
+  }
+
+  .list {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: auto;
+
+    .item {
+      padding: 0 10px;
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+.box-img {
+  display: flex;
+  justify-content: flex-start;
+
+  &.box-left {
+    justify-content: flex-end;
+  }
+  img{
+    max-width: max-content;
+  }
+}
+.dautu{
+
+}

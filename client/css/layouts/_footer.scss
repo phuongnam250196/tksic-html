@@ -1,0 +1,154 @@
+#footer {
+  border-top: 4px solid $c2;
+  padding-top: rem(33);
+  padding-bottom: rem(64);
+  color: #444545;
+  font-size: rem(16);
+  background-image: url("../images/bg-footer.jpg");
+  background-size: 100% 100%;
+
+  @media (max-width: 767px) {
+    padding-top: rem(30);
+    padding-bottom: rem(30);
+  }
+  .left {
+    max-width: rem(480);
+
+    .logo-f {
+      display: block;
+      margin-bottom: rem(34);
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+
+    .desc {
+      margin-bottom: rem(40);
+    }
+
+    .list-register {
+      display: flex;
+      align-items: center;
+
+      a {
+        margin-right: rem(38);
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      max-width: 100%;
+      .desc {
+        text-align: center;
+      }
+      .list-register {
+        justify-content: center;
+      }
+    }
+  }
+
+  .right {
+    padding-top: rem(38);
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: rem(40);
+
+      li {
+        max-width: rem(340);
+        display: flex;
+        align-items: center;
+
+        .icon {
+          flex: 0 0 rem(37);
+          margin-right: rem(35);
+        }
+      }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .menu-f {
+      margin-top: rem(40);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow-x: auto;
+
+      li {
+        margin-left: 18px;
+        white-space: nowrap;
+        list-style: disc;
+        color: $c2;
+
+        a {
+          color: #444545;
+
+          &:hover {
+            color: $c2;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .copyright {
+    margin-top: rem(20);
+
+    .left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      @media (max-width: 767px) {
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      @media (max-width: 767px) {
+        justify-content: center;
+      }
+
+      li {
+        margin-right: rem(30);
+
+        a {
+          color: $c3;
+          width: rem(44);
+          height: rem(44);
+          border-radius: 50%;
+          background-color: $c2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: rem(28);
+
+          &:hover {
+            opacity: .7;
+          }
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,401 @@
+$c1: #213444;
+$c2: #37adda;
+$c3: #005aaa;
+$c4: #ff4b4b;
+$c5: #343a40;
+$c6: #daf1f9;
+$c7: #35acd9;
+$c-text: #a1a4ae;
+.strong-c7 {
+	font-weight: bold;
+	color: $c7;
+}
+.withdraw-money {
+	.nav-pills {
+		.nav-item {
+			.nav-link {
+				font-weight: bold;
+				margin: 0 4px;
+				border-radius: 8px;
+				border:none;
+				padding: 12px 20px;
+				&:not(.active) {
+					color: $c3;
+					background: $c6;
+				}
+			}
+		}
+	}
+	.withdraw-money__form {
+		width: 400px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 32px 0;
+		.form-group {
+			border-radius: 12px;
+			border: 2px solid $c7;
+			padding: 20px 60px;
+			label {
+				margin-bottom: 8px;
+			}
+			.form-control {
+				color: $c3;
+				font-weight: 500;
+				border: none;
+				background: $c6;
+				border-radius: 4px;
+				text-align: center;
+				&:focus {
+					box-shadow: none;
+				}
+			}
+		}
+		
+		.withdraw-money__form-note {
+			text-align: left;
+			padding: 20px 0 32px;
+			padding-left: 20px;
+			h4 {
+				font-weight: bold;
+				color: $c3;
+			}
+		}
+	}
+	.withdraw-money__remind {
+		text-align: center;
+	}
+	&.recharge {
+		.withdraw-money__form {
+			padding: 0;
+		}
+	}
+}
+.form-btn {
+	.btn-sbm {
+		color: #fff;
+		border-radius: 20px;
+		font-weight: bold;
+		padding: 6px 20px;
+		background: $c7;
+		font-size: 14px;
+	}
+}
+.withdraw-money__2 {
+	text-align: center;
+	padding-top: 24px;
+	.withdraw-money__2-input {
+		padding: 32px 0 40px;
+		display: flex;
+		justify-content: center;
+		&>input {
+			width: 50px;
+			height: 70px;
+			display: inline-block;
+			margin: 0 12px;
+			border: none;
+			background: #b7dff9;
+			text-align: center;
+			font-weight: bold;
+			font-size: 18px;
+			color: $c3;
+			&:focus {
+				border: 1px solid $c7;
+				background: #fff;
+				box-shadow: 0 2px 6px $c7;	
+			}
+			&.active {
+				box-shadow: 0 4px 12px $c7;	
+				border: 1px solid $c7;
+				background: #fff;
+			}
+		}
+	}
+}
+.withdraw-money__3 {
+	text-align: center;
+	padding-top: 24px;
+	.withdraw-money__3-img {
+		padding: 32px 0 40px;
+		 img {
+
+		  animation: spin 2s linear infinite;
+		 }
+	}
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+$max: 12;
+$angle: 360/$max;
+$size: 120px;
+$fill: dodgerblue;
+
+svg {
+  height: $size;
+  width: $size;
+  overflow: visible;
+/*   border: 1px solid red; */
+  }
+.g-circles {
+  //transform: scale(.9) translate(7px, 7px);
+  }
+
+@function transform($item: 1){
+  $base: rotate(#{-$angle*$item}deg) translate(5px, 5px);
+  @return $base;
+}
+
+.g--circle {
+  transform-origin: $size/2 $size/2;
+  
+  fill: $fill;
+  animation: opacity 1.2s linear infinite;
+  
+  @for $item from 1 through $max {
+    &:nth-child(#{$max}n + #{$item}){
+      animation-delay: -#{$item/10}s;
+      transform: transform($item) scale(.9);
+    }
+  }
+}
+
+.g-circles--v1 .g--circle {
+  fill-opacity: 0;
+  animation-name: opacity;
+  }
+
+
+@keyframes opacity {
+  3% {
+    fill-opacity: 1;
+  }
+  75% {
+    fill-opacity: 0;
+  }
+  
+}
+@keyframes colors {
+  0% {
+    fill: yellowgreen;
+    }
+  10% {
+    fill: gold;
+    }
+  75% {
+    fill: crimson;
+  }
+}
+.withdraw-money__bank-title  {
+	text-align: center;
+	margin: 20px 0;
+}
+.withdraw-money__bank {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+	margin-bottom: 24px;
+	.button  {
+		width: 30%;
+		padding: 12px;
+		input[type="radio"] {
+	    	display: none;
+		}
+		label {
+		    height: 100%;
+			
+		}
+		img {
+			cursor: pointer;
+			width: 100%;
+			padding: 8px;
+
+		}
+	}
+
+	input[type="radio"]:checked + label {
+	    box-shadow: 0 2px 6px #ddd;
+	}
+
+}
+.withdraw-money__mb {
+	margin-bottom: 24px;
+	.button  {
+		margin-bottom: 12px;
+		input[type="radio"] {
+	    	display: none;
+		}	
+		label {
+		    height: 100%;
+			display: flex;
+			align-items: center;
+			img {
+				width: 80px;
+				height: auto;
+				margin-right: 12px;
+				padding: 8px;
+			}
+			p {
+
+			}
+		}
+	}
+
+	input[type="radio"]:checked + label {
+	    box-shadow: 0 2px 6px #ddd;
+	}
+
+}
+
+.recharge {
+	text-align: center;
+	.recharge-title {
+		margin-bottom: 16px;
+		h4 {
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $c3;
+		}
+		.recharge-title__p1 {
+			padding: 0 0 24px;
+		}
+	}
+	.recharge-list {
+		background: $c6;
+		border-radius: 12px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: center;
+		padding: 32px 20px 8px;
+		.recharge-item {
+			width: 48%;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+			margin-bottom: 24px;
+			position: relative;
+			h5 {
+				font-weight: bold;
+				color: $c3;
+				margin-bottom: 8px;
+			}
+			.btn {
+				color: #fff;
+				padding: 0 4px;
+				border-radius: 4px;
+				font-size: 14px;
+				display: inline-block;
+				background: $c2;
+				position: absolute;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				&:focus {
+					box-shadow: none;
+				}
+			}
+		}
+	}
+	.recharge-btn {
+		margin: 32px 0;
+		a {
+			padding: 8px 20px;
+			background: $c3;
+			border-radius: 20px;
+			color: #fff;
+			border: none;
+			display: inline-block;
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+}
+#open-investment .modal-content .modal-header {
+	padding: 0;
+	border: none;
+}
+.investment-popup {
+	text-align: center;
+	img {
+		width: 150px;
+	}
+	h4 {
+		font-weight: bold;
+		font-size: 28px;
+		color: $c7;
+		padding: 24px 0 16px;
+	}
+	p {
+		color: #626262;
+	}
+	.investment-popup-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 24px;
+		a {
+			padding: 8px 20px;
+			display: inline-block;
+			border-radius: 20px;
+			color: #fff;
+			font-size: 14px;
+			font-weight: bold;
+			margin: 0 8px;
+			&:first-child  {
+				background: $c3;
+			}
+			&:last-child  {
+				background: $c7;
+			}
+		}
+	}
+	@media (max-width: 500px) {
+	     img {
+			width: 100px;
+		}
+		h4{
+			font-size: 20px;
+		}
+    }
+}
+
+.collaborators {
+	text-align: center;
+	h3 {
+		font-weight: bold;
+		font-size: 28px;
+		color: $c3;
+		padding: 12px 0 16px;
+	}
+	p {
+		color: #626262;
+		font-weight: bold;
+	}
+	img {
+		width: 500px;
+		display: block;
+		margin: 32px auto;
+	}
+	a {
+		padding: 8px 20px;
+		display: inline-block;
+		border-radius: 20px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		margin: 0 8px;
+		background: $c7;
+	}
+	@media (max-width: 500px) {
+	     h3 {
+	     	font-size: 20px;
+	     	padding-bottom: 12px;
+	     }
+	     img {
+	     	width: 90%;
+	     }
+    }
+}

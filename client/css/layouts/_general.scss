@@ -1,0 +1,166 @@
+.wrap {
+  overflow: hidden;
+
+  &.v2 {
+    background-color: #fff;
+  }
+}
+
+.delay01 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.delay02 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.delay03 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.delay04 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.delay05 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.delay06 {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.delay07 {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.delay08 {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.delay09 {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+
+.delay10 {
+  -webkit-animation-delay: 1.0s;
+  animation-delay: 1.0s;
+}
+
+.delay12 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.delay14 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.delay16 {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.delay18 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+
+a {
+  transition: .2s;
+
+  &:hover {
+    color: $c2;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+}
+
+
+.slide-page {
+  opacity: 0;
+  transition: .2s;
+  width: 100%;
+  position: relative;
+
+  &.v1 {
+    .slick-list {
+      margin: 0 0;
+
+      .slick-slide {
+        margin: 0 0;
+
+        &:focus {
+          outline: none;
+          border: none;
+        }
+      }
+
+    }
+  }
+
+}
+
+.container-custom {
+  width: 100%;
+  max-width: rem(1630);
+  padding: 0 15px;
+  margin: auto;
+}
+
+.slick-slider {
+  opacity: 1;
+  visibility: visible;
+}
+
+.row7 {
+  @include col-mar(7px);
+}
+
+.row6 {
+  @include col-mar(6px);
+}
+
+///* width */
+//::-webkit-scrollbar {
+//  width: 4px;
+//  height: 4px;
+//}
+//
+///* Track */
+//::-webkit-scrollbar-track {
+//  background: #f1f1f1;
+//}
+//
+///* Handle */
+//::-webkit-scrollbar-thumb {
+//  background: #37adda;
+//}
+//
+///* Handle on hover */
+//::-webkit-scrollbar-thumb:hover {
+//  background: #37adda;
+//}
+.c-open {
+  color: #77c50a;
+}
+
+.c-close {
+  color: #ff0000;
+}
