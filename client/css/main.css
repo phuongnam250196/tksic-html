@@ -5579,10 +5579,12 @@ a:hover {
 }
 .withdraw-money__3 .withdraw-money__3-img {
   padding: 32px 0 40px;
+  width: 160px;
+  margin: 0 auto;
 }
 .withdraw-money__3 .withdraw-money__3-img img {
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
+  width: 100%;
+  height: auto;
 }
 
 @-webkit-keyframes spin {

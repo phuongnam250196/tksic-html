@@ -133,9 +133,11 @@ $c-text: #a1a4ae;
 	padding-top: 24px;
 	.withdraw-money__3-img {
 		padding: 32px 0 40px;
+		width: 160px;
+		margin: 0 auto;
 		 img {
-
-		  animation: spin 2s linear infinite;
+			width: 100%;
+			height: auto;
 		 }
 	}
 }
