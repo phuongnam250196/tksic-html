@@ -5534,9 +5534,8 @@ a:hover {
   color: #fff;
   border-radius: 20px;
   font-weight: bold;
-  padding: 6px 20px;
+  padding: 8px 25px;
   background: #35acd9;
-  font-size: 14px;
 }
 .form-btn .btn-sbm:hover {
   -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
@@ -5789,8 +5788,8 @@ svg {
   padding: 8px;
 }
 .withdraw-money__bank input[type=radio]:checked + label {
-  -webkit-box-shadow: 0 2px 6px #ddd;
-          box-shadow: 0 2px 6px #ddd;
+  border-radius: 12px;
+  border: 2px solid #35acd9;
 }
 @media (max-width: 500px) {
   .withdraw-money__bank .button {
@@ -5824,8 +5823,8 @@ svg {
   padding: 8px;
 }
 .withdraw-money__mb input[type=radio]:checked + label {
-  -webkit-box-shadow: 0 2px 6px #ddd;
-          box-shadow: 0 2px 6px #ddd;
+  border-radius: 12px;
+  border: 2px solid #35acd9;
 }
 .recharge {
   text-align: center;
