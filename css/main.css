@@ -3320,3 +3320,24 @@ input::-moz-focus-outer {
 .market-news .market-news__list .market-news__item .market-news__item-content .market-news__item-content__title a {
   color: inherit;
 }
+.market-news.knowledge .market-news__box .market-news__box__child {
+  width: 100%;
+}
+.market-news.knowledge .market-news__box .market-news__box__child .market-comment__child-text {
+  height: 572px;
+}
+@media (max-width: 992.98px) {
+  .market-news.knowledge .market-news__box .market-news__box__child .market-comment__child-text {
+    height: 360px;
+  }
+}
+@media (max-width: 992.98px) {
+  .market-news.knowledge .market-news__box .market-news__box__child .market-comment__child-text {
+    height: 360px;
+  }
+}
+@media (max-width: 992.98px) {
+  .market-news.knowledge .market-news__box {
+    height: inherit;
+  }
+}

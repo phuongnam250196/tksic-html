@@ -5466,6 +5466,7 @@ a:hover {
   border-radius: 8px;
   border: none;
   padding: 12px 20px;
+  background: #005aaa;
 }
 .withdraw-money .nav-pills .nav-item .nav-link:not(.active) {
   color: #005aaa;
@@ -5536,6 +5537,10 @@ a:hover {
   padding: 6px 20px;
   background: #35acd9;
   font-size: 14px;
+}
+.form-btn .btn-sbm:hover {
+  -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+          box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
 }
 
 .withdraw-money__2 {
@@ -5947,6 +5952,10 @@ svg {
 .investment-popup .investment-popup-btn a:last-child {
   background: #35acd9;
 }
+.investment-popup .investment-popup-btn a:hover {
+  -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+          box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+}
 @media (max-width: 500px) {
   .investment-popup img {
     width: 100px;
@@ -5983,6 +5992,10 @@ svg {
   font-weight: bold;
   margin: 0 8px;
   background: #35acd9;
+}
+.collaborators a:hover {
+  -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+          box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
 }
 @media (max-width: 500px) {
   .collaborators h3 {
@@ -6046,6 +6059,7 @@ svg {
   border-radius: 8px;
   border: none;
   padding: 12px 20px;
+  background: #005aaa;
 }
 .commission .commission-nav .nav-pills .nav-item .nav-link:not(.active) {
   color: #005aaa;

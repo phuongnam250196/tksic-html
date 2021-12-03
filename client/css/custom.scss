@@ -19,6 +19,7 @@ $c-text: #a1a4ae;
 				border-radius: 8px;
 				border:none;
 				padding: 12px 20px;
+				background: #005aaa;
 				&:not(.active) {
 					color: $c3;
 					background: $c6;
@@ -99,6 +100,9 @@ $c-text: #a1a4ae;
 		padding: 6px 20px;
 		background: $c7;
 		font-size: 14px;
+		&:hover {
+			box-shadow: 11px 0 21px rgb(55 173 218 / 35%);
+		}
 	}
 }
 .withdraw-money__2 {
@@ -391,6 +395,9 @@ svg {
 			&:last-child  {
 				background: $c7;
 			}
+			&:hover {
+				box-shadow: 11px 0 21px rgb(55 173 218 / 35%);
+			}
 		}
 	}
 	@media (max-width: 500px) {
@@ -429,6 +436,9 @@ svg {
 		font-weight: bold;
 		margin: 0 8px;
 		background: $c7;
+		&:hover {
+			box-shadow: 11px 0 21px rgb(55 173 218 / 35%);
+		}
 	}
 	@media (max-width: 500px) {
 	     h3 {
@@ -488,6 +498,7 @@ svg {
 					border-radius: 8px;
 					border:none;
 					padding: 12px 20px;
+					background: #005aaa;
 					&:not(.active) {
 						color: $c3;
 						background: $c6;

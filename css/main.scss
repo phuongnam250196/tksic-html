@@ -3520,4 +3520,23 @@ input::-moz-focus-outer {
 			}
 		}
 	}
+    &.knowledge {
+        .market-news__box {
+            .market-news__box__child {
+                width: 100%;
+                .market-comment__child-text {
+                    height: 572px;
+                    @media (max-width: 992.98px) {
+                        height: 360px;
+                    }
+                    @media (max-width: 992.98px) {
+                        height: 360px;
+                    }
+                }
+            }
+            @media (max-width: 992.98px) {
+                height: inherit;
+            }
+        }
+    }
 }
