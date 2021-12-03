@@ -5512,6 +5512,20 @@ a:hover {
 .withdraw-money.recharge .withdraw-money__form {
   padding: 0;
 }
+@media (max-width: 500px) {
+  .withdraw-money .nav-pills .nav-item .nav-link {
+    font-size: 12px;
+    padding: 12px;
+  }
+  .withdraw-money .withdraw-money__form {
+    width: 100%;
+  }
+  .withdraw-money .withdraw-money__form .withdraw-money__form-note {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .form-btn .btn-sbm {
   color: #fff;
   border-radius: 20px;
