@@ -600,3 +600,30 @@ svg {
 	 	}
 	 }
 }
+
+#open-vntop {
+	.modal-header {
+		padding: 0;
+		border: none;
+	}
+	.vntop-popup  {
+		text-align: center;
+		padding: 0 32px;
+		p {
+			color: #626262;
+		}
+		img {
+			width: 360px;
+			display: block;
+			margin: 32px auto;
+		}
+	}
+	@media (max-width: 500px) {
+		.vntop-popup  {
+			padding: 0;
+		     img {
+		     	width: 90%;
+		     }
+		 }
+    }
+}

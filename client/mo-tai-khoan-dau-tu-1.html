@@ -147,7 +147,7 @@
                                                 </ul>
                                             </div>
                                             <a href="" class="btn-open-account" data-toggle="modal"
-                                               data-target="#open-account">Mở tài khoản</a>
+                                               data-target="#open-vntop">Mở tài khoản</a>
                                         </div>
                                         <div class="item">
                                             <div class="icon"><img src="images/p_vntop20.png" alt=""></div>
@@ -159,7 +159,7 @@
                                                 </ul>
                                             </div>
                                             <a href="" class="btn-open-account" data-toggle="modal"
-                                               data-target="#open-account">Mở tài khoản</a>
+                                               data-target="#open-vntop">Mở tài khoản</a>
                                         </div>
                                         <div class="item">
                                             <div class="icon"><img src="images/p_vntopall.png" alt=""></div>
@@ -170,7 +170,8 @@
                                                     <li>Thời gian nắm giữ hiệu quả: <span>2 tuần</span></li>
                                                 </ul>
                                             </div>
-                                            <a href="" class="btn-open-account">Mở tài khoản</a>
+                                            <a href="" class="btn-open-account" data-toggle="modal"
+                                               data-target="#open-vntop">Mở tài khoản</a>
                                         </div>
                                         <div class="item">
                                             <div class="icon"><img src="images/p_dtbp.png" alt=""></div>
@@ -272,38 +273,43 @@
                         <label for="">Số tiền đầu tư</label>
                         <input type="text" class="form-control" placeholder="" value="">
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="">Kỳ hạn</label>
-                                <select name="" class="form-control">
-                                    <option value="">3 tháng</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="">Lãi suất</label>
-                                <input type="text" class="form-control" placeholder="" value="">
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <label for="">Dịch vụ bảo hiểm</label>
+                        <select name="" class="form-control">
+                            <option value="">Bảo hiểm tiền vốn</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="">Ngày đáo hạn</label>
-                        <input type="text" class="form-control" disabled placeholder="" value="01/01/2021">
+                        <label for="">Số tiền đầu tư thực tế</label>
+                        <input type="text" class="form-control"  placeholder="10.000.000đ" value="">
                     </div>
-                    <div class="form-group">
-                        <label for="">Rút trước hạn</label>
-                        <input type="text" class="form-control"  placeholder="" value="Lãi suất 2%">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Lãi cuối kỳ</label>
-                        <input type="text" class="form-control"  placeholder="" value="">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input">Bằng việc click vào ô này. Tôi xác nhận tôi đã hiểu rõ sản phẩm Bức phá và toàn bộ rủi ro đi kèm <br>trên thị trường tài chính.
+                      </label>
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class="btn-sb">Mở tài khoản</button>
                     </div>
                 </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-general" id="open-vntop" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="vntop-popup">
+                    <img src="images/popup-3.png" alt="">
+                    <p>Yêu cầu mở tài khoản Đầu tư Bức Phá của Quý khách đang được kiểm tra và xử lý. Vui lòng liên hệ TKSIC để được hỗ trợ khi cần.</p>
+                </div>
             </div>
 
         </div>
@@ -332,7 +338,6 @@
         </div>
     </div>
 </div>
-
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/popper.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>

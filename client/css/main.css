@@ -6149,3 +6149,28 @@ svg {
     width: 960px;
   }
 }
+
+#open-vntop .modal-header {
+  padding: 0;
+  border: none;
+}
+#open-vntop .vntop-popup {
+  text-align: center;
+  padding: 0 32px;
+}
+#open-vntop .vntop-popup p {
+  color: #626262;
+}
+#open-vntop .vntop-popup img {
+  width: 360px;
+  display: block;
+  margin: 32px auto;
+}
+@media (max-width: 500px) {
+  #open-vntop .vntop-popup {
+    padding: 0;
+  }
+  #open-vntop .vntop-popup img {
+    width: 90%;
+  }
+}
