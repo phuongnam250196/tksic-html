@@ -6230,6 +6230,9 @@ svg {
     font-size: 12px;
   }
 }
+.wrap .body .ct .sidebar-right .referral {
+  overflow: unset;
+}
 .wrap .body .ct .sidebar-right .referral a {
   height: 100%;
 }
