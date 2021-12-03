@@ -69,13 +69,16 @@ $c-text: #a1a4ae;
 			padding: 0;
 		}
 	}
+	@media (max-width: 500px) {
+		
+	}
 }
 .form-btn {
 	.btn-sbm {
 		color: #fff;
 		border-radius: 20px;
 		font-weight: bold;
-		padding: 11px 23px;
+		padding: 6px 20px;
 		background: $c7;
 		font-size: 14px;
 	}

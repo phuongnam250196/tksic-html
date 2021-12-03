@@ -5512,12 +5512,11 @@ a:hover {
 .withdraw-money.recharge .withdraw-money__form {
   padding: 0;
 }
-
 .form-btn .btn-sbm {
   color: #fff;
   border-radius: 20px;
   font-weight: bold;
-  padding: 11px 23px;
+  padding: 6px 20px;
   background: #35acd9;
   font-size: 14px;
 }
