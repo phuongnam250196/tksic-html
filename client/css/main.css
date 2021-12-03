@@ -5520,6 +5520,9 @@ a:hover {
   .withdraw-money .withdraw-money__form {
     width: 100%;
   }
+  .withdraw-money .withdraw-money__form .form-group {
+    padding: 20px;
+  }
   .withdraw-money .withdraw-money__form .withdraw-money__form-note {
     padding-left: 0;
     padding-right: 0;
@@ -5744,6 +5747,11 @@ svg {
   text-align: center;
   margin: 20px 0;
 }
+@media (max-width: 500px) {
+  .withdraw-money__bank-title br {
+    display: none;
+  }
+}
 
 .withdraw-money__bank {
   display: -webkit-box;
@@ -5779,6 +5787,12 @@ svg {
   -webkit-box-shadow: 0 2px 6px #ddd;
           box-shadow: 0 2px 6px #ddd;
 }
+@media (max-width: 500px) {
+  .withdraw-money__bank .button {
+    width: 50%;
+    padding: 8px;
+  }
+}
 
 .withdraw-money__mb {
   margin-bottom: 24px;
@@ -5808,7 +5822,6 @@ svg {
   -webkit-box-shadow: 0 2px 6px #ddd;
           box-shadow: 0 2px 6px #ddd;
 }
-
 .recharge {
   text-align: center;
 }
@@ -5880,6 +5893,11 @@ svg {
   display: inline-block;
   font-weight: bold;
   font-size: 14px;
+}
+@media (max-width: 500px) {
+  .recharge .recharge-list .recharge-item {
+    width: 100%;
+  }
 }
 
 #open-investment .modal-content .modal-header {

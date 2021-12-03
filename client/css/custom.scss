@@ -80,6 +80,10 @@ $c-text: #a1a4ae;
 		}
 		.withdraw-money__form {
 			width: 100%;
+			.form-group {
+				padding: 20px;
+
+			}
 			.withdraw-money__form-note {
 				padding-left: 0;
 				padding-right: 0;
@@ -209,6 +213,11 @@ svg {
 .withdraw-money__bank-title  {
 	text-align: center;
 	margin: 20px 0;
+	@media (max-width: 500px) {
+		br {
+			display: none;
+		}
+	}
 }
 .withdraw-money__bank {
 	display: flex;
@@ -234,11 +243,15 @@ svg {
 
 		}
 	}
-
 	input[type="radio"]:checked + label {
 	    box-shadow: 0 2px 6px #ddd;
 	}
-
+	@media (max-width: 500px) {
+		.button  {
+			width: 50%;
+			padding: 8px;
+		}
+	}
 }
 .withdraw-money__mb {
 	margin-bottom: 24px;
@@ -266,7 +279,9 @@ svg {
 	input[type="radio"]:checked + label {
 	    box-shadow: 0 2px 6px #ddd;
 	}
+	@media (max-width: 500px) {
 
+	}
 }
 
 .recharge {
@@ -329,6 +344,13 @@ svg {
 			display: inline-block;
 			font-weight: bold;
 			font-size: 14px;
+		}
+	}
+	@media (max-width: 500px) {
+		.recharge-list {
+			.recharge-item {
+				width: 100%;
+			}
 		}
 	}
 }
