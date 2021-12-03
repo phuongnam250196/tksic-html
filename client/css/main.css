@@ -6150,6 +6150,10 @@ svg {
   }
 }
 
+#open-account-risk {
+  overflow: scroll;
+}
+
 #open-vntop .modal-header {
   padding: 0;
   border: none;
