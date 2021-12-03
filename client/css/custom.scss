@@ -681,3 +681,13 @@ svg {
 		 }
     }
 }
+@media (max-width: 385px) {
+	.wrap .body .ct .primary .content .box.investment-manager .nav li a {
+		font-size: 12px;
+	}
+}
+.wrap .body .ct .sidebar-right .referral {
+	a {
+		height: 100%;
+	}
+}
