@@ -2747,6 +2747,63 @@ input::-moz-focus-outer {
 		background-size: cover;
 		padding: 100px 0;
 	}
+    &.support {
+        background: url(../imgs/vntop/bg-vntop.png) no-repeat;
+		background-position: top;
+		background-size: cover;
+		padding: 80px 0;
+        .support-box {
+            text-align: center;
+            color: #fff;
+            h3 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+            .support-box-input {
+                position: relative;
+                padding: 42px 0;
+                input {
+                    background: none;
+                    height: 40px;
+                    border-radius: 4px;
+                    width: 100%;
+                    border: 2px  solid #fff;
+                    padding-left: 42px;
+                    color: #fff;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 12px;
+                    font-size: 28px;
+                    transform: translateY(-50%);
+                }
+            }
+            p {
+
+            }
+        }
+        @media(max-width:500.99px) {
+            padding: 40px 0;
+            .support-box {
+                text-align: center;
+                color: #fff;
+                h3 {
+                    font-size: 20t;
+                }
+            }
+        }
+    }
+    &.contact {
+        padding: 0;
+        background: none;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 .page-newspaper  {
@@ -3418,6 +3475,86 @@ input::-moz-focus-outer {
 			height: auto;
 		}
 	}
+    .market-comment-detail-title {
+        h4 {
+            font-size: 24px;
+            font-weight: bold;
+            color: $blue-dark-color;
+            @media (max-width: 992.98px) {
+                br {
+                    display: none;
+                }
+            }
+            @media (max-width: 500.98px) {
+                font-size: 16px;
+            }
+        }
+        .market-comment__child-text__date  {
+            padding: 8px 0 24px;
+            display: flex;
+            align-items: center;
+            color: $blue-dark-color;
+            i {
+                color: $blue-gray;
+                font-size: 32px;
+                margin-right: 12px;
+            }
+        }
+        h5 {
+            font-size: 28px;
+            margin-bottom: 24px;
+            @media (max-width: 500.98px) {
+                font-size: 20px;
+            }
+        }
+        .market-comment-detail-title__text {
+            text-align: justify;
+            @media (max-width: 992.98px) {
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .market-comment-detail-img {
+        img {
+            @media (max-width: 1600.98px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .market-comment-detail-content {
+        margin-top: 32px;
+        text-align: justify;
+    }
+    .market-comment-detail__icon {
+        position: absolute;
+		left: 120px;
+		top: 50%;
+		width: 200px;
+		z-index: -1;
+		img {
+			width: 100%;
+			height: auto;
+		}
+        @media (max-width: 1600.98px) {
+            left: 0;
+            width: 80px;
+        }
+    }
+    .market-comment-detail__icon-bg {
+        position: absolute;
+		right: 0;
+		bottom: -400px;
+		width: 400px;
+		z-index: -1;
+		img {
+			width: 100%;
+			height: auto;
+		}
+        @media (max-width: 768.98px) {
+            display: none;
+        }
+    }
 }
 
 .market-news {
@@ -3674,4 +3811,95 @@ input::-moz-focus-outer {
         }
     }
     
+}
+
+.contact {
+    background: url("../imgs/lien-he/lien-he-bg.png") no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+    .contact__title  {
+        @extend .reason-title;
+		text-align: left;
+        @media (max-width: 768.98px) {
+            h3 {
+                font-size: 24pt;
+            }
+        }
+    }
+    .contact_list {
+        padding-top: 20px;  
+        .contact_item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            i {
+                font-size: 32px;
+                margin-right: 12px;
+                color: $blue-color;
+            }
+            p  {
+                margin-bottom: 0;
+            }
+        }
+        @media (max-width: 992.98px) {
+            padding-bottom: 32px;
+        }
+        @media (max-width: 500.98px) {
+            padding: 12px;
+        }
+    }
+    .contact_form {
+        box-shadow: 0px 1px 8px #ddd;
+        padding: 24px;
+        border-radius: 24px;
+        background: #fff;
+        .contact_form-title {
+            text-align: center;
+            h4 {
+                font-size: 24px;
+                font-weight: bold;
+                color: $blue-dark-color;
+                margin-bottom: 12px;
+                text-transform: uppercase;
+                @media (max-width: 500.98px) {
+                    font-size: 18   px;
+                }
+            }
+        }
+        .contact_form-box  {
+            .form-gr {
+                .btn-sbm {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .contact-icon {
+        width: 220px;
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        @media (max-width: 1600.98px) {
+            left: 50px;
+            width: 180px;
+        }
+        @media (max-width: 992.98px) {
+            display: none;
+        }
+    }
+}
+.contact-map {
+    padding: 80px 0 60px;
+    img {
+        width: 100%;
+    }
+    @media (max-width: 500.98px) {
+        padding: 20px 0;
+    }
 }
