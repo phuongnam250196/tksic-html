@@ -1134,18 +1134,18 @@ p {
   display: none;
 }
 
-.reason-title, .market-news .market-news__title, .market-comment .market-comment__title, #capital-mangement .capital-mangement-box .capital-mangement-title, #support .support-title, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #vntop .vntop-title, #reason .newspaper .newspaper-title {
+.reason-title, .support .support__title, .market-news .market-news__title, .market-comment .market-comment__title, #capital-mangement .capital-mangement-box .capital-mangement-title, #support .support-title, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #vntop .vntop-title, #reason .newspaper .newspaper-title {
   text-align: center;
   margin-bottom: 24px;
 }
-.reason-title p, .market-news .market-news__title p, .market-comment .market-comment__title p, #capital-mangement .capital-mangement-box .capital-mangement-title p, #support .support-title p, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #vntop .vntop-title p, #reason .newspaper .newspaper-title p {
+.reason-title p, .support .support__title p, .market-news .market-news__title p, .market-comment .market-comment__title p, #capital-mangement .capital-mangement-box .capital-mangement-title p, #support .support-title p, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #vntop .vntop-title p, #reason .newspaper .newspaper-title p {
   font-size: 18pt;
   text-transform: uppercase;
   color: #213444;
   margin-bottom: 8px;
   font-weight: bold;
 }
-.reason-title h3, .market-news .market-news__title h3, .market-comment .market-comment__title h3, #capital-mangement .capital-mangement-box .capital-mangement-title h3, #support .support-title h3, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #vntop .vntop-title h3, #reason .newspaper .newspaper-title h3 {
+.reason-title h3, .support .support__title h3, .market-news .market-news__title h3, .market-comment .market-comment__title h3, #capital-mangement .capital-mangement-box .capital-mangement-title h3, #support .support-title h3, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #vntop .vntop-title h3, #reason .newspaper .newspaper-title h3 {
   font-size: 30pt;
   text-transform: uppercase;
   font-weight: bold;
@@ -1155,18 +1155,18 @@ p {
 #reason {
   padding-bottom: 100px;
 }
-#reason .reason-title, #reason .market-news .market-news__title, .market-news #reason .market-news__title, #reason .market-comment .market-comment__title, .market-comment #reason .market-comment__title, #reason #capital-mangement .capital-mangement-box .capital-mangement-title, #capital-mangement .capital-mangement-box #reason .capital-mangement-title, #reason #support .support-title, #support #reason .support-title, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title, #reason #vntop .vntop-title, #vntop #reason .vntop-title, #reason .newspaper .newspaper-title {
+#reason .reason-title, #reason .support .support__title, .support #reason .support__title, #reason .market-news .market-news__title, .market-news #reason .market-news__title, #reason .market-comment .market-comment__title, .market-comment #reason .market-comment__title, #reason #capital-mangement .capital-mangement-box .capital-mangement-title, #capital-mangement .capital-mangement-box #reason .capital-mangement-title, #reason #support .support-title, #support #reason .support-title, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title, #reason #vntop .vntop-title, #vntop #reason .vntop-title, #reason .newspaper .newspaper-title {
   text-align: center;
   margin-bottom: 24px;
 }
-#reason .reason-title p, #reason .market-news .market-news__title p, .market-news #reason .market-news__title p, #reason .market-comment .market-comment__title p, .market-comment #reason .market-comment__title p, #reason #capital-mangement .capital-mangement-box .capital-mangement-title p, #capital-mangement .capital-mangement-box #reason .capital-mangement-title p, #reason #support .support-title p, #support #reason .support-title p, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title p, #reason #vntop .vntop-title p, #vntop #reason .vntop-title p, #reason .newspaper .newspaper-title p {
+#reason .reason-title p, #reason .support .support__title p, .support #reason .support__title p, #reason .market-news .market-news__title p, .market-news #reason .market-news__title p, #reason .market-comment .market-comment__title p, .market-comment #reason .market-comment__title p, #reason #capital-mangement .capital-mangement-box .capital-mangement-title p, #capital-mangement .capital-mangement-box #reason .capital-mangement-title p, #reason #support .support-title p, #support #reason .support-title p, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title p, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title p, #reason #vntop .vntop-title p, #vntop #reason .vntop-title p, #reason .newspaper .newspaper-title p {
   font-size: 18pt;
   text-transform: uppercase;
   color: #213444;
   margin-bottom: 8px;
   font-weight: bold;
 }
-#reason .reason-title h3, #reason .market-news .market-news__title h3, .market-news #reason .market-news__title h3, #reason .market-comment .market-comment__title h3, .market-comment #reason .market-comment__title h3, #reason #capital-mangement .capital-mangement-box .capital-mangement-title h3, #capital-mangement .capital-mangement-box #reason .capital-mangement-title h3, #reason #support .support-title h3, #support #reason .support-title h3, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title h3, #reason #vntop .vntop-title h3, #vntop #reason .vntop-title h3, #reason .newspaper .newspaper-title h3 {
+#reason .reason-title h3, #reason .support .support__title h3, .support #reason .support__title h3, #reason .market-news .market-news__title h3, .market-news #reason .market-news__title h3, #reason .market-comment .market-comment__title h3, .market-comment #reason .market-comment__title h3, #reason #capital-mangement .capital-mangement-box .capital-mangement-title h3, #capital-mangement .capital-mangement-box #reason .capital-mangement-title h3, #reason #support .support-title h3, #support #reason .support-title h3, #reason #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h3, #easy-investment .easy-investment-box .easy-investment-box-child #reason .easy-investment-title h3, #reason #vntop .vntop-title h3, #vntop #reason .vntop-title h3, #reason .newspaper .newspaper-title h3 {
   font-size: 30pt;
   text-transform: uppercase;
   font-weight: bold;
@@ -3339,5 +3339,147 @@ input::-moz-focus-outer {
 @media (max-width: 992.98px) {
   .market-news.knowledge .market-news__box {
     height: inherit;
+  }
+}
+
+.support {
+  position: relative;
+}
+.support .support__title {
+  text-align: left;
+}
+@media (max-width: 768.98px) {
+  .support .support__title h3 {
+    font-size: 24pt;
+  }
+}
+.support .support__box {
+  padding-top: 32px;
+}
+.support .support__box .support__box-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.support .support__box .support__box-nav .support__box-li {
+  width: 32%;
+  text-align: center;
+}
+.support .support__box .support__box-nav .support__box-li:hover {
+  cursor: pointer;
+}
+.support .support__box .support__box-nav .support__box-li .support__box-li-img {
+  width: 150px;
+  height: 150px;
+  background: #ebf7fb;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.support .support__box .support__box-nav .support__box-li .support__box-li-img img {
+  width: 70px;
+  height: auto;
+}
+.support .support__box .support__box-nav .support__box-li h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444545;
+  margin-top: 24px;
+}
+.support .support__box .support__box-nav .support__box-li.active h4 {
+  color: #055ba9;
+}
+@media (max-width: 768.98px) {
+  .support .support__box .support__box-nav .support__box-li .support__box-li-img {
+    width: 120px;
+    height: 120px;
+  }
+  .support .support__box .support__box-nav .support__box-li .support__box-li-img img {
+    width: 50px;
+  }
+  .support .support__box .support__box-nav .support__box-li h4 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500.98px) {
+  .support .support__box .support__box-nav .support__box-li .support__box-li-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.support .support__box .support__box-content {
+  margin-top: 32px;
+  border-top: 2px solid #055ba9;
+  border-bottom: 2px solid #055ba9;
+  padding: 32px 70px;
+}
+.support .support__box .support__box-content .support__box-content-child {
+  display: none;
+}
+.support .support__box .support__box-content .support__box-content-child.active {
+  display: block;
+}
+@media (max-width: 992.98px) {
+  .support .support__box .support__box-content {
+    padding: 32px 0;
+  }
+}
+@media (max-width: 500.98px) {
+  .support .support__box .support__box-content {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 500.98px) {
+  .support .support__box {
+    padding-top: 12px;
+  }
+}
+.support .support__icon1 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 180px;
+}
+.support .support__icon1 img {
+  width: 100%;
+  height: auto;
+}
+.support .support__icon2 {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 180px;
+}
+.support .support__icon2 img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1600.98px) {
+  .support .support__icon1 {
+    left: 0;
+    width: 90px;
+  }
+  .support .support__icon2 {
+    right: 0;
+    width: 90px;
+  }
+}
+@media (max-width: 1200.98px) {
+  .support .support__icon1 {
+    display: none;
+  }
+  .support .support__icon2 {
+    display: none;
   }
 }

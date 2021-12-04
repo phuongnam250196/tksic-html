@@ -162,3 +162,9 @@ $(document).ready(function() {
 $(window).on('load', function() {
     AOS.refresh();
 });
+
+$(".support__box-li").click(function()  {
+    console.log('a', $(this).data("ref"));
+    $(".support__box-content>div").removeClass("active");
+    $($(this).data("ref")).addClass("active");
+});
