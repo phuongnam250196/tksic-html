@@ -1108,7 +1108,7 @@ p {
   font-weight: bold;
   color: #055ba9;
 }
-#header .container .header-box .main-nav ul li.active a {
+#header .container .header-box .main-nav ul li.active > a {
   font-weight: bold;
   color: #055ba9;
 }
@@ -1757,6 +1757,10 @@ p {
   text-align: center;
 }
 #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child__group a:hover {
+  background: #daf1f9;
+  font-weight: 600;
+}
+#easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-box-child-border .easy-investment-box-child__group a.active {
   background: #daf1f9;
   font-weight: 600;
 }

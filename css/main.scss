@@ -1049,7 +1049,7 @@ p {
                         }
 
                         &.active {
-                            a {
+                            &>a {
                                 font-weight: bold;
                                 color: $blue-dark-color;
                             }
@@ -1808,6 +1808,10 @@ p {
                         &:hover {
                             background: $blue-gray;
                             font-weight: 600;
+                        }
+                        &.active {
+                            background: $blue-gray;
+                            font-weight: 600;   
                         }
                     }
                 }
