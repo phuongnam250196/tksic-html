@@ -169,3 +169,11 @@ $(".support__box-li").click(function()  {
     $(".support__box-content>div").removeClass("active");
     $($(this).data("ref")).addClass("active");
 });
+
+$(".question__item").on("click", function() {
+    $(this).find("i").toggleClass("ion-plus-round");
+    $(this).find("i").toggleClass("ion-minus-round");
+    
+    $(this).find(".question__item-content").slideToggle();
+    // console.log($(this));
+})

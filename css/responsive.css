@@ -753,7 +753,7 @@ body {
   .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child {
     width: 100%;
   }
-  .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h3 {
+  .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h1 {
     font-size: 24pt;
   }
   .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h4 {
@@ -834,7 +834,7 @@ body {
   .about-us .general-introduction .general-introduction__title {
     text-align: center;
   }
-  .about-us .general-introduction .general-introduction__title h3 {
+  .about-us .general-introduction .general-introduction__title h1 {
     font-size: 24pt;
   }
   .about-us .vision-and-mission {
@@ -947,7 +947,7 @@ body {
   .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title {
     text-align: center;
   }
-  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
     font-size: 24pt;
   }
   .page-vntop .page-vntop__register .page-vntop__register-box {
@@ -1036,7 +1036,7 @@ body {
     padding-right: 0;
     text-align: center;
   }
-  .service-page .service-page-box .service-page-box-child .page-banner-title h3 {
+  .service-page .service-page-box .service-page-box-child .page-banner-title h1 {
     font-size: 24pt;
     text-transform: uppercase;
     font-weight: bold;
@@ -1096,7 +1096,7 @@ body {
   .market-comment .market-comment__title {
     text-align: center;
   }
-  .market-comment .market-comment__title h3 {
+  .market-comment .market-comment__title h1 {
     font-size: 24pt;
   }
   .market-comment .market-comment__list {
@@ -1283,7 +1283,7 @@ body {
   .announcement .announcement-title {
     margin-bottom: 40px;
   }
-  .announcement .announcement-title h3 {
+  .announcement .announcement-title h1 {
     font-size: 24pt;
   }
   .announcement .announcement-list .announcement-item {
@@ -1631,7 +1631,7 @@ body {
   .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title {
     text-align: center;
   }
-  .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h3 {
+  .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h1 {
     font-size: 20pt;
     margin-bottom: 12px;
   }
@@ -1640,7 +1640,7 @@ body {
     padding-top: 24px;
   }
 
-  .investment-principles .investment-principles__title h3 {
+  .investment-principles .investment-principles__title h1 {
     font-size: 20pt;
     margin-bottom: 12px;
   }
@@ -1757,7 +1757,7 @@ body {
     margin-top: 20px;
   }
 
-  .about-us .general-introduction .general-introduction__title h3 {
+  .about-us .general-introduction .general-introduction__title h1 {
     font-size: 20pt;
     margin-bottom: 16px;
   }
@@ -1826,7 +1826,7 @@ body {
   .announcement .announcement-title {
     margin-bottom: 32px;
   }
-  .announcement .announcement-title h3 {
+  .announcement .announcement-title h1 {
     font-size: 20pt;
     margin-bottom: 8px;
   }
@@ -1925,7 +1925,7 @@ body {
   .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title {
     text-align: center;
   }
-  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+  .page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
     font-size: 20pt;
     margin-bottom: 8px;
   }
@@ -1991,7 +1991,7 @@ body {
     padding-right: 0;
     text-align: center;
   }
-  .service-page .service-page-box .service-page-box-child .page-banner-title h3 {
+  .service-page .service-page-box .service-page-box-child .page-banner-title h1 {
     font-size: 16pt;
     margin-bottom: 12px;
   }
@@ -2003,7 +2003,7 @@ body {
     display: none;
   }
 
-  .market-comment .market-comment__title h3 {
+  .market-comment .market-comment__title h1 {
     font-size: 20pt;
   }
   .market-comment .market-comment__list {
@@ -2038,7 +2038,7 @@ body {
   .market-news .market-news__title {
     text-align: center;
   }
-  .market-news .market-news__title h3 {
+  .market-news .market-news__title h1 {
     font-size: 20pt;
   }
   .market-news .market-news__box {
@@ -2088,7 +2088,7 @@ body {
     width: 16px;
   }
 
-  .investment-principles .investment-principles__title h3 {
+  .investment-principles .investment-principles__title h1 {
     font-size: 16pt;
     margin-bottom: 12px;
   }

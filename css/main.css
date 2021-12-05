@@ -1152,6 +1152,13 @@ p {
   color: #36add9;
   margin-bottom: 20px;
 }
+.reason-title h1, .contact .contact__title h1, .support .support__title h1, .market-news .market-news__title h1, .market-comment .market-comment__title h1, #capital-mangement .capital-mangement-box .capital-mangement-title h1, #support .support-title h1, #easy-investment .easy-investment-box .easy-investment-box-child .easy-investment-title h1, #vntop .vntop-title h1, #reason .newspaper .newspaper-title h1 {
+  font-size: 30pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
 #reason {
   padding-bottom: 100px;
 }
@@ -2141,7 +2148,7 @@ input::-moz-focus-outer {
 .page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title {
   margin-bottom: 24px;
 }
-.page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h3 {
+.page-no-home__expert .page-no-home__expert-box .page-no-home__expert-box-child .page-no-home__expert-title h1 {
   font-size: 30pt;
   font-weight: bold;
   color: #36add9;
@@ -2172,7 +2179,7 @@ input::-moz-focus-outer {
   margin-bottom: 24px;
   text-align: center;
 }
-.investment-principles .investment-principles__title h3 {
+.investment-principles .investment-principles__title h1 {
   font-size: 30pt;
   font-weight: bold;
   color: #36add9;
@@ -2320,7 +2327,7 @@ input::-moz-focus-outer {
 .about-us .general-introduction .general-introduction__title {
   margin-bottom: 24px;
 }
-.about-us .general-introduction .general-introduction__title h3 {
+.about-us .general-introduction .general-introduction__title h1 {
   font-size: 30pt;
   font-weight: bold;
   color: #36add9;
@@ -2500,7 +2507,7 @@ input::-moz-focus-outer {
 .announcement .announcement-title {
   margin-bottom: 40px;
 }
-.announcement .announcement-title h3 {
+.announcement .announcement-title h1 {
   font-size: 30pt;
   font-weight: bold;
   color: #36add9;
@@ -2751,7 +2758,7 @@ input::-moz-focus-outer {
 .page-vntop .page-vntop__register .page-vntop__register-box-text {
   padding-right: 40px;
 }
-.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+.page-vntop .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
   font-size: 30pt;
   font-weight: bold;
   color: #055ba9;
@@ -2936,7 +2943,7 @@ input::-moz-focus-outer {
 .page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
   width: 420px;
 }
-.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+.page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
   color: #f4b651;
 }
 .page-vntop.vntop-10 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
@@ -2957,7 +2964,7 @@ input::-moz-focus-outer {
 .page-vntop.vntop-10 .page-vntop__fixed-interest .page-vntop__fixed-interest__list .page-vntop__fixed-interest__item .page-vntop__fixed-interest__item-rounded h4 {
   color: #f4b651;
 }
-.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+.page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
   color: #3022a6;
 }
 .page-vntop.vntop-20 .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
@@ -2981,7 +2988,7 @@ input::-moz-focus-outer {
 .page-vntop.vntop-all .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
   width: 100px;
 }
-.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+.page-vntop.vntop-all .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
   color: #ec7d57;
 }
 .page-vntop.vntop-all .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
@@ -3005,7 +3012,7 @@ input::-moz-focus-outer {
 .page-vntop.vntop-but-pha .page-vntop__fixed-interest .page-vntop__fixed-interest__icon {
   width: 100px;
 }
-.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h3 {
+.page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title h1 {
   color: #6666c4;
 }
 .page-vntop.vntop-but-pha .page-vntop__register .page-vntop__register-box-text .page-vntop__register-title .dots_three span {
@@ -3093,7 +3100,7 @@ input::-moz-focus-outer {
 .service-page .service-page-box .service-page-box-child .page-banner-title {
   padding-right: 40px;
 }
-.service-page .service-page-box .service-page-box-child .page-banner-title h3 {
+.service-page .service-page-box .service-page-box-child .page-banner-title h1 {
   font-size: 24pt;
   text-transform: uppercase;
   font-weight: bold;
@@ -3500,8 +3507,13 @@ input::-moz-focus-outer {
   text-align: left;
 }
 @media (max-width: 768.98px) {
-  .support .support__title h3 {
+  .support .support__title h1 {
     font-size: 24pt;
+  }
+}
+@media (max-width: 500.98px) {
+  .support .support__title h1 {
+    font-size: 20pt;
   }
 }
 .support .support__box {
@@ -3645,8 +3657,13 @@ input::-moz-focus-outer {
   text-align: left;
 }
 @media (max-width: 768.98px) {
-  .contact .contact__title h3 {
+  .contact .contact__title h1 {
     font-size: 24pt;
+  }
+}
+@media (max-width: 500.98px) {
+  .contact .contact__title h1 {
+    font-size: 20pt;
   }
 }
 .contact .contact_list {
@@ -3737,4 +3754,135 @@ input::-moz-focus-outer {
   .contact-map {
     padding: 20px 0;
   }
+}
+
+.question {
+  position: relative;
+  padding: 32px 0;
+}
+.question .question__title {
+  text-align: left;
+  margin-bottom: 60px;
+}
+.question .question__title p {
+  font-size: 18pt;
+  text-transform: uppercase;
+  color: #213444;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.question .question__title h1 {
+  font-size: 30pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #36add9;
+  margin-bottom: 20px;
+}
+.question .question__list {
+  padding-right: 360px;
+  padding-bottom: 40px;
+}
+.question .question__list .question__item {
+  border-bottom: 2px solid #055ba9;
+  padding: 24px 0;
+}
+.question .question__list .question__item .question__item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.question .question__list .question__item .question__item-title h4 {
+  width: 95%;
+  font-size: 18px;
+  color: #055ba9;
+  font-weight: bold;
+  cursor: pointer;
+}
+.question .question__list .question__item .question__item-title i {
+  font-size: 28px;
+  cursor: pointer;
+  width: auto;
+  text-align: right;
+  color: #055ba9;
+  font-weight: bold;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+.question .question__list .question__item .question__item-content {
+  padding-top: 24px;
+  width: 95%;
+  display: none;
+}
+.question .question__list .question__item .question__item-content.show {
+  display: block;
+}
+.question .question__btn a {
+  background: #36add9;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+}
+.question .question__icon {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  width: 400px;
+  z-index: -1;
+}
+.question .question__icon img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1600.98px) {
+  .question .question__icon {
+    width: 360px;
+    right: 16px;
+  }
+}
+@media (max-width: 992.98px) {
+  .question .question__icon {
+    width: 200px;
+  }
+  .question .question__list {
+    padding-right: 100px;
+  }
+}
+@media (max-width: 768.98px) {
+  .question .question__icon {
+    display: none;
+  }
+}
+@media (max-width: 500.98px) {
+  .question {
+    padding: 0 0 32px;
+  }
+  .question .question__list {
+    padding-right: 0;
+  }
+  .question .question__list .question__item {
+    padding: 16px;
+  }
+  .question .question__list .question__item .question__item-title h4 {
+    padding-right: 16px;
+  }
+  .question .question__title {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .question .question__title h1 {
+    font-size: 20pt;
+    margin-bottom: 16px;
+  }
+}
+
+.hide {
+  display: none;
 }

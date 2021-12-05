@@ -1106,6 +1106,14 @@ p {
         margin-bottom: 20px;
     }
 
+    h1 {
+        font-size: 30pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $blue-color;
+        margin-bottom: 20px;
+    }
+
     img {}
 }
 #reason {
@@ -2237,7 +2245,7 @@ input::-moz-focus-outer {
             .page-no-home__expert-title {
                 margin-bottom: 24px;
 
-                h3 {
+                h1 {
                     font-size: 30pt;
                     font-weight: bold;
                     color: $blue-color;
@@ -2275,7 +2283,7 @@ input::-moz-focus-outer {
 	.investment-principles__title {
 		margin-bottom: 24px;
 		text-align: center;
-        h3 {
+        h1 {
             font-size: 30pt;
             font-weight: bold;
             color: $blue-color;
@@ -2426,7 +2434,7 @@ input::-moz-focus-outer {
 		.general-introduction__title {
 			margin-bottom: 24px;
 
-            h3 {
+            h1 {
                 font-size: 30pt;
                 font-weight: bold;
                 color: $blue-color;
@@ -2604,7 +2612,7 @@ input::-moz-focus-outer {
 .announcement {
 	.announcement-title {
 		margin-bottom: 40px;
-		h3 {
+		h1 {
             font-size: 30pt;
             font-weight: bold;
             color: $blue-color;
@@ -2844,7 +2852,7 @@ input::-moz-focus-outer {
 		.page-vntop__register-box-text {
 			padding-right: 40px;
 			.page-vntop__register-title {
-				h3 {
+				h1 {
 	                font-size: 30pt;
 	                font-weight: bold;
 	                color: $blue-dark-color;
@@ -3030,7 +3038,7 @@ input::-moz-focus-outer {
 		.page-vntop__register {
 			.page-vntop__register-box-text {
 				.page-vntop__register-title {
-					h3 {
+					h1 {
 		                color: $vntop-10;
 		            }
 		            .dots_three {
@@ -3082,7 +3090,7 @@ input::-moz-focus-outer {
 		.page-vntop__register {
 			.page-vntop__register-box-text {
 				.page-vntop__register-title {
-					h3 {
+					h1 {
 		                color: $vntop-20;
 		            }
 		            .dots_three {
@@ -3139,7 +3147,7 @@ input::-moz-focus-outer {
 		.page-vntop__register {
 			.page-vntop__register-box-text {
 				.page-vntop__register-title {
-					h3 {
+					h1 {
 		                color: $vntop-all;
 		            }
 		            .dots_three {
@@ -3196,7 +3204,7 @@ input::-moz-focus-outer {
 		.page-vntop__register {
 			.page-vntop__register-box-text {
 				.page-vntop__register-title {
-					h3 {
+					h1 {
 		                color: $but-pha;
 		            }
 		            .dots_three {
@@ -3310,7 +3318,7 @@ input::-moz-focus-outer {
 			width: 50%;
 			.page-banner-title {
 				padding-right: 40px;
-				h3 {
+				h1 {
 		            font-size: 24pt;
 		            text-transform: uppercase;
 		            font-weight: bold;
@@ -3688,8 +3696,13 @@ input::-moz-focus-outer {
         @extend .reason-title;
 		text-align: left;
         @media (max-width: 768.98px) {
-            h3 {
+            h1 {
                 font-size: 24pt;
+            }
+        }
+        @media (max-width: 500.98px) {
+            h1 {
+                font-size: 20pt;
             }
         }
     }
@@ -3822,8 +3835,13 @@ input::-moz-focus-outer {
         @extend .reason-title;
 		text-align: left;
         @media (max-width: 768.98px) {
-            h3 {
+            h1 {
                 font-size: 24pt;
+            }
+        }
+        @media (max-width: 500.98px) {
+            h1 {
+                font-size: 20pt;
             }
         }
     }
@@ -3902,4 +3920,132 @@ input::-moz-focus-outer {
     @media (max-width: 500.98px) {
         padding: 20px 0;
     }
+}
+
+.question {
+    position: relative;
+    padding: 32px 0;
+    .question__title {
+        text-align: left;
+        margin-bottom: 60px;
+
+        p {
+            font-size: 18pt;
+            text-transform: uppercase;
+            color: $blue-opacity;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 30pt;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $blue-color;
+            margin-bottom: 20px;
+        }
+    }
+    .question__list {
+        padding-right: 360px;
+        padding-bottom: 40px;
+        .question__item {
+            border-bottom: 2px solid $blue-dark-color;
+            padding: 24px  0;
+            .question__item-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4 {
+                    width: 95%;
+                    font-size: 18px;
+                    color: $blue-dark-color;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                i {
+                    font-size: 28px;
+                    cursor: pointer;
+                    width: auto;
+                    text-align: right;
+                    color: $blue-dark-color;
+                    font-weight: bold;
+                    transition: 2s;
+                }
+            }
+            .question__item-content {
+                padding-top: 24px;
+                width: 95%;
+                display: none;
+                &.show {
+                    display: block;
+                }
+            }
+        }
+    }
+    .question__btn {
+        a {
+            background: $blue-color;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 40px;
+            color: #fff;
+            display: inline-block;
+        }
+    }
+    .question__icon {
+        position: absolute;
+        top: 0;
+        right: 200px;
+        width: 400px;
+        z-index: -1;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-width: 1600.98px) {
+        .question__icon {
+            width: 360px;
+            right: 16px;
+        }
+    }
+    @media (max-width: 992.98px) {
+        .question__icon {
+            width: 200px;
+        }
+        .question__list {
+            padding-right: 100px;
+        }
+    }
+    @media (max-width: 768.98px) {
+        .question__icon {
+            display: none;
+        }
+    }
+    @media (max-width: 500.98px) {
+        padding: 0 0 32px;
+        .question__list {
+            padding-right: 0;
+            .question__item {
+                padding: 16px;
+                .question__item-title {
+                    h4 {
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+        .question__title {
+            text-align: left;
+            margin-bottom: 20px;
+    
+            h1 {
+                font-size: 20pt;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+.hide {
+    display: none;
 }
