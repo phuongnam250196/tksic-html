@@ -708,8 +708,9 @@ svg {
 	background-color: #f0f9fd;
 	padding: 12px 24px;
 	border-radius: 20px;
+	overflow: auto;
 	table {
-		width: 100%;
+		width: 800px;
 		tr {
 			th {
 				font-weight: bold;
