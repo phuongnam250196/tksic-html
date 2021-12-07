@@ -6234,6 +6234,13 @@ svg {
   height: 100%;
 }
 
+.ct-20-10 .ct-title {
+  margin: 20px 0 !important;
+}
+.ct-20-10 .ctr {
+  margin-top: 32px !important;
+}
+
 .dt-table {
   background-color: #f0f9fd;
   padding: 12px 24px;
