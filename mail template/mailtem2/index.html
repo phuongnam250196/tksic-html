@@ -3,28 +3,111 @@
 <head>
     <title>TKSIC - mail</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no;">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE;">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .header {
+            border-bottom: 2px solid #6aabd6; padding: 12px 24px;
+        }
+        .header table {
+            width: 100%;
+        }
+        .header-1 {
+            width: 140px;
+        }
+        .header-2 {
+            text-transform: uppercase; color: #335aa6; font-size: 22px; font-weight: 500; text-align: right; vertical-align: middle;
+        }
+        .body {
+            padding: 40px 100px;
+        }
+        .footer {
+            padding: 12px 24px;
+        }
+        .footer-td-2 {
+            padding-left: 16px; 
+            width: 77%;
+        }
+        .footer-img-mobile img {
+            display: none;
+        }
+        .footer-mail-mobile {
+            display: none;
+        }
+        @media (max-width: 500px) {
+            .header {
+                padding: 12px 0 !important;
+            }
+            .header-1 {
+                width: 80px !important;
+            }
+            .header-2 {
+                font-size: 14px !important;
+            }
+            .body {
+                padding: 20px 0 !important;
+            }
+            .footer {
+                padding: 12px 0 !important;
+            }
+            .footer-td-1 {
+                width: 0 !important;
+            }
+            .footer-td-1  img {
+                display: none !important;
+            }
+            .footer-td-2 {
+                padding-left: 0 !important;
+                width: 100% !important;
+            }
+            .footer-td-2 table tr:nth-child(2) {
+                display: flex !important;
+                flex-direction: column !important;
+            }
+            .footer-td-2 table tr:nth-child(2) td {
+                width: 100% !important;
+            }
+            .footer-img {
+                width: 20px !important;
+                height: 20px !important;
+            }
+            .footer-img-mobile {
+                padding: 12px 0 !important;
+            }
+            .footer-img-mobile img {
+                display: block !important;
+            }
+            .footer-mail-mobile {
+                display: block !important;
+            }
+            .footer-mail {
+                display: none !important;
+            }
+        }
+    </style>
 </head>
 
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
     <table width="640" align="center" border="0" cellpadding="0" cellspacing="0" style="background-color:#fff;font-family: 'Montserrat', sans-serif;font-size: 13.5px;color:#041725;  box-shadow: 0px 1px 4px #ddd;">
         <tr>
-            <td style="border-bottom: 2px solid #6aabd6; padding: 12px 24px;">
-                <table style=" width: 100%;">
+            <td class="header">
+                <table>
                     <tr>
-                        <td style="width: 140px;">
-                            <img src="imgs/tksic-logo.png" style="width: auto;" alt="" />
+                        <td class="header-1">
+                            <img src="imgs/tksic-logo.png" style="width: 100%;" alt="" />
                         </td>
-                        <td style="text-transform: uppercase; color: #335aa6; font-size: 22px; font-weight: 500; text-align: right; vertical-align: middle;">ĐẦU TƯ VÀ TÍCH LUỸ THÔNG MINH</td>
+                        <td class="header-2">ĐẦU TƯ VÀ TÍCH LUỸ THÔNG MINH</td>
                     </tr>
                 </table>
             </td>
         </tr>
         <tr>
-            <td style="padding: 40px 100px;">
-                <table>
+            <td class="body">
+                <table style="width: 100%;">
                     <tr>
                         <td style="font-size: 15px; color: #03355e; text-align: justify; padding-bottom: 8px;">Lorem ipsum dolor sit amet, consectetur tie socitudiadipiscing elit dignissim. Phasellus mollis finibus lacus molestie molli Curabitur sed da nibh urabitur ac leo hendrerit, </td>
                     </tr>
@@ -41,39 +124,68 @@
             </td>
         </tr>
         <tr>
-            <td style="padding: 12px 24px;">
+            <td class="footer">
                 <table style="width: 100%;">
                     <tr>
-                        <td style="width: 140px;">
-                            <img src="imgs/qr-code.png" style="width: auto;" alt="" />
+                        <td class="footer-td-1" style="width: 23%;">
+                            <img src="imgs/qr-code.png" style="width: 100%;" alt="" />
                         </td>
-                        <td>
+                        <td class="footer-td-2">
                             <table style="width: 100%;">
                                 <tr>
-                                    <td colspan="3" style="font-weight: bold; color: #335aa6; font-size: 18px; padding-bottom: 12px;">Công Ty Cổ Phần TKSIC</td>
+                                    <td class="footer-img-mobile"><img src="imgs/qr-code.png" alt="" /></td>
                                 </tr>
                                 <tr>
-                                    <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
-                                        <img style="padding-right: 4px;" src="imgs/icon-phone.png" alt=""> 08 3656 3656
-                                    </td>
-                                    <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
-                                        <img style="padding-right: 4px;" src="imgs/icon-message.png" alt=""> support@tksic.vn
-                                    </td>
-                                    <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
-                                        <img style="padding-right: 4px;" src="imgs/icon-earth.png" alt=""> www.tksic.vn
+                                    <td colspan="2" style="font-weight: bold; color: #335aa6; font-size: 18px; padding-bottom: 12px;">Công Ty Cổ Phần TKSIC</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <table class="footer-mail" style="width: 100%;">
+                                            <tr>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-phone.png" alt=""> 08 3656 3656
+                                                </td>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-message.png" alt=""> support@tksic.vn
+                                                </td>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-earth.png" alt=""> www.tksic.vn
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="footer-mail-mobile" style="width: 100%;">
+                                            <tr>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-phone.png" alt=""> 08 3656 3656
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-message.png" alt=""> support@tksic.vn
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 13px; width: 33.33%; color: #335aa6;">
+                                                    <img style="padding-right: 4px;" src="imgs/icon-earth.png" alt=""> www.tksic.vn
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3" style="font-size: 13px; color: #335aa6; padding: 12px 0; border-bottom: 1px dashed #335aa6;">Lầu 10,Toà nhà MB Sunny Tower, 259 Trần Hưng Đạo, Cô Giang, Q.1</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2" style="font-size: 13px; color: #335aa6; padding-top: 12px;">
+                                    <td colspan="2" style="font-size: 13px; color: #335aa6; padding: 12px 0; border-bottom: 1px dashed #335aa6;">Lầu 10,Toà nhà MB Sunny Tower, 259 Trần Hưng Đạo, Cô Giang, Q.1</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size: 13px; color: #335aa6; padding-top: 12px;">
                                         Theo dõi chúng tôi qua: 
                                     </td>
                                     <td style="padding-top: 8px;">
-                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img src="imgs/icon-fb.png" alt=""></a> 
-                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img src="imgs/icon-yt.png" alt=""></a> 
-                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img src="imgs/icon-instagram.png" alt=""></a>
+                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img class="footer-img" src="imgs/icon-fb.png" alt=""></a> 
+                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img class="footer-img" src="imgs/icon-yt.png" alt=""></a> 
+                                        <a href="#" style="display: inline-block; padding: 0 4px;"><img class="footer-img" src="imgs/icon-instagram.png" alt=""></a>
                                     </td>
                                 </tr>
                             </table>
