@@ -365,6 +365,55 @@ svg {
 	padding: 0;
 	border: none;
 }
+#open-otp {
+	.modal-content .modal-header {
+		padding: 0;
+		border: none;
+	}
+	.investment-popup {
+		img {
+			width: 132px;
+		}
+		p {
+			padding: 0  60px;
+			@media (max-width: 500px) {
+				padding: 0;
+			}
+		}
+		.investment-popup-btn {
+			a {
+				width: 172px;
+			}
+		}
+	}
+}
+#open-sms {
+	.modal-content .modal-header {
+		padding: 0;
+		border: none;
+	}
+	.investment-popup {
+		img {
+			width: 132px;
+		}
+		.withdraw-money__2 {
+			padding-top: 0;
+			.withdraw-money__2-input {
+				@media (max-width: 500px) {
+					padding: 24px 0 16px;
+					input {
+						margin: 0 4px;
+					}
+				}
+			}
+			.investment-popup-btn {
+				a {
+					width: 172px;
+				}
+			}
+		}
+	}
+}
 .investment-popup {
 	text-align: center;
 	img {

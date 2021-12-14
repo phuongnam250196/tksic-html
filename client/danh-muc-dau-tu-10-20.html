@@ -192,7 +192,8 @@
                                         </div>
                                         <div class="ctr">
                                             <button class="btn_sb prev">Quay lại</button>
-                                            <button class="btn_sb next">Tất toán</button>
+                                            <button class="btn_sb next" data-toggle="modal"
+                                            data-target="#open-otp">Tất toán</button>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +255,64 @@
         </div>
     </div>
 </div>
+<div class="modal fade modal-general" id="open-otp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="investment-popup">
+                    <img src="images/popup-sms.png" alt="">
+                    <h4>XÁC THỰC QUA SMS</h4>
+                    <p>Một tin nhắn chứa mã xác thực OTP sẽ được gửi  tới sô điện thoại của Quý khách. Vui lòng nhập mã xác thực OTP vào màn hình kế tiếp. <br><strong>Số điện thoại: 096 5826 096</strong></p>
+                    <div class="investment-popup-btn">
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#open-sms" data-dismiss="modal" aria-label="Close">Gửi tin nhắn</a>
+                        <a href="javascript:void(0);" data-dismiss="modal" aria-label="Close">Đóng</a>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-general" id="open-sms" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="investment-popup">
+                    <h4>XÁC THỰC QUA SMS</h4>
+                    <p>Tin nhắn SMS đã được gửi tới số điện thoại. <br>
+                        Vui lòng nhập mã xác thực vào ô dưới đây. <br>
+                        <strong>Số điện thoại: 096 5826 096</strong></p>
+                    <div class="withdraw-money__2">
+                        <form action="">
+                            <div class="withdraw-money__2-input">
+                                <input class="active" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                            </div>
+                            <div class="investment-popup-btn">
+                                <a href="#">Xác thực</a>
+                                <a href="javascript:void(0);" data-dismiss="modal" aria-label="Close">Đóng</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/popper.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
