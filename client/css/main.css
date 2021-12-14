@@ -6172,6 +6172,61 @@ svg {
   }
 }
 
+#open-all .modal-dialog {
+  max-width: initial;
+  width: 1100px;
+}
+@media (max-width: 1200px) {
+  #open-all .modal-dialog {
+    width: 100%;
+    max-width: 800px;
+  }
+}
+@media (max-width: 768.9px) {
+  #open-all .modal-dialog {
+    width: 100%;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+#open-all .modal-content .row {
+  padding: 0 100px;
+}
+#open-all .modal-content .row .open-all-list {
+  margin: 20px 0;
+}
+#open-all .modal-content .row .open-all-list .open-all-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+#open-all .modal-content .row .open-all-list .open-all-child p:first-child {
+  color: #213444;
+  width: 45%;
+  font-weight: 500;
+}
+#open-all .modal-content .row .open-all-list .open-all-child p:last-child {
+  color: #0071bd;
+}
+#open-all .modal-content .row .open-all-list .open-all-child:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 1200px) {
+  #open-all .modal-content .row {
+    padding: 0;
+  }
+}
+@media (max-width: 768.99px) {
+  #open-all .modal-content .row .open-all-list:first-child {
+    margin-top: 0;
+  }
+  #open-all .modal-content .row .open-all-list .open-all-child p:first-child {
+    width: 50%;
+  }
+}
+
 #open-commission .modal-dialog {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -6280,6 +6335,11 @@ svg {
 }
 .ct-20-10 .ctr {
   margin-top: 32px !important;
+}
+
+.ct-title-popup:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .dt-table {

@@ -636,7 +636,62 @@ svg {
 		}
 	}
 }
-
+#open-all {
+	.modal-dialog {
+		max-width: initial;
+		width: 1100px;
+		@media (max-width: 1200px) {
+			width: 100%;
+			max-width: 800px;
+		}
+		@media (max-width: 768.90px) {
+			width: 100%;
+			max-width: fit-content;
+		}
+	}
+	.modal-content {
+		.row {
+			padding: 0 100px;
+			.open-all-list {
+				margin: 20px 0;
+				.open-all-child {
+					display: flex;
+					margin-bottom: 16px;
+					p {
+						&:first-child {
+							color: #213444;
+							width: 45%;
+							font-weight: 500;
+						}
+						&:last-child {
+							color: #0071bd;
+						}
+					}
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+			@media (max-width: 1200px) {
+				padding: 0;
+			}
+			@media (max-width: 768.99px) {
+				.open-all-list {
+					&:first-child {
+						margin-top: 0;
+					}
+					.open-all-child {
+						p {
+							&:first-child {
+								width: 50%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 #open-commission {
 	 .modal-dialog {
 	 	max-width: fit-content;
@@ -750,6 +805,13 @@ svg {
 	}
 	.ctr {
 		margin-top: 32px !important;
+	}
+}
+
+.ct-title-popup {
+	&:hover {
+		cursor: pointer;
+		opacity: 0.6;
 	}
 }
 
