@@ -6405,6 +6405,9 @@ svg {
 .wrap .sidebar-right .profile {
   position: relative;
 }
+.wrap .sidebar-right .profile-form {
+  top: 0;
+}
 
 .wrap .head-mb {
   position: relative;
@@ -6432,16 +6435,21 @@ svg {
   left: 0;
   width: 100%;
   background-color: #fff;
-  padding: 24px 32px;
+  padding: 24px 0;
   display: none;
   border-radius: 12px;
   -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
           box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
   z-index: 99;
 }
+.profile .profile-form .profile {
+  padding: 0 24px 12px;
+  border-bottom: 1px solid #ddd;
+}
 .profile .profile-form .profile-child {
   text-align: center;
   margin-bottom: 24px;
+  padding: 0 32px;
 }
 .profile .profile-form .profile-child:last-child {
   margin-bottom: 0;

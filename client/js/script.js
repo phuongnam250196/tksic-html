@@ -436,5 +436,13 @@ $(document).ready(function() {
             "transition-duration": "1s"
         })
         i++;
-    })
+    });
+
+    $(document).mouseup(function(e) {
+        var container = $(".profile-form");
+        if (!container.is(e.target) && container.has(e.target).length === 0) 
+        {
+            container.hide();
+        }
+    });
 });
