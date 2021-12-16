@@ -440,9 +440,12 @@ $(document).ready(function() {
 
     $(document).mouseup(function(e) {
         var container = $(".profile-form");
-        if (!container.is(e.target) && container.has(e.target).length === 0) 
-        {
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
             container.hide();
+            $(".profile-dropdown i").css({
+                "transform": `rotate(0deg)`,
+                "transition-duration": "1s"
+            })
         }
     });
 });
