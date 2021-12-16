@@ -6401,3 +6401,117 @@ svg {
     width: 700px;
   }
 }
+
+.wrap .sidebar-right .profile {
+  position: relative;
+}
+
+.wrap .head-mb {
+  position: relative;
+}
+.wrap .head-mb .profile {
+  margin-right: 32px;
+}
+
+.profile .profile-dropdown {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.profile .profile-dropdown i {
+  font-size: 24px;
+  color: #37adda;
+  font-weight: 500;
+  cursor: pointer;
+}
+.profile .profile-form {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 32px;
+  display: none;
+  border-radius: 12px;
+  -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+          box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+  z-index: 99;
+}
+.profile .profile-form .profile-child {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.profile .profile-form .profile-child:last-child {
+  margin-bottom: 0;
+}
+.profile .profile-form .profile-child .form-avatar {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: #37adda;
+  border-radius: 50%;
+  position: relative;
+}
+.profile .profile-form .profile-child .form-avatar label i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  color: #005aaa;
+  background-color: #fff;
+  outline: 3px solid #fff;
+}
+.profile .profile-form .profile-child .form-avatar label input {
+  display: none;
+}
+.profile .profile-form h4 {
+  color: #005aaa;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.profile .profile-form .form-group {
+  text-align: left;
+}
+.profile .profile-form .form-group label {
+  margin-bottom: 6px;
+}
+.profile .profile-form .form-group .form-control {
+  border-radius: 4px;
+  border: 1px solid #37adda;
+}
+.profile .profile-form .form-group .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.profile .profile-form .form-btn {
+  text-align: center;
+}
+.profile .profile-form .form-btn button {
+  font-weight: bold;
+  color: #fff;
+  background: #37adda;
+  border-radius: 20px;
+  padding: 8px;
+  width: 140px;
+}
+@media (max-width: 990px) {
+  .profile .profile-form {
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 280px;
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 500px) {
+  .profile .profile-form {
+    height: inherit;
+    overflow-y: unset;
+  }
+}

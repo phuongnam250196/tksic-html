@@ -415,8 +415,26 @@ function copyToClipboard(element) {
 //         reader.readAsDataURL(input.files[0]);
 //     }
 // }
-// $(document).ready(function() {
-//     $('#avatar').click(function(){
-//         $('#img').click();
-//     }); 
-// });
+$(document).ready(function() {
+    $('#avatar').change(function (event) {
+        var tmppath = URL.createObjectURL(event.target.files[0]);
+        console.log('input.files[0]', tmppath)
+        $(".form-avatar").css({
+            "background-image": `url(${tmppath})`,
+            "background-repeat": "no-repeat",
+            "background-size": "cover",
+            "background-position": "center",
+        })
+    });
+
+    let i = 1;
+    $(".profile-dropdown i").on("click", function() {
+        $(".profile-form").slideToggle();
+        let degs = i%2===0 ? 180 : 0;
+        $(this).css({
+            "transform": `rotate(${degs}deg)`,
+            "transition-duration": "1s"
+        })
+        i++;
+    })
+});
