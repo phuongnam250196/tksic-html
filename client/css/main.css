@@ -6402,6 +6402,9 @@ svg {
   }
 }
 
+.wrap .sidebar-right {
+  position: relative;
+}
 .wrap .sidebar-right .profile {
   position: relative;
 }
@@ -6419,20 +6422,22 @@ svg {
 .profile:hover {
   cursor: pointer;
 }
-.profile .profile-dropdown {
+
+.profile-dropdown {
   position: absolute;
   top: 50%;
   right: 16px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.profile .profile-dropdown i {
+.profile-dropdown i {
   font-size: 24px;
   color: #37adda;
   font-weight: 500;
   cursor: pointer;
 }
-.profile .profile-form {
+
+.profile-form {
   position: absolute;
   top: 110%;
   left: 0;
@@ -6445,19 +6450,19 @@ svg {
           box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
   z-index: 99;
 }
-.profile .profile-form .profile {
+.profile-form .profile {
   padding: 0 24px 12px;
   border-bottom: 1px solid #ddd;
 }
-.profile .profile-form .profile-child {
+.profile-form .profile-child {
   text-align: center;
   margin-bottom: 24px;
   padding: 0 32px;
 }
-.profile .profile-form .profile-child:last-child {
+.profile-form .profile-child:last-child {
   margin-bottom: 0;
 }
-.profile .profile-form .profile-child .form-avatar {
+.profile-form .profile-child .form-avatar {
   display: inline-block;
   width: 55px;
   height: 55px;
@@ -6465,7 +6470,7 @@ svg {
   border-radius: 50%;
   position: relative;
 }
-.profile .profile-form .profile-child .form-avatar label i {
+.profile-form .profile-child .form-avatar label i {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -6476,33 +6481,33 @@ svg {
   background-color: #fff;
   border: 2px solid #fff;
 }
-.profile .profile-form .profile-child .form-avatar label input {
+.profile-form .profile-child .form-avatar label input {
   display: none;
 }
-.profile .profile-form h4 {
+.profile-form h4 {
   color: #005aaa;
   font-weight: 500;
   margin-bottom: 16px;
   text-align: left;
 }
-.profile .profile-form .form-group {
+.profile-form .form-group {
   text-align: left;
 }
-.profile .profile-form .form-group label {
+.profile-form .form-group label {
   margin-bottom: 6px;
 }
-.profile .profile-form .form-group .form-control {
+.profile-form .form-group .form-control {
   border-radius: 4px;
   border: 1px solid #37adda;
 }
-.profile .profile-form .form-group .form-control:focus {
+.profile-form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.profile .profile-form .form-btn {
+.profile-form .form-btn {
   text-align: center;
 }
-.profile .profile-form .form-btn button {
+.profile-form .form-btn button {
   font-weight: bold;
   color: #fff;
   background: #37adda;
@@ -6511,7 +6516,7 @@ svg {
   width: 140px;
 }
 @media (max-width: 990px) {
-  .profile .profile-form {
+  .profile-form {
     width: 90%;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -6521,7 +6526,7 @@ svg {
   }
 }
 @media (max-width: 500px) {
-  .profile .profile-form {
+  .profile-form {
     height: inherit;
     overflow-y: unset;
   }
