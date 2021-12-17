@@ -6527,7 +6527,7 @@ svg {
 }
 @media (max-width: 500px) {
   .profile-form {
-    height: inherit;
+    height: unset;
     overflow-y: unset;
   }
 }

@@ -996,7 +996,7 @@ svg {
 		overflow-y: scroll;
 	}
 	@media (max-width: 500px) {
-		height: inherit;
+		height: unset;
 		overflow-y: unset;
 	}
 }

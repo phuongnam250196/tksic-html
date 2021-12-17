@@ -428,10 +428,10 @@ $(document).ready(function() {
     });
 
     let i = 1;
-    $(".profile-dropdown i").on("click", function() {
+    $(".profile").on("click", function() {
         $(".profile-form").slideToggle();
         let degs = i%2===0 ? 180 : 0;
-        $(this).css({
+        $(this).find(".profile-dropdown i").css({
             "transform": `rotate(${degs}deg)`,
             "transition-duration": "1s"
         })
@@ -440,8 +440,9 @@ $(document).ready(function() {
 
     $(document).mouseup(function(e) {
         var container = $(".profile-form");
-        var container2 = $(".profile-dropdown i");
-        if (!container.is(e.target)&& !container2.is(e.target)  && container.has(e.target).length === 0) {
+        // var container2 = $(".profile-dropdown i");
+        var container3 = $(".profile");
+        if (!container.is(e.target) && !container3.is(e.target)  && container.has(e.target).length === 0 && container3.has(e.target).length === 0) {
             container.hide();
             $(".profile-dropdown i").css({
                 "transform": `rotate(0deg)`,
