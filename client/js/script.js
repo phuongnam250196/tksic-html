@@ -428,10 +428,10 @@ $(document).ready(function() {
     });
 
     let i = 1;
-    $(".profile-dropdown i").on("click", function() {
+    $(".profile").on("click", function() {
         $(".profile-form").slideToggle();
         let degs = i%2===0 ? 180 : 0;
-        $(this).css({
+        $(this).find("i").css({
             "transform": `rotate(${degs}deg)`,
             "transition-duration": "1s"
         })

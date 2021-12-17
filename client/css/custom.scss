@@ -894,6 +894,9 @@ svg {
 	}
 }
 .profile {
+	&:hover {
+		cursor: pointer;
+	}
 	.profile-dropdown {
 		position: absolute;
 		top: 50%;
