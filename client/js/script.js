@@ -431,7 +431,7 @@ $(document).ready(function() {
     $(".profile").on("click", function() {
         $(".profile-form").slideToggle();
         let degs = i%2===0 ? 180 : 0;
-        $(this).find("i").css({
+        $(this).find(".profile-dropdown i").css({
             "transform": `rotate(${degs}deg)`,
             "transition-duration": "1s"
         })
