@@ -148,8 +148,8 @@
             onrendered: function(canvas) {
                 var pdf = new jsPDF('p', 'pt', 'letter');
 
-                var pageHeight = 1000;
-                var pageWidth = 708;
+                var pageHeight = 708;
+                var pageWidth = 1000;
                 for (var i = 0; i <= elementHTML.clientHeight / pageHeight; i++) {
                     var srcImg = canvas;
                     var sX = 0;
