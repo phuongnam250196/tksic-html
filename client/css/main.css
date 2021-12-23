@@ -6621,6 +6621,11 @@ svg {
   z-index: 9999;
 }
 
+@media (min-width: 510.99px) and (max-width: 768.99px) {
+  .pdf_vntop_scroll {
+    overflow-x: scroll;
+  }
+}
 @media (max-width: 500px) {
   #pdf_vntop {
     width: 400px;

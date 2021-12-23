@@ -1073,8 +1073,10 @@ svg {
 	border-radius: 4px;
 	z-index: 9999;
 }
-@media (max-width: 768.99px) {
-	
+@media (min-width: 510.99px) and (max-width: 768.99px) {
+	.pdf_vntop_scroll {
+		overflow-x: scroll;
+	}
 }
 @media (max-width: 500px) {
 	#pdf_vntop {
