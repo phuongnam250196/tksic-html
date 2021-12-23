@@ -12,43 +12,45 @@
 </head>
 
 <body>
-    <div id="pdf_vntop">
-        <img class="pdf_vntop-bg" src="images/bg-chung-nhan.png" alt="">
-        <div class="pdf_vntop-content">
-            <img class="pdf_vntop-content-logo" src="images/logo.png" alt="">
-            <h2 class="pdf_vntop-content-title">CHỨNG NHẬN SỞ HỮU CỔ PHIẾU</h2>
-            <div class="pdf_vntop-content-list">
-                <div class="pdf_vntop-content-item">
-                    <p>Nhà đầu tư: </p>
-                    <h4>MAI QUYỀN VƯƠNG</h4>
+    <div class="pdf_vntop_scroll">
+        <div id="pdf_vntop">
+            <img class="pdf_vntop-bg" src="images/bg-chung-nhan.png" alt="">
+            <div class="pdf_vntop-content">
+                <img class="pdf_vntop-content-logo" src="images/logo.png" alt="">
+                <h2 class="pdf_vntop-content-title">CHỨNG NHẬN SỞ HỮU CỔ PHIẾU</h2>
+                <div class="pdf_vntop-content-list">
+                    <div class="pdf_vntop-content-item">
+                        <p>Nhà đầu tư: </p>
+                        <h4>MAI QUYỀN VƯƠNG</h4>
+                    </div>
+                    <div class="pdf_vntop-content-item">
+                        <p>Mã cố phiếu:</p>
+                        <h4>CCL</h4>
+                    </div>
+                    <div class="pdf_vntop-content-item">
+                        <p>Ngày phát hành:</p>
+                        <h4>10/08/1995</h4>
+                    </div>
+                    <div class="pdf_vntop-content-item">
+                        <p>Số tiền:</p>
+                        <h4>100.000.000đ</h4>
+                    </div>
+                    <div class="pdf_vntop-content-item">
+                        <p>Số lượng:</p>
+                        <h4>108 cổ phiếu</h4>
+                    </div>
+                    <div class="pdf_vntop-content-item">
+                        <p>Giá mua:</p>
+                        <h4>925000</h4>
+                    </div>
                 </div>
-                <div class="pdf_vntop-content-item">
-                    <p>Mã cố phiếu:</p>
-                    <h4>CCL</h4>
+                <div class="pdf_vntop-content-text">
+                    <p>Giấy chứng nhận sở hữu cổ phiếu này có giá trị xác nhận thông tin trên <br>
+                        là chính xác và hợp pháp tại thời điểm xác nhận.</p>
                 </div>
-                <div class="pdf_vntop-content-item">
-                    <p>Ngày phát hành:</p>
-                    <h4>10/08/1995</h4>
+                <div class="pdf_vntop-content-signature">
+                    <img src="images/temp.png" alt="">
                 </div>
-                <div class="pdf_vntop-content-item">
-                    <p>Số tiền:</p>
-                    <h4>100.000.000đ</h4>
-                </div>
-                <div class="pdf_vntop-content-item">
-                    <p>Số lượng:</p>
-                    <h4>108 cổ phiếu</h4>
-                </div>
-                <div class="pdf_vntop-content-item">
-                    <p>Giá mua:</p>
-                    <h4>925000</h4>
-                </div>
-            </div>
-            <div class="pdf_vntop-content-text">
-                <p>Giấy chứng nhận sở hữu cổ phiếu này có giá trị xác nhận thông tin trên <br>
-                    là chính xác và hợp pháp tại thời điểm xác nhận.</p>
-            </div>
-            <div class="pdf_vntop-content-signature">
-                <img src="images/temp.png" alt="">
             </div>
         </div>
     </div>
@@ -57,13 +59,8 @@
             background: #37adda;
         }
         @media (max-width: 768.99px) {
-            body {
-                zoom: 0.5;
-            }
-        }
-        @media (max-width: 500px) {
-            body {
-                zoom: 0.35;
+            .pdf_vntop_scroll {
+                overflow-x: scroll;
             }
         }
     </style>
