@@ -1072,34 +1072,27 @@ svg {
 }
 @media (max-width: 500px) {
 	.pdf_vntop_scroll {
-		overflow-x: scroll;
+		overflow-x: unset;
 	}
-	// #pdf_vntop {
-	// 	width: 400px;
-	// 	height: 292px;
-	// 	font-size: 9px;
-	// }
+	#pdf_vntop {
+		width: 400px;
+		height: 292px;
+		font-size: 8px;
+	}
 	
-	// .pdf_vntop-content {
-	// 	padding: 20px;
-	// 	top: 0;
-	// 	transform: unset;
-	// }
+	.pdf_vntop-content {
+		top: 30%;
+		transform: unset;
+	}
 	
-	// .pdf_vntop-content-list {
-	// 	width: 60%;
-	// 	margin: 0 auto;
-	// 	padding: 8px;
-	// }
-	// .pdf_vntop-content-item {
-	// 	display: flex;
-	// 	align-items: center;
-	// 	padding: 2px 0;
-	// }
-	// .pdf_vntop-content-item p {
-	// 	width: 50%;
-	// 	text-align: left;
-	// }
+	.pdf_vntop-content-list {
+		padding: 8px;
+	}
+	.pdf_vntop-content-item {
+		display: flex;
+		align-items: center;
+		padding: 1px 0;
+	}
 	#downloadPdf {
 		position: fixed;
 		top: 12px;
