@@ -6592,6 +6592,8 @@ svg {
   color: #37adda;
   border-radius: 4px;
   z-index: 999999;
+  -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
+          box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
 }
 
 @media (max-width: 768.99px) {
