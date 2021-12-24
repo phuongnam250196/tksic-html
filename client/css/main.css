@@ -6533,7 +6533,6 @@ svg {
 }
 
 .pdf_vntop_scroll {
-  background: #F3FAFE;
   position: relative;
 }
 .pdf_vntop_scroll #pdf_vntop {
@@ -6543,7 +6542,7 @@ svg {
   font-family: Arial, Helvetica, sans-serif;
   color: #213444;
   font-size: 14px;
-  margin: 20px auto;
+  margin: 60px auto;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content {
   position: absolute;
@@ -6608,7 +6607,7 @@ svg {
   .pdf_vntop_scroll #pdf_vntop {
     width: 600px;
     height: 422px;
-    margin: 0 auto;
+    margin: 0px auto;
     font-size: 10px;
   }
   .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-list {
