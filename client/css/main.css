@@ -6543,6 +6543,7 @@ svg {
   color: #213444;
   font-size: 14px;
   margin: 60px auto;
+  overflow: auto;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content {
   position: absolute;
