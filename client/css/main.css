@@ -6536,7 +6536,7 @@ svg {
   position: relative;
 }
 .pdf_vntop_scroll #pdf_vntop {
-  width: 932px;
+  max-width: 932px;
   height: 660px;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
