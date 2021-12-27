@@ -84,8 +84,7 @@
                 // a.click();
                 // document.body.removeChild(img);
 
-                var dataURL = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");                              //removing the canvas from the page
-
+                var dataURL = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
                 var tempLink = document.createElement('a'), e; 
                     tempLink.download = 'untitled.png';
                     if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) { //iOS = Iphone, Ipad, etc.
