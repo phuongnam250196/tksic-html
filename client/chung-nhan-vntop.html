@@ -66,7 +66,6 @@
 				allowTaint: true,
 				useCORS: true
 			}).then(function (canvas) {
-
                 var dataURL = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
                 var tempLink = document.createElement('a'), e; 
                     tempLink.download = 'untitled.png';
