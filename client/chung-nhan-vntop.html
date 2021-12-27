@@ -66,23 +66,6 @@
 				allowTaint: true,
 				useCORS: true
 			}).then(function (canvas) {
-                // var a = document.createElement('a');
-                // a.href = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-                // a.download = 'download.jpg';
-                // a.click();
-                // var img = new Image();
-                // console.log(x, bi, img, canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream"))
-                // img.crossOrigin = "Anonymous";
-                // img.id = "getshot";
-                // img.src = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-                // document.body.appendChild(img);
-
-                // var a = document.createElement("a");
-                // a.href = getshot.src;
-                // a.download = "download.jpg";
-                // a.target = "_blank";
-                // a.click();
-                // document.body.removeChild(img);
 
                 var dataURL = canvas.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
                 var tempLink = document.createElement('a'), e; 
