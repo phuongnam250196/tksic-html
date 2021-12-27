@@ -6599,12 +6599,3 @@ svg {
   -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
           box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
 }
-
-@media (max-width: 500px) {
-  #downloadPdf {
-    position: fixed;
-    top: 12px;
-    right: 12px;
-    padding: 8px;
-  }
-}
