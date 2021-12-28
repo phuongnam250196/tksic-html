@@ -1013,12 +1013,14 @@ svg {
 		margin: 60px auto;
 		.pdf_vntop-content {
 			position: absolute;
-			top: 44%;
+			top: 47%;
 			transform: translateY(-44%);
 			left: 0;
 			width: 100%;
 			z-index: 99;
 			text-align: center;
+			font-weight:500;
+			opacity: 0.9;
 			.pdf_vntop-content-list {
 				width: 400px;
 				margin: 0 auto;
@@ -1028,12 +1030,14 @@ svg {
 					align-items: center;
 					padding: 4px 0;
 					color: #213444;
-					font-weight: 500;
 					p {
 						width: 50%;
 						text-align: left;
 					}
 				}
+			}
+			.pdf_vntop-text {
+				padding-top: 16px;
 			}
 		}
 	}
