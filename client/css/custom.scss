@@ -1053,9 +1053,18 @@ svg {
 			position: absolute;
 			right: 240px;
 			bottom: 76px;
-			width: 166px;
+			width: 200px;
+			text-align: right;
+			h4{
+				font-weight: bold;
+				color: #213444;
+				margin-bottom: -6px;
+				font-size: 13px;
+				padding-right: 10px;
+			}
 			img {
-				width: 100%;
+				width: 152px;
+				// width: 100%;
 				height: auto;	
 			}
 		}
