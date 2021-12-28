@@ -6584,6 +6584,9 @@ svg {
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-text {
   padding-top: 16px;
 }
+.pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-text p {
+  margin-bottom: 6px;
+}
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content-temp {
   position: absolute;
   right: 240px;
