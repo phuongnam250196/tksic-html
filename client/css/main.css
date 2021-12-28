@@ -6536,27 +6536,33 @@ svg {
   position: relative;
 }
 .pdf_vntop_scroll #pdf_vntop {
-  max-width: 932px;
-  height: 660px;
+  width: 1160px;
+  height: 832px;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   color: #213444;
-  font-size: 14px;
+  font-size: 16px;
   margin: 60px auto;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content {
   position: absolute;
-  top: 47%;
-  -webkit-transform: translateY(-44%);
-          transform: translateY(-44%);
+  top: 42%;
+  -webkit-transform: translateY(-42%);
+          transform: translateY(-42%);
   left: 0;
   width: 100%;
   z-index: 99;
   text-align: center;
   font-weight: 500;
 }
+.pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-title h1 {
+  font-size: 28px;
+  color: #005aaa;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-list {
-  width: 320px;
+  width: 372px;
   margin: 0 auto;
   padding: 0;
 }
@@ -6571,12 +6577,22 @@ svg {
   color: #213444;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-list .pdf_vntop-content-item p {
-  width: 160px;
+  width: 180px;
   padding-left: 12px;
   text-align: left;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-text {
   padding-top: 16px;
+}
+.pdf_vntop_scroll #pdf_vntop .pdf_vntop-content-temp {
+  position: absolute;
+  right: 300px;
+  bottom: 100px;
+  width: 230px;
+}
+.pdf_vntop_scroll #pdf_vntop .pdf_vntop-content-temp img {
+  width: 100%;
+  height: auto;
 }
 .pdf_vntop_scroll #box-img-out {
   position: absolute;
