@@ -1020,9 +1020,9 @@ svg {
 			z-index: 99;
 			text-align: center;
 			font-weight:500;
-			opacity: 0.9;
+			// opacity: 0.9;
 			.pdf_vntop-content-list {
-				width: 400px;
+				width: 320px;
 				margin: 0 auto;
 				padding: 0;
 				.pdf_vntop-content-item {
@@ -1031,7 +1031,8 @@ svg {
 					padding: 4px 0;
 					color: #213444;
 					p {
-						width: 50%;
+						width: 160px;
+						padding-left: 12px;
 						text-align: left;
 					}
 				}

@@ -6554,10 +6554,9 @@ svg {
   z-index: 99;
   text-align: center;
   font-weight: 500;
-  opacity: 0.9;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-list {
-  width: 400px;
+  width: 320px;
   margin: 0 auto;
   padding: 0;
 }
@@ -6572,7 +6571,8 @@ svg {
   color: #213444;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-content-list .pdf_vntop-content-item p {
-  width: 50%;
+  width: 160px;
+  padding-left: 12px;
   text-align: left;
 }
 .pdf_vntop_scroll #pdf_vntop .pdf_vntop-content .pdf_vntop-text {
