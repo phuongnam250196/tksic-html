@@ -1004,16 +1004,16 @@ svg {
 .pdf_vntop_scroll {
 	position: relative;
 	#pdf_vntop {
-		width: 1160px;
-		height: 832px;
+		max-width: 932px;
+		height: 662px;
 		position: relative;
 		font-family: Arial, Helvetica, sans-serif;
 		color: #213444;
-		font-size: 16px;
+		font-size: 14px;
 		margin: 60px auto;
 		.pdf_vntop-content {
 			position: absolute;
-			top: 42%;
+			top: 43%;
 			transform: translateY(-42%);
 			left: 0;
 			width: 100%;
@@ -1023,10 +1023,10 @@ svg {
 			// opacity: 0.9;
 			.pdf_vntop-content-title {
 				h1 {
-					font-size: 28px;
+					font-size: 24px;
 					color: #005aaa;
 					font-weight: bold;
-					margin-bottom: 24px;
+					margin-bottom: 20px;
 				}
 			}
 			.pdf_vntop-content-list {
@@ -1051,9 +1051,9 @@ svg {
 		}
 		.pdf_vntop-content-temp {
 			position: absolute;
-			right: 300px;
-			bottom: 100px;
-			width: 230px;
+			right: 240px;
+			bottom: 76px;
+			width: 166px;
 			img {
 				width: 100%;
 				height: auto;	
