@@ -6630,3 +6630,23 @@ svg {
   -webkit-box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
           box-shadow: 11px 0 21px rgba(55, 173, 218, 0.35);
 }
+
+.right_custom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: right;
+}
+.right_custom span.success {
+  color: #2ca746;
+}
+.right_custom span.danger {
+  color: #ff6767;
+}
