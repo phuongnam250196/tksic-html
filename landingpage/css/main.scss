@@ -945,6 +945,33 @@ html {
             font-size: 18px;
         }
     }
+    @media (max-width: 768.98px) {
+        height: 52px;
+        line-height: 52px;
+        img {
+            height: 48px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 500.98px) {
+        height: inherit;
+        line-height: inherit;
+        padding: 12px 0;
+        .row {
+            &>div {
+                -ms-flex: 0 0 100%;
+                -webkit-box-flex: 0;
+                flex: 0 0 100%;
+                max-width: 100%;
+                text-align: center;
+            }
+        }
+        p {
+            font-size: 12px;
+        }
+    }
 }
 
 .hero-sc {
@@ -992,6 +1019,14 @@ html {
         }
         h1 {
             font-size: 28px;
+        }
+    }
+    @media (max-width: 768.98px) {
+        h3 {
+            font-size: 24px;
+        }
+        h1 {
+            font-size: 24px;
         }
     }
 }
@@ -1101,6 +1136,19 @@ html {
             }
         }
     }
+    @media (max-width: 500.98px) {
+        padding: 24px 0;
+        .problem-1 {
+            .problem-1__text {
+                width: 100%;
+            }
+        }
+        .problem-2 {
+            .problem-2__text {
+                width: 100%; 
+            }
+        }
+    }
 }
 
 #partner {
@@ -1143,6 +1191,13 @@ html {
     @media (max-width: 992.98px) {
         padding: 20px 0 0;
     }
+    @media (max-width: 500.98px) {
+        .partner-list {
+            .partner-item {
+                padding: 0;
+            }
+        }
+    }
     &::before {
         content: "";
         position: absolute;
@@ -1163,6 +1218,12 @@ html {
         @media (max-width: 992.98px) {
             top: -68px;    
         }
+        @media (max-width: 768.98px) {
+            top: -50px;
+        }
+        @media (max-width: 500.98px) {
+            top: -36px;
+        }
     }
 
     &::after {
@@ -1181,6 +1242,9 @@ html {
         @media (max-width: 1200.98px) {
             bottom: -20px;
             height: 100px;
+        }
+        @media (max-width: 500.98px) {
+            bottom: -15px;
         }
     }
 }
@@ -1230,6 +1294,12 @@ html {
             margin-top: 16px;
         }
     }
+    @media (max-width: 500.98px) {
+        padding: 24px 0 40px;
+        .reason-list {
+            padding-left: 0;
+        }
+    }
 }
 
 #product {
@@ -1256,6 +1326,21 @@ html {
                         height: auto;
                     }
                 }
+            }
+        }
+        @media (max-width: 768.98px) {
+            .product-content {
+                padding-right: 24px;
+                br {
+                    display: none;
+                }
+            }
+        }
+        @media (max-width: 500.98px) {
+            flex-direction: column-reverse;
+            .product-title-title  {
+                text-align: center;
+                padding-top: 20px;
             }
         }
     }
@@ -1400,6 +1485,7 @@ html {
             }
         }
         @media (max-width: 992.98px) {
+            padding: 20px 0 40px;
             .table {
                 display: none;
             }
@@ -1481,6 +1567,44 @@ html {
             }
         }
     }
+    @media (max-width: 992.98px) {
+        .owl-carousel-newspaper {
+            .owl-nav {
+                .owl-prev {
+                    margin-left: 0;
+                    background: $c1;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0.6;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                .owl-next {
+                    margin-right: 0;
+                    background: $c1;
+                    width: 32px;
+                    height: 32px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0.6;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    span {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .form-control {
@@ -1534,6 +1658,19 @@ html {
                 }
                 .commit-title {
                     text-align: center;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 500.98px) {
+        padding: 40px 0; 
+        .commit-group {
+            .commit-item {
+                &:last-child {
+                    width: 100%;
                 }
             }
         }
@@ -1618,6 +1755,15 @@ html {
                     img {
                         width: 60%;
                     }
+                }
+            }
+        }
+    }
+    @media (max-width: 500.98px) {
+        .advise-group  {
+            .advise-item {
+                &:first-child {
+                    width: 100%;
                 }
             }
         }

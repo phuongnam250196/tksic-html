@@ -1005,6 +1005,35 @@ html {
     font-size: 18px;
   }
 }
+@media (max-width: 768.98px) {
+  #header-top {
+    height: 52px;
+    line-height: 52px;
+  }
+  #header-top img {
+    height: 48px;
+  }
+  #header-top p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500.98px) {
+  #header-top {
+    height: inherit;
+    line-height: inherit;
+    padding: 12px 0;
+  }
+  #header-top .row > div {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  #header-top p {
+    font-size: 12px;
+  }
+}
 
 .hero-sc img {
   width: 100%;
@@ -1049,6 +1078,14 @@ html {
   }
   .group-title h1, #advise .advise-group .advise-item .advise-title h1, #commit .commit-group .commit-item .commit-title h1, #newspaper .newspaper-title h1, #product .product-steps .product-steps-title h1, #product .product-title .product-title-title h1, #reason .reason-title h1, #partner .partner-title h1, #problem .problem-2 .problem-2__text .problem-2__text-title h1, #problem .problem-1 .problem-1__text .problem-1__text-title h1 {
     font-size: 28px;
+  }
+}
+@media (max-width: 768.98px) {
+  .group-title h3, #advise .advise-group .advise-item .advise-title h3, #commit .commit-group .commit-item .commit-title h3, #newspaper .newspaper-title h3, #product .product-steps .product-steps-title h3, #product .product-title .product-title-title h3, #reason .reason-title h3, #partner .partner-title h3, #problem .problem-2 .problem-2__text .problem-2__text-title h3, #problem .problem-1 .problem-1__text .problem-1__text-title h3 {
+    font-size: 24px;
+  }
+  .group-title h1, #advise .advise-group .advise-item .advise-title h1, #commit .commit-group .commit-item .commit-title h1, #newspaper .newspaper-title h1, #product .product-steps .product-steps-title h1, #product .product-title .product-title-title h1, #reason .reason-title h1, #partner .partner-title h1, #problem .problem-2 .problem-2__text .problem-2__text-title h1, #problem .problem-1 .problem-1__text .problem-1__text-title h1 {
+    font-size: 24px;
   }
 }
 
@@ -1161,6 +1198,17 @@ html {
     width: 80%;
   }
 }
+@media (max-width: 500.98px) {
+  #problem {
+    padding: 24px 0;
+  }
+  #problem .problem-1 .problem-1__text {
+    width: 100%;
+  }
+  #problem .problem-2 .problem-2__text {
+    width: 100%;
+  }
+}
 
 #partner {
   position: relative;
@@ -1201,6 +1249,11 @@ html {
     padding: 20px 0 0;
   }
 }
+@media (max-width: 500.98px) {
+  #partner .partner-list .partner-item {
+    padding: 0;
+  }
+}
 #partner::before {
   content: "";
   position: absolute;
@@ -1228,6 +1281,16 @@ html {
     top: -68px;
   }
 }
+@media (max-width: 768.98px) {
+  #partner::before {
+    top: -50px;
+  }
+}
+@media (max-width: 500.98px) {
+  #partner::before {
+    top: -36px;
+  }
+}
 #partner::after {
   content: "";
   position: absolute;
@@ -1248,6 +1311,11 @@ html {
   #partner::after {
     bottom: -20px;
     height: 100px;
+  }
+}
+@media (max-width: 500.98px) {
+  #partner::after {
+    bottom: -15px;
   }
 }
 
@@ -1298,6 +1366,14 @@ html {
     margin-top: 16px;
   }
 }
+@media (max-width: 500.98px) {
+  #reason {
+    padding: 24px 0 40px;
+  }
+  #reason .reason-list {
+    padding-left: 0;
+  }
+}
 
 #product {
   padding: 60px 0 80px;
@@ -1332,6 +1408,26 @@ html {
   #product .product-title .product-item:last-child img {
     width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 768.98px) {
+  #product .product-title .product-content {
+    padding-right: 24px;
+  }
+  #product .product-title .product-content br {
+    display: none;
+  }
+}
+@media (max-width: 500.98px) {
+  #product .product-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #product .product-title .product-title-title {
+    text-align: center;
+    padding-top: 20px;
   }
 }
 #product .product-steps .product-steps-title h3 {
@@ -1445,6 +1541,9 @@ html {
   background: #d6eaff;
 }
 @media (max-width: 992.98px) {
+  #product .product-table {
+    padding: 20px 0 40px;
+  }
   #product .product-table .table {
     display: none;
   }
@@ -1520,6 +1619,52 @@ html {
     margin-right: -16px;
   }
 }
+@media (max-width: 992.98px) {
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-prev {
+    margin-left: 0;
+    background: #bde6f6;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: 0.6;
+  }
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-prev:hover {
+    opacity: 1;
+  }
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-prev span {
+    font-size: 20px;
+  }
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-next {
+    margin-right: 0;
+    background: #bde6f6;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: 0.6;
+  }
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-next:hover {
+    opacity: 1;
+  }
+  #newspaper .owl-carousel-newspaper .owl-nav .owl-next span {
+    font-size: 20px;
+  }
+}
 
 .form-control {
   width: 100%;
@@ -1580,6 +1725,17 @@ html {
   }
   #commit .commit-group .commit-item .commit-title {
     text-align: center;
+  }
+  #commit .commit-group .commit-item .commit-title br {
+    display: none;
+  }
+}
+@media (max-width: 500.98px) {
+  #commit {
+    padding: 40px 0;
+  }
+  #commit .commit-group .commit-item:last-child {
+    width: 100%;
   }
 }
 
@@ -1668,6 +1824,11 @@ html {
   }
   #advise .advise-group .advise-item .advise-img img {
     width: 60%;
+  }
+}
+@media (max-width: 500.98px) {
+  #advise .advise-group .advise-item:first-child {
+    width: 100%;
   }
 }
 
