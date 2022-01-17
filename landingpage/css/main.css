@@ -1041,6 +1041,14 @@ html {
 .hero-sc .banner-mobile {
   display: none;
 }
+@media (max-width: 767.98px) {
+  .hero-sc .banner-mobile {
+    display: block;
+  }
+  .hero-sc .banner-pc {
+    display: none;
+  }
+}
 
 .group-title, #advise .advise-group .advise-item .advise-title, #commit .commit-group .commit-item .commit-title, #newspaper .newspaper-title, #product .product-steps .product-steps-title, #product .product-title .product-title-title, #reason .reason-title, #partner .partner-title, #problem .problem-2 .problem-2__text .problem-2__text-title, #problem .problem-1 .problem-1__text .problem-1__text-title {
   text-align: center;

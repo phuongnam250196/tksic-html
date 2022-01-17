@@ -981,6 +981,14 @@ html {
     .banner-mobile {
     	display: none;
     }
+    @media (max-width: 767.98px) {
+        .banner-mobile {
+            display: block;
+        }
+        .banner-pc {
+            display: none;
+        }
+    }
 }
 .group-title {
     text-align: center;
