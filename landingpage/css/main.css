@@ -1832,6 +1832,17 @@ html {
   }
 }
 
+#advise-iframe {
+  width: 100%;
+  height: 622px;
+}
+#advise-iframe #root .application {
+  background: red;
+}
+#advise-iframe #root .application > div {
+  width: 100%;
+}
+
 #bloomberg {
   background: url(../imgs/bg-bomber.png) no-repeat;
   background-position: center;
